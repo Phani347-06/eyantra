@@ -1,0 +1,10 @@
+/home/sudhamsh/pico_ws/build/rotors_swift_interface/CMakeFiles/uninstall.dir
+/home/sudhamsh/pico_ws/build/rotors_swift_interface/CMakeFiles/rotors_swift_interface_uninstall.dir
+/home/sudhamsh/pico_ws/build/rotors_swift_interface/CMakeFiles/rotors_swift_interface.dir
+/home/sudhamsh/pico_ws/build/rotors_swift_interface/CMakeFiles/test.dir
+/home/sudhamsh/pico_ws/build/rotors_swift_interface/CMakeFiles/edit_cache.dir
+/home/sudhamsh/pico_ws/build/rotors_swift_interface/CMakeFiles/rebuild_cache.dir
+/home/sudhamsh/pico_ws/build/rotors_swift_interface/CMakeFiles/list_install_components.dir
+/home/sudhamsh/pico_ws/build/rotors_swift_interface/CMakeFiles/install.dir
+/home/sudhamsh/pico_ws/build/rotors_swift_interface/CMakeFiles/install/local.dir
+/home/sudhamsh/pico_ws/build/rotors_swift_interface/CMakeFiles/install/strip.dir

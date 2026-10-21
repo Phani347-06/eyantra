@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sudhamsh/pico_ws/build/rotors_swift_interface/rotors_swift_interface" "TARGETS" "rotors_swift_interface" "DESTINATION" "lib/rotors_swift_interface")

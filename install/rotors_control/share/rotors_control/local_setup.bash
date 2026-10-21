@@ -1,0 +1,1 @@
+/home/sudhamsh/pico_ws/build/rotors_control/ament_cmake_environment_hooks/local_setup.bash

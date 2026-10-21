@@ -1,0 +1,4 @@
+Invoking command in '/home/sudhamsh/pico_ws/build/whycode_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sudhamsh/pico_ws/build/whycode_interfaces -- -j18 -l18
+Invoked command in '/home/sudhamsh/pico_ws/build/whycode_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sudhamsh/pico_ws/build/whycode_interfaces -- -j18 -l18
+Invoking command in '/home/sudhamsh/pico_ws/build/whycode_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sudhamsh/pico_ws/build/whycode_interfaces
+Invoked command in '/home/sudhamsh/pico_ws/build/whycode_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sudhamsh/pico_ws/build/whycode_interfaces

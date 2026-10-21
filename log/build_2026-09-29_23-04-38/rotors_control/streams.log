@@ -1,0 +1,84 @@
+[0.014s] Invoking command in '/home/sudhamsh/pico_ws/build/rotors_control': CMAKE_PREFIX_PATH=/home/sudhamsh/pico_ws/install/mav_msgs:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/sudhamsh/pico_ws/install/mav_msgs/lib:/home/sudhamsh/pico_ws/install/rotors_control/lib:/home/sudhamsh/pico_ws/install/whycode_interfaces/lib:/home/sudhamsh/pico_ws/install/swift_msgs/lib:/home/sudhamsh/pico_ws/install/mav_system_msgs/lib:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs/lib:/home/sudhamsh/pico_ws/install/error_msg/lib:/home/sudhamsh/pico_ws/install/controller_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/rotors_simulator/rotors_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sudhamsh/pico_ws/install/rotors_control
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.096s] -- The CXX compiler identification is GNU 11.4.0
+[0.103s] -- Detecting C compiler ABI info
+[0.156s] -- Detecting C compiler ABI info - done
+[0.164s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.164s] -- Detecting C compile features
+[0.165s] -- Detecting C compile features - done
+[0.167s] -- Detecting CXX compiler ABI info
+[0.224s] -- Detecting CXX compiler ABI info - done
+[0.232s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.232s] -- Detecting CXX compile features
+[0.233s] -- Detecting CXX compile features - done
+[0.236s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.355s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.411s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.438s] -- Found mav_msgs: 3.3.3 (/home/sudhamsh/pico_ws/install/mav_msgs/share/mav_msgs/cmake)
+[0.462s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.465s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.471s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.478s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.489s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.552s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.578s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.580s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.649s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.688s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.738s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.749s] -- Looking for pthread.h
+[0.848s] -- Looking for pthread.h - found
+[0.848s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.934s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.936s] -- Found Threads: TRUE  
+[0.981s] -- Found actuator_msgs: 0.0.1 (/opt/ros/humble/share/actuator_msgs/cmake)
+[0.998s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.081s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.083s] -- Configured cppcheck include dirs: /home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/rotors_simulator/rotors_control/include
+[1.083s] -- Configured cppcheck exclude dirs and/or files: 
+[1.084s] -- Added test 'lint_cmake' to check CMake code style
+[1.086s] -- Added test 'uncrustify' to check C / C++ code style
+[1.086s] -- Configured uncrustify additional arguments: 
+[1.086s] -- Added test 'xmllint' to check XML markup files
+[1.090s] -- Configuring done
+[1.106s] -- Generating done
+[1.112s] -- Build files have been written to: /home/sudhamsh/pico_ws/build/rotors_control
+[1.131s] Invoked command in '/home/sudhamsh/pico_ws/build/rotors_control' returned '0': CMAKE_PREFIX_PATH=/home/sudhamsh/pico_ws/install/mav_msgs:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/sudhamsh/pico_ws/install/mav_msgs/lib:/home/sudhamsh/pico_ws/install/rotors_control/lib:/home/sudhamsh/pico_ws/install/whycode_interfaces/lib:/home/sudhamsh/pico_ws/install/swift_msgs/lib:/home/sudhamsh/pico_ws/install/mav_system_msgs/lib:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs/lib:/home/sudhamsh/pico_ws/install/error_msg/lib:/home/sudhamsh/pico_ws/install/controller_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/rotors_simulator/rotors_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sudhamsh/pico_ws/install/rotors_control
+[1.132s] Invoking command in '/home/sudhamsh/pico_ws/build/rotors_control': CMAKE_PREFIX_PATH=/home/sudhamsh/pico_ws/install/mav_msgs:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/sudhamsh/pico_ws/install/mav_msgs/lib:/home/sudhamsh/pico_ws/install/rotors_control/lib:/home/sudhamsh/pico_ws/install/whycode_interfaces/lib:/home/sudhamsh/pico_ws/install/swift_msgs/lib:/home/sudhamsh/pico_ws/install/mav_system_msgs/lib:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs/lib:/home/sudhamsh/pico_ws/install/error_msg/lib:/home/sudhamsh/pico_ws/install/controller_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sudhamsh/pico_ws/build/rotors_control -- -j18 -l18
+[1.183s] [ 25%] [32mBuilding CXX object CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/src/library/roll_pitch_yawrate_thrust_controller.cpp.o[0m
+[16.379s] [ 50%] [32m[1mLinking CXX static library libroll_pitch_yawrate_thrust_controller.a[0m
+[16.470s] [ 50%] Built target roll_pitch_yawrate_thrust_controller
+[16.502s] [ 75%] [32mBuilding CXX object CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o[0m
+[28.049s] [100%] [32m[1mLinking CXX executable roll_pitch_yawrate_thrust_controller_node[0m
+[28.543s] [100%] Built target roll_pitch_yawrate_thrust_controller_node
+[28.555s] Invoked command in '/home/sudhamsh/pico_ws/build/rotors_control' returned '0': CMAKE_PREFIX_PATH=/home/sudhamsh/pico_ws/install/mav_msgs:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/sudhamsh/pico_ws/install/mav_msgs/lib:/home/sudhamsh/pico_ws/install/rotors_control/lib:/home/sudhamsh/pico_ws/install/whycode_interfaces/lib:/home/sudhamsh/pico_ws/install/swift_msgs/lib:/home/sudhamsh/pico_ws/install/mav_system_msgs/lib:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs/lib:/home/sudhamsh/pico_ws/install/error_msg/lib:/home/sudhamsh/pico_ws/install/controller_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sudhamsh/pico_ws/build/rotors_control -- -j18 -l18
+[28.557s] Invoking command in '/home/sudhamsh/pico_ws/build/rotors_control': CMAKE_PREFIX_PATH=/home/sudhamsh/pico_ws/install/mav_msgs:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/sudhamsh/pico_ws/install/mav_msgs/lib:/home/sudhamsh/pico_ws/install/rotors_control/lib:/home/sudhamsh/pico_ws/install/whycode_interfaces/lib:/home/sudhamsh/pico_ws/install/swift_msgs/lib:/home/sudhamsh/pico_ws/install/mav_system_msgs/lib:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs/lib:/home/sudhamsh/pico_ws/install/error_msg/lib:/home/sudhamsh/pico_ws/install/controller_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sudhamsh/pico_ws/build/rotors_control
+[28.562s] -- Install configuration: ""
+[28.562s] -- Execute custom install script
+[28.562s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node
+[28.567s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/rotors_control/environment/library_path.sh
+[28.574s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/rotors_control/environment/library_path.dsv
+[28.579s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/ament_index/resource_index/package_run_dependencies/rotors_control
+[28.586s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/ament_index/resource_index/parent_prefix_path/rotors_control
+[28.592s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/rotors_control/environment/ament_prefix_path.sh
+[28.599s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/rotors_control/environment/ament_prefix_path.dsv
+[28.606s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/rotors_control/environment/path.sh
+[28.612s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/rotors_control/environment/path.dsv
+[28.619s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/rotors_control/local_setup.bash
+[28.625s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/rotors_control/local_setup.sh
+[28.632s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/rotors_control/local_setup.zsh
+[28.640s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/rotors_control/local_setup.dsv
+[28.648s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/rotors_control/package.dsv
+[28.654s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/ament_index/resource_index/packages/rotors_control
+[28.660s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/rotors_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.666s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/rotors_control/cmake/ament_cmake_export_libraries-extras.cmake
+[28.672s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/rotors_control/cmake/rotors_controlConfig.cmake
+[28.679s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/rotors_control/cmake/rotors_controlConfig-version.cmake
+[28.684s] -- Symlinking: /home/sudhamsh/pico_ws/install/rotors_control/share/rotors_control/package.xml
+[28.689s] -- Installing: /home/sudhamsh/pico_ws/install/rotors_control/lib/libroll_pitch_yawrate_thrust_controller.a
+[28.691s] -- Installing: /home/sudhamsh/pico_ws/install/rotors_control/include/rotors_control
+[28.692s] -- Installing: /home/sudhamsh/pico_ws/install/rotors_control/include/rotors_control/common.hpp
+[28.692s] -- Installing: /home/sudhamsh/pico_ws/install/rotors_control/include/rotors_control/roll_pitch_yawrate_thrust_controller.hpp
+[28.692s] -- Installing: /home/sudhamsh/pico_ws/install/rotors_control/include/rotors_control/parameters_ros.hpp
+[28.692s] -- Installing: /home/sudhamsh/pico_ws/install/rotors_control/include/rotors_control/parameters.hpp
+[28.695s] Invoked command in '/home/sudhamsh/pico_ws/build/rotors_control' returned '0': CMAKE_PREFIX_PATH=/home/sudhamsh/pico_ws/install/mav_msgs:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/sudhamsh/pico_ws/install/mav_msgs/lib:/home/sudhamsh/pico_ws/install/rotors_control/lib:/home/sudhamsh/pico_ws/install/whycode_interfaces/lib:/home/sudhamsh/pico_ws/install/swift_msgs/lib:/home/sudhamsh/pico_ws/install/mav_system_msgs/lib:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs/lib:/home/sudhamsh/pico_ws/install/error_msg/lib:/home/sudhamsh/pico_ws/install/controller_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sudhamsh/pico_ws/build/rotors_control

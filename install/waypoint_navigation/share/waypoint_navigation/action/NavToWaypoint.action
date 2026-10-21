@@ -1,0 +1,8 @@
+#goal definition
+geometry_msgs/Pose waypoint
+---
+#result definition
+int32 hov_time
+---
+#feedback definition
+geometry_msgs/PoseStamped current_waypoint

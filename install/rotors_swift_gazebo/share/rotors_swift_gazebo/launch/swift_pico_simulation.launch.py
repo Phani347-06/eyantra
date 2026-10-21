@@ -1,0 +1,1 @@
+/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/rotors_simulator/rotors_swift_gazebo/launch/swift_pico_simulation.launch.py

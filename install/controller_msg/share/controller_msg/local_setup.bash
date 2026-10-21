@@ -1,0 +1,1 @@
+/home/sudhamsh/pico_ws/build/controller_msg/ament_cmake_environment_hooks/local_setup.bash

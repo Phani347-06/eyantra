@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ead0c2a1044225b1d655.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "error_msg__py",
+					"jsonFile" : "directory-error_msg__py-117cfc089095e7f3a568.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sudhamsh/pico_ws/build/error_msg/error_msg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "error_msg__rs",
+					"jsonFile" : "directory-error_msg__rs-b9482d1d7423ebb4eddb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sudhamsh/pico_ws/build/error_msg/error_msg__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "error_msg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_error_msg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_error_msg_egg-be8a9a61895e4d7d8f7f.json",
+					"name" : "ament_cmake_python_build_error_msg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_error_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_error_msg-7ff7c00a875c6291c24c.json",
+					"name" : "ament_cmake_python_symlink_error_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "error_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-error_msg-fe658e425b94eb7e3fc3.json",
+					"name" : "error_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "error_msg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-error_msg__cpp-58cc0bcebe7e998a9bc9.json",
+					"name" : "error_msg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "error_msg__py::@98470c379b5e70d125e6",
+					"jsonFile" : "target-error_msg__py-9ed3ca226dec17a7fcca.json",
+					"name" : "error_msg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "error_msg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-error_msg__rosidl_generator_c-366cf9c66dbbcc1369c5.json",
+					"name" : "error_msg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "error_msg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-error_msg__rosidl_generator_py-6210f13184bf9a6906b1.json",
+					"name" : "error_msg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "error_msg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-error_msg__rosidl_typesupport_c-5b118a8df384ac0d6392.json",
+					"name" : "error_msg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "error_msg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-error_msg__rosidl_typesupport_c__pyext-f8bd7e6131dde872f6c6.json",
+					"name" : "error_msg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "error_msg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-error_msg__rosidl_typesupport_cpp-fb1322bd86e5ba8c3423.json",
+					"name" : "error_msg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "error_msg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-error_msg__rosidl_typesupport_fastrtps_c-bece92fa8c0c8fd03d9e.json",
+					"name" : "error_msg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "error_msg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-error_msg__rosidl_typesupport_fastrtps_c__pyext-ae6e6501eb010d5a4407.json",
+					"name" : "error_msg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "error_msg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-error_msg__rosidl_typesupport_fastrtps_cpp-edc3176adc589b4c1390.json",
+					"name" : "error_msg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "error_msg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-error_msg__rosidl_typesupport_introspection_c-cdbe9e838c2d57ac77ba.json",
+					"name" : "error_msg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "error_msg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-error_msg__rosidl_typesupport_introspection_c__pyext-7c58f119479598e77cec.json",
+					"name" : "error_msg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "error_msg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-error_msg__rosidl_typesupport_introspection_cpp-b449a6e5fa36907bb435.json",
+					"name" : "error_msg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "error_msg__rs::@7cb7f925518ecdecac73",
+					"jsonFile" : "target-error_msg__rs-939824e717eed0d5eca6.json",
+					"name" : "error_msg__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "error_msg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-error_msg_uninstall-2b984fa623db20695f81.json",
+					"name" : "error_msg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ffcf34f665d72f59d365.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sudhamsh/pico_ws/build/error_msg",
+		"source" : "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/controller_tuner/error_msg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/home/sudhamsh/pico_ws/build/controller_msg/rosidl_generator_rs/controller_msg/rust/src/msg/rmw.rs

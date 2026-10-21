@@ -1,0 +1,1 @@
+/home/sudhamsh/pico_ws/build/swift_msgs/rosidl_generator_rs/swift_msgs/rust/src/msg.rs

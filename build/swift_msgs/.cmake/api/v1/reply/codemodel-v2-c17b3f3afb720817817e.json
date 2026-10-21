@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f826f12ce30da2c51e51.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "swift_msgs__py",
+					"jsonFile" : "directory-swift_msgs__py-9b140bc0c9981cb14ca6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sudhamsh/pico_ws/build/swift_msgs/swift_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "swift_msgs__rs",
+					"jsonFile" : "directory-swift_msgs__rs-ca12ad8a9a12a78eec4c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sudhamsh/pico_ws/build/swift_msgs/swift_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "swift_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_swift_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_swift_msgs_egg-b13a3eb1133e7d1c8a10.json",
+					"name" : "ament_cmake_python_build_swift_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_swift_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_swift_msgs-3abc50c67891d4578713.json",
+					"name" : "ament_cmake_python_symlink_swift_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swift_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swift_msgs-853e9536ab6669162f56.json",
+					"name" : "swift_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swift_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swift_msgs__cpp-49485e703a698a536bb1.json",
+					"name" : "swift_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "swift_msgs__py::@8f178e56f46040e17f64",
+					"jsonFile" : "target-swift_msgs__py-dc81da016f327e1439ca.json",
+					"name" : "swift_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swift_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swift_msgs__rosidl_generator_c-89086eaaa97da52fa506.json",
+					"name" : "swift_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swift_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swift_msgs__rosidl_generator_py-706bfac64d2f6bd9816e.json",
+					"name" : "swift_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swift_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swift_msgs__rosidl_typesupport_c-e8f01b9d0f1ed84016c1.json",
+					"name" : "swift_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swift_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swift_msgs__rosidl_typesupport_c__pyext-02cca9d3f0aad22e991c.json",
+					"name" : "swift_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swift_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swift_msgs__rosidl_typesupport_cpp-128f48577d8365c1372e.json",
+					"name" : "swift_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swift_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swift_msgs__rosidl_typesupport_fastrtps_c-9461c5facbc0ced84fac.json",
+					"name" : "swift_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swift_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swift_msgs__rosidl_typesupport_fastrtps_c__pyext-f64fe15fc4456e26dde6.json",
+					"name" : "swift_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swift_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swift_msgs__rosidl_typesupport_fastrtps_cpp-5ecf8d2368005269fe17.json",
+					"name" : "swift_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swift_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swift_msgs__rosidl_typesupport_introspection_c-65bbc3115c743d053342.json",
+					"name" : "swift_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swift_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swift_msgs__rosidl_typesupport_introspection_c__pyext-617a74bb93dd0a669a05.json",
+					"name" : "swift_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swift_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swift_msgs__rosidl_typesupport_introspection_cpp-fcffaa806dd2f8ea6756.json",
+					"name" : "swift_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "swift_msgs__rs::@986dcc670cef6d5b9171",
+					"jsonFile" : "target-swift_msgs__rs-d10f9b4295c5579ee824.json",
+					"name" : "swift_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "swift_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-swift_msgs_uninstall-d7b3ff7d89cad541150e.json",
+					"name" : "swift_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1cf11dec04c4ca1c5912.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sudhamsh/pico_ws/build/swift_msgs",
+		"source" : "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/rotors_simulator/swift_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,4 @@
+Invoking command in '/home/sudhamsh/pico_ws/build/error_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sudhamsh/pico_ws/build/error_msg -- -j18 -l18
+Invoked command in '/home/sudhamsh/pico_ws/build/error_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sudhamsh/pico_ws/build/error_msg -- -j18 -l18
+Invoking command in '/home/sudhamsh/pico_ws/build/error_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sudhamsh/pico_ws/build/error_msg
+Invoked command in '/home/sudhamsh/pico_ws/build/error_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sudhamsh/pico_ws/build/error_msg

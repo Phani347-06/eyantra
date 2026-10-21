@@ -1,0 +1,1 @@
+/home/sudhamsh/pico_ws/build/mav_comm/ament_cmake_environment_hooks/local_setup.bash

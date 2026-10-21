@@ -1,0 +1,362 @@
+[0.018s] Invoking command in '/home/sudhamsh/pico_ws/build/mav_planning_msgs': CMAKE_PREFIX_PATH=/home/sudhamsh/pico_ws/install/mav_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_interface:/home/sudhamsh/pico_ws/install/mav_comm:/home/sudhamsh/pico_ws/install/mav_planning_msgs:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/sudhamsh/pico_ws/install/mav_msgs/lib:/home/sudhamsh/pico_ws/install/mav_planning_msgs/lib:/home/sudhamsh/pico_ws/install/rotors_control/lib:/home/sudhamsh/pico_ws/install/whycode_interfaces/lib:/home/sudhamsh/pico_ws/install/swift_msgs/lib:/home/sudhamsh/pico_ws/install/mav_system_msgs/lib:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs/lib:/home/sudhamsh/pico_ws/install/error_msg/lib:/home/sudhamsh/pico_ws/install/controller_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_planning_msgs -DCMAKE_INSTALL_PREFIX=/home/sudhamsh/pico_ws/install/mav_planning_msgs
+[0.026s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.116s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.124s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.128s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.131s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.156s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.174s] -- Found builtin_interfaces: 1.2.3 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.181s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.199s] -- Found mav_msgs: 3.3.3 (/home/sudhamsh/pico_ws/install/mav_msgs/share/mav_msgs/cmake)
+[0.232s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.506s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.721s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.996s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.014s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.032s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.032s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.033s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.149s] -- Configuring done
+[1.185s] -- Generating done
+[1.194s] -- Build files have been written to: /home/sudhamsh/pico_ws/build/mav_planning_msgs
+[1.201s] Invoked command in '/home/sudhamsh/pico_ws/build/mav_planning_msgs' returned '0': CMAKE_PREFIX_PATH=/home/sudhamsh/pico_ws/install/mav_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_interface:/home/sudhamsh/pico_ws/install/mav_comm:/home/sudhamsh/pico_ws/install/mav_planning_msgs:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/sudhamsh/pico_ws/install/mav_msgs/lib:/home/sudhamsh/pico_ws/install/mav_planning_msgs/lib:/home/sudhamsh/pico_ws/install/rotors_control/lib:/home/sudhamsh/pico_ws/install/whycode_interfaces/lib:/home/sudhamsh/pico_ws/install/swift_msgs/lib:/home/sudhamsh/pico_ws/install/mav_system_msgs/lib:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs/lib:/home/sudhamsh/pico_ws/install/error_msg/lib:/home/sudhamsh/pico_ws/install/controller_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_planning_msgs -DCMAKE_INSTALL_PREFIX=/home/sudhamsh/pico_ws/install/mav_planning_msgs
+[1.204s] Invoking command in '/home/sudhamsh/pico_ws/build/mav_planning_msgs': CMAKE_PREFIX_PATH=/home/sudhamsh/pico_ws/install/mav_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_interface:/home/sudhamsh/pico_ws/install/mav_comm:/home/sudhamsh/pico_ws/install/mav_planning_msgs:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/sudhamsh/pico_ws/install/mav_msgs/lib:/home/sudhamsh/pico_ws/install/mav_planning_msgs/lib:/home/sudhamsh/pico_ws/install/rotors_control/lib:/home/sudhamsh/pico_ws/install/whycode_interfaces/lib:/home/sudhamsh/pico_ws/install/swift_msgs/lib:/home/sudhamsh/pico_ws/install/mav_system_msgs/lib:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs/lib:/home/sudhamsh/pico_ws/install/error_msg/lib:/home/sudhamsh/pico_ws/install/controller_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sudhamsh/pico_ws/build/mav_planning_msgs -- -j18 -l18
+[1.251s] [35m[1mConsolidate compiler generated dependencies of target mav_planning_msgs__rosidl_generator_c[0m
+[1.257s] [  1%] Built target mav_planning_msgs__rs
+[1.259s] [  1%] Built target mav_planning_msgs__cpp
+[1.264s] [ 13%] Built target mav_planning_msgs__rosidl_generator_c
+[1.265s] [ 13%] Built target ament_cmake_python_symlink_mav_planning_msgs
+[1.267s] [35m[1mConsolidate compiler generated dependencies of target mav_planning_msgs__rosidl_typesupport_cpp[0m
+[1.269s] [35m[1mConsolidate compiler generated dependencies of target mav_planning_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.272s] [35m[1mConsolidate compiler generated dependencies of target mav_planning_msgs__rosidl_typesupport_introspection_c[0m
+[1.272s] [35m[1mConsolidate compiler generated dependencies of target mav_planning_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.275s] [35m[1mConsolidate compiler generated dependencies of target mav_planning_msgs__rosidl_typesupport_c[0m
+[1.277s] [35m[1mConsolidate compiler generated dependencies of target mav_planning_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.280s] [ 25%] Built target mav_planning_msgs__rosidl_typesupport_cpp
+[1.280s] [ 37%] Built target mav_planning_msgs__rosidl_typesupport_introspection_cpp
+[1.281s] [ 48%] Built target mav_planning_msgs__rosidl_typesupport_introspection_c
+[1.287s] [ 59%] Built target mav_planning_msgs__rosidl_typesupport_c
+[1.291s] [ 71%] Built target mav_planning_msgs__rosidl_typesupport_fastrtps_cpp
+[1.295s] [ 82%] Built target mav_planning_msgs__rosidl_typesupport_fastrtps_c
+[1.311s] [ 82%] Built target mav_planning_msgs
+[1.329s] [ 83%] Built target mav_planning_msgs__py
+[1.341s] [35m[1mConsolidate compiler generated dependencies of target mav_planning_msgs__rosidl_generator_py[0m
+[1.356s] [ 94%] Built target mav_planning_msgs__rosidl_generator_py
+[1.366s] [35m[1mConsolidate compiler generated dependencies of target mav_planning_msgs__rosidl_typesupport_c__pyext[0m
+[1.366s] [35m[1mConsolidate compiler generated dependencies of target mav_planning_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.366s] [35m[1mConsolidate compiler generated dependencies of target mav_planning_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.378s] [ 96%] Built target mav_planning_msgs__rosidl_typesupport_introspection_c__pyext
+[1.378s] [ 99%] Built target mav_planning_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.378s] [100%] Built target mav_planning_msgs__rosidl_typesupport_c__pyext
+[1.408s] running egg_info
+[1.408s] writing mav_planning_msgs.egg-info/PKG-INFO
+[1.408s] writing dependency_links to mav_planning_msgs.egg-info/dependency_links.txt
+[1.408s] writing top-level names to mav_planning_msgs.egg-info/top_level.txt
+[1.410s] reading manifest file 'mav_planning_msgs.egg-info/SOURCES.txt'
+[1.410s] writing manifest file 'mav_planning_msgs.egg-info/SOURCES.txt'
+[1.431s] [100%] Built target ament_cmake_python_build_mav_planning_msgs_egg
+[1.444s] Invoked command in '/home/sudhamsh/pico_ws/build/mav_planning_msgs' returned '0': CMAKE_PREFIX_PATH=/home/sudhamsh/pico_ws/install/mav_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_interface:/home/sudhamsh/pico_ws/install/mav_comm:/home/sudhamsh/pico_ws/install/mav_planning_msgs:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/sudhamsh/pico_ws/install/mav_msgs/lib:/home/sudhamsh/pico_ws/install/mav_planning_msgs/lib:/home/sudhamsh/pico_ws/install/rotors_control/lib:/home/sudhamsh/pico_ws/install/whycode_interfaces/lib:/home/sudhamsh/pico_ws/install/swift_msgs/lib:/home/sudhamsh/pico_ws/install/mav_system_msgs/lib:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs/lib:/home/sudhamsh/pico_ws/install/error_msg/lib:/home/sudhamsh/pico_ws/install/controller_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sudhamsh/pico_ws/build/mav_planning_msgs -- -j18 -l18
+[1.446s] Invoking command in '/home/sudhamsh/pico_ws/build/mav_planning_msgs': CMAKE_PREFIX_PATH=/home/sudhamsh/pico_ws/install/mav_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_interface:/home/sudhamsh/pico_ws/install/mav_comm:/home/sudhamsh/pico_ws/install/mav_planning_msgs:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/sudhamsh/pico_ws/install/mav_msgs/lib:/home/sudhamsh/pico_ws/install/mav_planning_msgs/lib:/home/sudhamsh/pico_ws/install/rotors_control/lib:/home/sudhamsh/pico_ws/install/whycode_interfaces/lib:/home/sudhamsh/pico_ws/install/swift_msgs/lib:/home/sudhamsh/pico_ws/install/mav_system_msgs/lib:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs/lib:/home/sudhamsh/pico_ws/install/error_msg/lib:/home/sudhamsh/pico_ws/install/controller_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sudhamsh/pico_ws/build/mav_planning_msgs
+[1.451s] -- Install configuration: ""
+[1.452s] -- Execute custom install script
+[1.452s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/ament_index/resource_index/rosidl_interfaces/mav_planning_msgs
+[1.452s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__functions.h
+[1.452s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__struct.h
+[1.453s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__type_support.h
+[1.453s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__functions.h
+[1.453s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__struct.h
+[1.453s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__type_support.h
+[1.453s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__functions.h
+[1.453s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__struct.h
+[1.453s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__type_support.h
+[1.453s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__functions.h
+[1.453s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__struct.h
+[1.454s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__type_support.h
+[1.454s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__functions.h
+[1.454s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__struct.h
+[1.454s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__type_support.h
+[1.454s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__functions.h
+[1.454s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__struct.h
+[1.454s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__type_support.h
+[1.455s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__functions.h
+[1.455s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__struct.h
+[1.455s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__type_support.h
+[1.455s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__functions.h
+[1.455s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__struct.h
+[1.455s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__type_support.h
+[1.455s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__functions.h
+[1.455s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__struct.h
+[1.455s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__type_support.h
+[1.455s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/point2_d.h
+[1.455s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/point_cloud_with_pose.h
+[1.455s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polygon2_d.h
+[1.455s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polygon_with_holes.h
+[1.455s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polygon_with_holes_stamped.h
+[1.455s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polynomial_segment.h
+[1.456s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polynomial_segment4_d.h
+[1.456s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polynomial_trajectory.h
+[1.456s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polynomial_trajectory4_d.h
+[1.456s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.456s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/change_name_service.h
+[1.456s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__functions.h
+[1.456s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__struct.h
+[1.456s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__type_support.h
+[1.456s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__functions.h
+[1.456s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__struct.h
+[1.456s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__type_support.h
+[1.456s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__functions.h
+[1.456s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__struct.h
+[1.456s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__type_support.h
+[1.456s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/planner_service.h
+[1.456s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/polygon_service.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/environment/library_path.sh
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/environment/library_path.dsv
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__rosidl_typesupport_fastrtps_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__rosidl_typesupport_fastrtps_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__rosidl_typesupport_fastrtps_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__rosidl_typesupport_fastrtps_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__rosidl_typesupport_fastrtps_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__rosidl_typesupport_fastrtps_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__rosidl_typesupport_fastrtps_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_fastrtps_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__rosidl_typesupport_fastrtps_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__rosidl_typesupport_fastrtps_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__rosidl_typesupport_fastrtps_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__rosidl_typesupport_introspection_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__rosidl_typesupport_introspection_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__rosidl_typesupport_introspection_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__rosidl_typesupport_introspection_c.h
+[1.457s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__rosidl_typesupport_introspection_c.h
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__rosidl_typesupport_introspection_c.h
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__rosidl_typesupport_introspection_c.h
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_introspection_c.h
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__rosidl_typesupport_introspection_c.h
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__rosidl_typesupport_introspection_c.h
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__rosidl_typesupport_introspection_c.h
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__builder.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__struct.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__traits.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__type_support.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__builder.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__struct.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__traits.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__type_support.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__builder.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__struct.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__traits.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__type_support.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__builder.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__struct.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__traits.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__type_support.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__builder.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__struct.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__traits.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__type_support.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__builder.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__struct.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__traits.hpp
+[1.458s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__type_support.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__builder.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__struct.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__traits.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__type_support.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__builder.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__struct.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__traits.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__type_support.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__builder.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__struct.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__traits.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__type_support.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/point2_d.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/point_cloud_with_pose.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polygon2_d.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polygon_with_holes.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polygon_with_holes_stamped.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polynomial_segment.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polynomial_segment4_d.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polynomial_trajectory.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/polynomial_trajectory4_d.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/change_name_service.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__builder.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__struct.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__traits.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__type_support.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__builder.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__struct.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__traits.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__type_support.hpp
+[1.459s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__builder.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__struct.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__traits.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__type_support.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/planner_service.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/polygon_service.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__rosidl_typesupport_fastrtps_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__rosidl_typesupport_fastrtps_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__rosidl_typesupport_fastrtps_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__rosidl_typesupport_fastrtps_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__rosidl_typesupport_fastrtps_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__rosidl_typesupport_fastrtps_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__rosidl_typesupport_fastrtps_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/point_cloud_with_pose__rosidl_typesupport_introspection_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon2_d__rosidl_typesupport_introspection_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes__rosidl_typesupport_introspection_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polygon_with_holes_stamped__rosidl_typesupport_introspection_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment4_d__rosidl_typesupport_introspection_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_segment__rosidl_typesupport_introspection_cpp.hpp
+[1.460s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory4_d__rosidl_typesupport_introspection_cpp.hpp
+[1.461s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[1.461s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/change_name_service__rosidl_typesupport_introspection_cpp.hpp
+[1.461s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/planner_service__rosidl_typesupport_introspection_cpp.hpp
+[1.461s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/mav_planning_msgs/srv/detail/polygon_service__rosidl_typesupport_introspection_cpp.hpp
+[1.461s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/environment/pythonpath.sh
+[1.461s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/environment/pythonpath.dsv
+[1.461s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs-3.3.3-py3.10.egg-info/PKG-INFO
+[1.461s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs-3.3.3-py3.10.egg-info/SOURCES.txt
+[1.461s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs-3.3.3-py3.10.egg-info/dependency_links.txt
+[1.461s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs-3.3.3-py3.10.egg-info/top_level.txt
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/__init__.py
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/_mav_planning_msgs_s.ep.rosidl_typesupport_c.c
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/_mav_planning_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/_mav_planning_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/libmav_planning_msgs__rosidl_generator_py.so
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/mav_planning_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/mav_planning_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/mav_planning_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/__init__.py
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_point2_d.py
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_point2_d_s.c
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_point_cloud_with_pose.py
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_point_cloud_with_pose_s.c
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polygon2_d.py
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polygon2_d_s.c
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polygon_with_holes.py
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polygon_with_holes_s.c
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polygon_with_holes_stamped.py
+[1.462s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polygon_with_holes_stamped_s.c
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polynomial_segment.py
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polynomial_segment4_d.py
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polynomial_segment4_d_s.c
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polynomial_segment_s.c
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polynomial_trajectory.py
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polynomial_trajectory4_d.py
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polynomial_trajectory4_d_s.c
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg/_polynomial_trajectory_s.c
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/srv/__init__.py
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/srv/_change_name_service.py
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/srv/_change_name_service_s.c
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/srv/_planner_service.py
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/srv/_planner_service_s.c
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/srv/_polygon_service.py
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/srv/_polygon_service_s.c
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/mav_planning_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/mav_planning_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/mav_planning_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.463s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/rust/Cargo.toml
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/rust/build.rs
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/rust/src/lib.rs
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/rust/src/msg.rs
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/rust/src/msg/rmw.rs
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/rust/src/srv.rs
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/rust/src/srv/rmw.rs
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/Point2D.idl
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/PointCloudWithPose.idl
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/Polygon2D.idl
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolygonWithHoles.idl
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolygonWithHolesStamped.idl
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolynomialSegment.idl
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolynomialSegment4D.idl
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolynomialTrajectory.idl
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolynomialTrajectory4D.idl
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/srv/PlannerService.idl
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/srv/PolygonService.idl
+[1.464s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/srv/ChangeNameService.idl
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/Point2D.msg
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/PointCloudWithPose.msg
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/Polygon2D.msg
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolygonWithHoles.msg
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolygonWithHolesStamped.msg
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolynomialSegment.msg
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolynomialSegment4D.msg
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolynomialTrajectory.msg
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/msg/PolynomialTrajectory4D.msg
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/srv/PlannerService.srv
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/srv/PlannerService_Request.msg
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/srv/PlannerService_Response.msg
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/srv/PolygonService.srv
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/srv/PolygonService_Request.msg
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/srv/PolygonService_Response.msg
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/srv/ChangeNameService.srv
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/srv/ChangeNameService_Request.msg
+[1.465s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/srv/ChangeNameService_Response.msg
+[1.466s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/ament_index/resource_index/package_run_dependencies/mav_planning_msgs
+[1.466s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/ament_index/resource_index/parent_prefix_path/mav_planning_msgs
+[1.466s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/environment/ament_prefix_path.sh
+[1.466s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/environment/ament_prefix_path.dsv
+[1.466s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/environment/path.sh
+[1.466s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/environment/path.dsv
+[1.466s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/local_setup.bash
+[1.466s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/local_setup.sh
+[1.466s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/local_setup.zsh
+[1.466s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/local_setup.dsv
+[1.466s] -- Symlinking: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/package.dsv
+[1.472s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/ament_index/resource_index/packages/mav_planning_msgs
+[1.472s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/rosidl_cmake-extras.cmake
+[1.472s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.472s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.473s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.473s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.473s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.473s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.473s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[1.473s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgsConfig.cmake
+[1.473s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgsConfig-version.cmake
+[1.473s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/package.xml
+[1.473s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/lib/libmav_planning_msgs__rosidl_generator_c.so
+[1.474s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/lib/libmav_planning_msgs__rosidl_typesupport_fastrtps_c.so
+[1.474s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/lib/libmav_planning_msgs__rosidl_typesupport_introspection_c.so
+[1.474s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/lib/libmav_planning_msgs__rosidl_typesupport_c.so
+[1.474s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/lib/libmav_planning_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.474s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/lib/libmav_planning_msgs__rosidl_typesupport_introspection_cpp.so
+[1.474s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/lib/libmav_planning_msgs__rosidl_typesupport_cpp.so
+[1.497s] Listing '/home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs'...
+[1.497s] Compiling '/home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/__init__.py'...
+[1.497s] Listing '/home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/msg'...
+[1.497s] Listing '/home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages/mav_planning_msgs/srv'...
+[1.500s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/lib/libmav_planning_msgs__rosidl_generator_py.so
+[1.501s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs
+[1.501s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/conversions_deprecated.hpp
+[1.501s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/eigen_planning_msgs.hpp
+[1.501s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/include/mav_planning_msgs/conversions.hpp
+[1.501s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_generator_cExport.cmake
+[1.501s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.501s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.501s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.501s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.501s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.502s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgs__rosidl_typesupport_cExport.cmake
+[1.502s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.502s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_generator_cppExport.cmake
+[1.502s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.502s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.502s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.502s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.502s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgs__rosidl_typesupport_cppExport.cmake
+[1.502s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/mav_planning_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.502s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_generator_pyExport.cmake
+[1.502s] -- Up-to-date: /home/sudhamsh/pico_ws/install/mav_planning_msgs/share/mav_planning_msgs/cmake/export_mav_planning_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.504s] Invoked command in '/home/sudhamsh/pico_ws/build/mav_planning_msgs' returned '0': CMAKE_PREFIX_PATH=/home/sudhamsh/pico_ws/install/mav_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_interface:/home/sudhamsh/pico_ws/install/mav_comm:/home/sudhamsh/pico_ws/install/mav_planning_msgs:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/sudhamsh/pico_ws/install/mav_msgs/lib:/home/sudhamsh/pico_ws/install/mav_planning_msgs/lib:/home/sudhamsh/pico_ws/install/rotors_control/lib:/home/sudhamsh/pico_ws/install/whycode_interfaces/lib:/home/sudhamsh/pico_ws/install/swift_msgs/lib:/home/sudhamsh/pico_ws/install/mav_system_msgs/lib:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs/lib:/home/sudhamsh/pico_ws/install/error_msg/lib:/home/sudhamsh/pico_ws/install/controller_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sudhamsh/pico_ws/build/mav_planning_msgs

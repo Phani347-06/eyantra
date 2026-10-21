@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8aa4387ee6dfeab9f06f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rotors_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "roll_pitch_yawrate_thrust_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roll_pitch_yawrate_thrust_controller-d53266fd00347dd2d600.json",
+					"name" : "roll_pitch_yawrate_thrust_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roll_pitch_yawrate_thrust_controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roll_pitch_yawrate_thrust_controller_node-8586c32ae3a9769b0521.json",
+					"name" : "roll_pitch_yawrate_thrust_controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rotors_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rotors_control_uninstall-e0b478b4e1f978de8092.json",
+					"name" : "rotors_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b2bbb5e261b78252560f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sudhamsh/pico_ws/build/rotors_control",
+		"source" : "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/rotors_simulator/rotors_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

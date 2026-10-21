@@ -1,0 +1,3 @@
+/home/sudhamsh/pico_ws/install/swift_pico/lib/swift_pico/waypoint_service
+/home/sudhamsh/pico_ws/install/swift_pico/lib/swift_pico/pico_server
+/home/sudhamsh/pico_ws/install/swift_pico/lib/swift_pico/pico_client

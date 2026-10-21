@@ -1,0 +1,17 @@
+{
+  "package_name": "mav_planning_msgs",
+  "non_idl_tuples": [
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_planning_msgs:msg/Point2D.msg",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_planning_msgs:msg/PointCloudWithPose.msg",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_planning_msgs:msg/Polygon2D.msg",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_planning_msgs:msg/PolygonWithHoles.msg",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_planning_msgs:msg/PolygonWithHolesStamped.msg",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_planning_msgs:msg/PolynomialSegment.msg",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_planning_msgs:msg/PolynomialSegment4D.msg",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_planning_msgs:msg/PolynomialTrajectory.msg",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_planning_msgs:msg/PolynomialTrajectory4D.msg",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_planning_msgs:srv/PlannerService.srv",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_planning_msgs:srv/PolygonService.srv",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_planning_msgs:srv/ChangeNameService.srv"
+  ]
+}

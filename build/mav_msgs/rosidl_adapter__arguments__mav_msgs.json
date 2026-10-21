@@ -1,0 +1,13 @@
+{
+  "package_name": "mav_msgs",
+  "non_idl_tuples": [
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_msgs:msg/Actuators.msg",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_msgs:msg/AttitudeThrust.msg",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_msgs:msg/FilteredSensorData.msg",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_msgs:msg/GpsWaypoint.msg",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_msgs:msg/RateThrust.msg",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_msgs:msg/RollPitchYawrateThrust.msg",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_msgs:msg/Status.msg",
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_msgs:msg/TorqueThrust.msg"
+  ]
+}

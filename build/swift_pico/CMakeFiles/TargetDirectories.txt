@@ -1,0 +1,10 @@
+/home/sudhamsh/pico_ws/build/swift_pico/CMakeFiles/uninstall.dir
+/home/sudhamsh/pico_ws/build/swift_pico/CMakeFiles/swift_pico_uninstall.dir
+/home/sudhamsh/pico_ws/build/swift_pico/CMakeFiles/pico_controller_PID.dir
+/home/sudhamsh/pico_ws/build/swift_pico/CMakeFiles/test.dir
+/home/sudhamsh/pico_ws/build/swift_pico/CMakeFiles/edit_cache.dir
+/home/sudhamsh/pico_ws/build/swift_pico/CMakeFiles/rebuild_cache.dir
+/home/sudhamsh/pico_ws/build/swift_pico/CMakeFiles/list_install_components.dir
+/home/sudhamsh/pico_ws/build/swift_pico/CMakeFiles/install.dir
+/home/sudhamsh/pico_ws/build/swift_pico/CMakeFiles/install/local.dir
+/home/sudhamsh/pico_ws/build/swift_pico/CMakeFiles/install/strip.dir

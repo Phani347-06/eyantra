@@ -1,0 +1,212 @@
+[0.025s] Invoking command in '/home/sudhamsh/pico_ws/build/error_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/controller_tuner/error_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sudhamsh/pico_ws/install/error_msg
+[0.079s] -- The C compiler identification is GNU 11.4.0
+[0.129s] -- The CXX compiler identification is GNU 11.4.0
+[0.134s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.201s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.202s] -- Detecting C compile features - done
+[0.205s] -- Detecting CXX compiler ABI info
+[0.276s] -- Detecting CXX compiler ABI info - done
+[0.285s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.285s] -- Detecting CXX compile features
+[0.286s] -- Detecting CXX compile features - done
+[0.288s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.423s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.490s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.514s] -- Found std_msgs: 4.9.2 (/opt/ros/humble/share/std_msgs/cmake)
+[0.549s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.553s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.561s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.573s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.616s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.876s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.224s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.386s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.388s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.417s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.417s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.417s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.417s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.444s] -- Found PythonExtra: .so  
+[1.590s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.612s] -- Added test 'lint_cmake' to check CMake code style
+[1.613s] -- Added test 'xmllint' to check XML markup files
+[1.618s] -- Configuring done
+[1.661s] -- Generating done
+[1.677s] -- Build files have been written to: /home/sudhamsh/pico_ws/build/error_msg
+[1.696s] Invoked command in '/home/sudhamsh/pico_ws/build/error_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/controller_tuner/error_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sudhamsh/pico_ws/install/error_msg
+[1.702s] Invoking command in '/home/sudhamsh/pico_ws/build/error_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sudhamsh/pico_ws/build/error_msg -- -j18 -l18
+[1.760s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.775s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.781s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.795s] [  9%] Built target ament_cmake_python_symlink_error_msg
+[2.188s] running egg_info
+[2.189s] creating error_msg.egg-info
+[2.190s] writing error_msg.egg-info/PKG-INFO
+[2.190s] writing dependency_links to error_msg.egg-info/dependency_links.txt
+[2.191s] writing top-level names to error_msg.egg-info/top_level.txt
+[2.192s] writing manifest file 'error_msg.egg-info/SOURCES.txt'
+[2.192s] [  9%] Built target error_msg__rs
+[2.196s] reading manifest file 'error_msg.egg-info/SOURCES.txt'
+[2.197s] writing manifest file 'error_msg.egg-info/SOURCES.txt'
+[2.204s] [  9%] Built target error_msg__cpp
+[2.220s] [ 12%] [32mBuilding C object CMakeFiles/error_msg__rosidl_generator_c.dir/rosidl_generator_c/error_msg/msg/detail/error__functions.c.o[0m
+[2.240s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.243s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.246s] [ 21%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.266s] [ 21%] Built target ament_cmake_python_build_error_msg_egg
+[2.386s] [ 25%] [32m[1mLinking C shared library liberror_msg__rosidl_generator_c.so[0m
+[2.530s] [ 25%] Built target error_msg__rosidl_generator_c
+[2.582s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.582s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.607s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.941s] [ 37%] [32mBuilding CXX object CMakeFiles/error_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/error_msg/msg/detail/dds_fastrtps/error__type_support.cpp.o[0m
+[3.184s] [ 40%] [32mBuilding CXX object CMakeFiles/error_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/error_msg/msg/error__type_support.cpp.o[0m
+[3.188s] [ 43%] [32mBuilding CXX object CMakeFiles/error_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/error_msg/msg/detail/error__type_support_c.cpp.o[0m
+[3.278s] [ 46%] [32m[1mLinking CXX shared library liberror_msg__rosidl_typesupport_c.so[0m
+[3.440s] [ 46%] Built target error_msg__rosidl_typesupport_c
+[3.552s] [ 50%] [32mBuilding CXX object CMakeFiles/error_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/error_msg/msg/detail/error__type_support.cpp.o[0m
+[4.118s] [ 53%] [32mBuilding CXX object CMakeFiles/error_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/error_msg/msg/error__type_support.cpp.o[0m
+[4.239s] [ 56%] [32mBuilding C object CMakeFiles/error_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/error_msg/msg/detail/error__type_support.c.o[0m
+[4.344s] [ 59%] [32m[1mLinking C shared library liberror_msg__rosidl_typesupport_introspection_c.so[0m
+[4.438s] [ 62%] [32m[1mLinking CXX shared library liberror_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.442s] [ 65%] [32m[1mLinking CXX shared library liberror_msg__rosidl_typesupport_fastrtps_c.so[0m
+[4.443s] [ 65%] Built target error_msg__rosidl_typesupport_introspection_c
+[4.619s] [ 65%] Built target error_msg__rosidl_typesupport_fastrtps_c
+[4.627s] [ 65%] Built target error_msg__rosidl_typesupport_fastrtps_cpp
+[4.704s] [ 68%] [32m[1mLinking CXX shared library liberror_msg__rosidl_typesupport_cpp.so[0m
+[4.765s] [ 68%] Built target error_msg__rosidl_typesupport_cpp
+[4.964s] [ 71%] [32m[1mLinking CXX shared library liberror_msg__rosidl_typesupport_introspection_cpp.so[0m
+[5.001s] [ 71%] Built target error_msg__rosidl_typesupport_introspection_cpp
+[5.017s] [ 71%] Built target error_msg
+[5.034s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.505s] [ 75%] Built target error_msg__py
+[5.542s] [ 78%] [32mBuilding C object CMakeFiles/error_msg__rosidl_generator_py.dir/rosidl_generator_py/error_msg/msg/_error_s.c.o[0m
+[5.712s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/error_msg/liberror_msg__rosidl_generator_py.so[0m
+[5.765s] [ 81%] Built target error_msg__rosidl_generator_py
+[5.800s] [ 84%] [32mBuilding C object CMakeFiles/error_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/error_msg/_error_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.829s] [ 87%] [32mBuilding C object CMakeFiles/error_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/error_msg/_error_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[5.837s] [ 90%] [32mBuilding C object CMakeFiles/error_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/error_msg/_error_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.942s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/error_msg/error_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.984s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/error_msg/error_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.024s] [ 96%] Built target error_msg__rosidl_typesupport_introspection_c__pyext
+[6.038s] [100%] [32m[1mLinking C shared library rosidl_generator_py/error_msg/error_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.060s] [100%] Built target error_msg__rosidl_typesupport_c__pyext
+[6.107s] [100%] Built target error_msg__rosidl_typesupport_fastrtps_c__pyext
+[6.135s] Invoked command in '/home/sudhamsh/pico_ws/build/error_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sudhamsh/pico_ws/build/error_msg -- -j18 -l18
+[6.144s] Invoking command in '/home/sudhamsh/pico_ws/build/error_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sudhamsh/pico_ws/build/error_msg
+[6.188s] -- Install configuration: ""
+[6.193s] -- Execute custom install script
+[6.194s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/ament_index/resource_index/rosidl_interfaces/error_msg
+[6.233s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__functions.h
+[6.271s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__struct.h
+[6.310s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__type_support.h
+[6.332s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/error.h
+[6.368s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/rosidl_generator_c__visibility_control.h
+[6.407s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/environment/library_path.sh
+[6.436s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/environment/library_path.dsv
+[6.478s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__rosidl_typesupport_fastrtps_c.h
+[6.525s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.564s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__builder.hpp
+[6.592s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__struct.hpp
+[6.614s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__traits.hpp
+[6.692s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__type_support.hpp
+[6.723s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/error.hpp
+[6.759s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.841s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__rosidl_typesupport_fastrtps_cpp.hpp
+[6.924s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.972s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__rosidl_typesupport_introspection_c.h
+[7.026s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.054s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__rosidl_typesupport_introspection_cpp.hpp
+[7.070s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/environment/pythonpath.sh
+[7.086s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/environment/pythonpath.dsv
+[7.103s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[7.117s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.132s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.148s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg-0.0.0-py3.10.egg-info/top_level.txt
+[7.163s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/__init__.py
+[7.179s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/_error_msg_s.ep.rosidl_typesupport_c.c
+[7.212s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/_error_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.244s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/_error_msg_s.ep.rosidl_typesupport_introspection_c.c
+[7.282s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/error_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.312s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/error_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.348s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/error_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.380s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/liberror_msg__rosidl_generator_py.so
+[7.430s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/msg/__init__.py
+[7.458s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/msg/_error.py
+[7.490s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/msg/_error_s.c
+[7.513s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/error_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.513s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/error_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.513s] -- Up-to-date symlink: /home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/error_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.514s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/rust/Cargo.toml
+[7.541s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/rust/build.rs
+[7.576s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/rust/src/lib.rs
+[7.600s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/rust/src/msg.rs
+[7.648s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/rust/src/msg/rmw.rs
+[7.689s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/msg/Error.idl
+[7.719s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/msg/Error.msg
+[7.743s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/ament_index/resource_index/package_run_dependencies/error_msg
+[7.772s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/ament_index/resource_index/parent_prefix_path/error_msg
+[7.857s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/environment/ament_prefix_path.sh
+[7.885s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/environment/ament_prefix_path.dsv
+[7.942s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/environment/path.sh
+[7.979s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/environment/path.dsv
+[7.997s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/local_setup.bash
+[8.029s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/local_setup.sh
+[8.054s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/local_setup.zsh
+[8.091s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/local_setup.dsv
+[8.109s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/package.dsv
+[8.135s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/ament_index/resource_index/packages/error_msg
+[8.164s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/rosidl_cmake-extras.cmake
+[8.193s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.236s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.269s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[8.313s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/ament_cmake_export_targets-extras.cmake
+[8.345s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.385s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.407s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[8.423s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/error_msgConfig.cmake
+[8.441s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/error_msgConfig-version.cmake
+[8.458s] -- Symlinking: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/package.xml
+[8.474s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/lib/liberror_msg__rosidl_generator_c.so
+[8.475s] -- Set runtime path of "/home/sudhamsh/pico_ws/install/error_msg/lib/liberror_msg__rosidl_generator_c.so" to ""
+[8.475s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_fastrtps_c.so
+[8.476s] -- Set runtime path of "/home/sudhamsh/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[8.476s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_fastrtps_cpp.so
+[8.477s] -- Set runtime path of "/home/sudhamsh/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.477s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_introspection_c.so
+[8.478s] -- Set runtime path of "/home/sudhamsh/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_introspection_c.so" to ""
+[8.478s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_c.so
+[8.479s] -- Set runtime path of "/home/sudhamsh/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_c.so" to ""
+[8.479s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_introspection_cpp.so
+[8.480s] -- Set runtime path of "/home/sudhamsh/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[8.481s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_cpp.so
+[8.481s] -- Set runtime path of "/home/sudhamsh/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_cpp.so" to ""
+[8.566s] Listing '/home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg'...
+[8.567s] Compiling '/home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/__init__.py'...
+[8.567s] Listing '/home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/msg'...
+[8.567s] Compiling '/home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/msg/__init__.py'...
+[8.567s] Compiling '/home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/msg/_error.py'...
+[8.583s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/lib/liberror_msg__rosidl_generator_py.so
+[8.583s] -- Set runtime path of "/home/sudhamsh/pico_ws/install/error_msg/lib/liberror_msg__rosidl_generator_py.so" to ""
+[8.583s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_generator_cExport.cmake
+[8.583s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_generator_cExport-noconfig.cmake
+[8.583s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[8.583s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.593s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_generator_cppExport.cmake
+[8.597s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.597s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.597s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/error_msg__rosidl_typesupport_introspection_cExport.cmake
+[8.597s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/error_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.597s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/error_msg__rosidl_typesupport_cExport.cmake
+[8.597s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/error_msg__rosidl_typesupport_cExport-noconfig.cmake
+[8.598s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/error_msg__rosidl_typesupport_introspection_cppExport.cmake
+[8.598s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/error_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.598s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/error_msg__rosidl_typesupport_cppExport.cmake
+[8.598s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/error_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[8.598s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_generator_pyExport.cmake
+[8.598s] -- Installing: /home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_generator_pyExport-noconfig.cmake
+[8.630s] Invoked command in '/home/sudhamsh/pico_ws/build/error_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sudhamsh/pico_ws/build/error_msg

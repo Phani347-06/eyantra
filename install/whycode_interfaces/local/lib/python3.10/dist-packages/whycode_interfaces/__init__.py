@@ -1,0 +1,1 @@
+/home/sudhamsh/pico_ws/build/whycode_interfaces/rosidl_generator_py/whycode_interfaces/__init__.py

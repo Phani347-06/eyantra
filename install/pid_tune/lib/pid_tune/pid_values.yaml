@@ -1,0 +1,15 @@
+throttle_pid:
+  ros__parameters:
+    Kp: 3.8699999999999997
+    Ki: 0.184
+    Kd: 8.4
+pitch_pid:
+  ros__parameters:
+    Kp: 0.6599999999999999
+    Ki: 0.056
+    Kd: 3.0
+roll_pid:
+  ros__parameters:
+    Kp: 0.8099999999999999
+    Ki: 0.0
+    Kd: 7.199999999999999

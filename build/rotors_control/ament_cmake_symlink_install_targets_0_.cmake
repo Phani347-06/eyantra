@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sudhamsh/pico_ws/build/rotors_control/roll_pitch_yawrate_thrust_controller_node" "TARGETS" "roll_pitch_yawrate_thrust_controller_node" "DESTINATION" "lib/rotors_control")

@@ -1,0 +1,6 @@
+Invoking command in '/home/sudhamsh/pico_ws/build/mav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_msgs -DCMAKE_INSTALL_PREFIX=/home/sudhamsh/pico_ws/install/mav_msgs
+Invoked command in '/home/sudhamsh/pico_ws/build/mav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/mav_comm/mav_msgs -DCMAKE_INSTALL_PREFIX=/home/sudhamsh/pico_ws/install/mav_msgs
+Invoking command in '/home/sudhamsh/pico_ws/build/mav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sudhamsh/pico_ws/build/mav_msgs -- -j18 -l18
+Invoked command in '/home/sudhamsh/pico_ws/build/mav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sudhamsh/pico_ws/build/mav_msgs -- -j18 -l18
+Invoking command in '/home/sudhamsh/pico_ws/build/mav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sudhamsh/pico_ws/build/mav_msgs
+Invoked command in '/home/sudhamsh/pico_ws/build/mav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sudhamsh/pico_ws/build/mav_msgs

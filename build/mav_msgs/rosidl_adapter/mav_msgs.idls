@@ -1,0 +1,8 @@
+/home/sudhamsh/pico_ws/build/mav_msgs/rosidl_adapter/mav_msgs:msg/Actuators.idl
+/home/sudhamsh/pico_ws/build/mav_msgs/rosidl_adapter/mav_msgs:msg/AttitudeThrust.idl
+/home/sudhamsh/pico_ws/build/mav_msgs/rosidl_adapter/mav_msgs:msg/FilteredSensorData.idl
+/home/sudhamsh/pico_ws/build/mav_msgs/rosidl_adapter/mav_msgs:msg/GpsWaypoint.idl
+/home/sudhamsh/pico_ws/build/mav_msgs/rosidl_adapter/mav_msgs:msg/RateThrust.idl
+/home/sudhamsh/pico_ws/build/mav_msgs/rosidl_adapter/mav_msgs:msg/RollPitchYawrateThrust.idl
+/home/sudhamsh/pico_ws/build/mav_msgs/rosidl_adapter/mav_msgs:msg/Status.idl
+/home/sudhamsh/pico_ws/build/mav_msgs/rosidl_adapter/mav_msgs:msg/TorqueThrust.idl

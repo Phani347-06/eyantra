@@ -1,0 +1,1 @@
+/home/sudhamsh/pico_ws/build/whycode_interfaces/ament_cmake_python/whycode_interfaces/whycode_interfaces.egg-info/SOURCES.txt

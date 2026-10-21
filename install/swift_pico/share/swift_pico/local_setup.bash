@@ -1,0 +1,1 @@
+/home/sudhamsh/pico_ws/build/swift_pico/ament_cmake_environment_hooks/local_setup.bash

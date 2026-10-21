@@ -1,0 +1,1 @@
+/home/sudhamsh/pico_ws/build/mav_msgs/rosidl_generator_rs/mav_msgs/rust/src/msg.rs

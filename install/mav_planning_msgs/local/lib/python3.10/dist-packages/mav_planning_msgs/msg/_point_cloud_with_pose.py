@@ -1,0 +1,1 @@
+/home/sudhamsh/pico_ws/build/mav_planning_msgs/rosidl_generator_py/mav_planning_msgs/msg/_point_cloud_with_pose.py
