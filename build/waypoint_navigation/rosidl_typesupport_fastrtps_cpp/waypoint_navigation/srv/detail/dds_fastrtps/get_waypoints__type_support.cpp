@@ -276,10 +276,6 @@ cdr_serialize(
   geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
     ros_message.waypoints,
     cdr);
-  // Member: marker_ids
-  {
-    cdr << ros_message.marker_ids;
-  }
   return true;
 }
 
@@ -292,11 +288,6 @@ cdr_deserialize(
   // Member: waypoints
   geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
     cdr, ros_message.waypoints);
-
-  // Member: marker_ids
-  {
-    cdr >> ros_message.marker_ids;
-  }
 
   return true;
 }  // NOLINT(readability/fn_size)
@@ -319,18 +310,6 @@ get_serialized_size(
   current_alignment +=
     geometry_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
     ros_message.waypoints, current_alignment);
-  // Member: marker_ids
-  {
-    size_t array_size = ros_message.marker_ids.size();
-
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        (ros_message.marker_ids[index].size() + 1);
-    }
-  }
 
   return current_alignment - initial_alignment;
 }
@@ -374,23 +353,6 @@ max_serialized_size_GetWaypoints_Response(
     }
   }
 
-  // Member: marker_ids
-  {
-    size_t array_size = 0;
-    full_bounded = false;
-    is_plain = false;
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -399,7 +361,7 @@ max_serialized_size_GetWaypoints_Response(
     using DataType = waypoint_navigation::srv::GetWaypoints_Response;
     is_plain =
       (
-      offsetof(DataType, marker_ids) +
+      offsetof(DataType, waypoints) +
       last_member_size
       ) == ret_val;
   }

@@ -105,8 +105,6 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 #include "geometry_msgs/msg/pose_array.h"
 // Member `waypoints`
 #include "geometry_msgs/msg/detail/pose_array__rosidl_typesupport_introspection_c.h"
-// Member `marker_ids`
-#include "rosidl_runtime_c/string_functions.h"
 
 #ifdef __cplusplus
 extern "C"
@@ -127,62 +125,7 @@ void waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introsp
   waypoint_navigation__srv__GetWaypoints_Response__fini(message_memory);
 }
 
-size_t waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__size_function__GetWaypoints_Response__marker_ids(
-  const void * untyped_member)
-{
-  const rosidl_runtime_c__String__Sequence * member =
-    (const rosidl_runtime_c__String__Sequence *)(untyped_member);
-  return member->size;
-}
-
-const void * waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__get_const_function__GetWaypoints_Response__marker_ids(
-  const void * untyped_member, size_t index)
-{
-  const rosidl_runtime_c__String__Sequence * member =
-    (const rosidl_runtime_c__String__Sequence *)(untyped_member);
-  return &member->data[index];
-}
-
-void * waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__get_function__GetWaypoints_Response__marker_ids(
-  void * untyped_member, size_t index)
-{
-  rosidl_runtime_c__String__Sequence * member =
-    (rosidl_runtime_c__String__Sequence *)(untyped_member);
-  return &member->data[index];
-}
-
-void waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__fetch_function__GetWaypoints_Response__marker_ids(
-  const void * untyped_member, size_t index, void * untyped_value)
-{
-  const rosidl_runtime_c__String * item =
-    ((const rosidl_runtime_c__String *)
-    waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__get_const_function__GetWaypoints_Response__marker_ids(untyped_member, index));
-  rosidl_runtime_c__String * value =
-    (rosidl_runtime_c__String *)(untyped_value);
-  *value = *item;
-}
-
-void waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__assign_function__GetWaypoints_Response__marker_ids(
-  void * untyped_member, size_t index, const void * untyped_value)
-{
-  rosidl_runtime_c__String * item =
-    ((rosidl_runtime_c__String *)
-    waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__get_function__GetWaypoints_Response__marker_ids(untyped_member, index));
-  const rosidl_runtime_c__String * value =
-    (const rosidl_runtime_c__String *)(untyped_value);
-  *item = *value;
-}
-
-bool waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__resize_function__GetWaypoints_Response__marker_ids(
-  void * untyped_member, size_t size)
-{
-  rosidl_runtime_c__String__Sequence * member =
-    (rosidl_runtime_c__String__Sequence *)(untyped_member);
-  rosidl_runtime_c__String__Sequence__fini(member);
-  return rosidl_runtime_c__String__Sequence__init(member, size);
-}
-
-static rosidl_typesupport_introspection_c__MessageMember waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__GetWaypoints_Response_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__GetWaypoints_Response_message_member_array[1] = {
   {
     "waypoints",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
@@ -199,30 +142,13 @@ static rosidl_typesupport_introspection_c__MessageMember waypoint_navigation__sr
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
-  },
-  {
-    "marker_ids",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    true,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(waypoint_navigation__srv__GetWaypoints_Response, marker_ids),  // bytes offset in struct
-    NULL,  // default value
-    waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__size_function__GetWaypoints_Response__marker_ids,  // size() function pointer
-    waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__get_const_function__GetWaypoints_Response__marker_ids,  // get_const(index) function pointer
-    waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__get_function__GetWaypoints_Response__marker_ids,  // get(index) function pointer
-    waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__fetch_function__GetWaypoints_Response__marker_ids,  // fetch(index, &value) function pointer
-    waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__assign_function__GetWaypoints_Response__marker_ids,  // assign(index, value) function pointer
-    waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__resize_function__GetWaypoints_Response__marker_ids  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__GetWaypoints_Response_message_members = {
   "waypoint_navigation__srv",  // message namespace
   "GetWaypoints_Response",  // message name
-  2,  // number of fields
+  1,  // number of fields
   sizeof(waypoint_navigation__srv__GetWaypoints_Response),
   waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__GetWaypoints_Response_message_member_array,  // message members
   waypoint_navigation__srv__GetWaypoints_Response__rosidl_typesupport_introspection_c__GetWaypoints_Response_init_function,  // function to initialize message memory (memory has to be allocated)

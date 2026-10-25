@@ -39,14 +39,11 @@ typedef struct waypoint_navigation__srv__GetWaypoints_Request__Sequence
 // Include directives for member types
 // Member 'waypoints'
 #include "geometry_msgs/msg/detail/pose_array__struct.h"
-// Member 'marker_ids'
-#include "rosidl_runtime_c/string.h"
 
 /// Struct defined in srv/GetWaypoints in the package waypoint_navigation.
 typedef struct waypoint_navigation__srv__GetWaypoints_Response
 {
   geometry_msgs__msg__PoseArray waypoints;
-  rosidl_runtime_c__String__Sequence marker_ids;
 } waypoint_navigation__srv__GetWaypoints_Response;
 
 // Struct for a sequence of waypoint_navigation__srv__GetWaypoints_Response.

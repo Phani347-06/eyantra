@@ -107,11 +107,6 @@ pub struct GetWaypoints_Response {
     #[allow(missing_docs)]
     pub waypoints: geometry_msgs::msg::rmw::PoseArray,
 
-
-    // This member is not documented.
-    #[allow(missing_docs)]
-    pub marker_ids: rosidl_runtime_rs::Sequence<rosidl_runtime_rs::String>,
-
 }
 
 

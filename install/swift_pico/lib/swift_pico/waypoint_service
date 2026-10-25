@@ -24,7 +24,6 @@ class WayPoints(Node):
                 response.waypoints.poses[i].position.x = float(self.waypoints[i][0])
                 response.waypoints.poses[i].position.y = float(self.waypoints[i][1])
                 response.waypoints.poses[i].position.z = float(self.waypoints[i][2])
-            response.marker_ids = ['wp1', 'wp2', 'wp3', 'wp4']
             self.get_logger().info("Incoming request for Waypoints")
             return response
         else:

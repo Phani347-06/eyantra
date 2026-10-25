@@ -183,17 +183,14 @@ class GetWaypoints_Response(metaclass=Metaclass_GetWaypoints_Response):
 
     __slots__ = [
         '_waypoints',
-        '_marker_ids',
     ]
 
     _fields_and_field_types = {
         'waypoints': 'geometry_msgs/PoseArray',
-        'marker_ids': 'sequence<string>',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.NamespacedType(['geometry_msgs', 'msg'], 'PoseArray'),  # noqa: E501
-        rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.UnboundedString()),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -202,7 +199,6 @@ class GetWaypoints_Response(metaclass=Metaclass_GetWaypoints_Response):
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         from geometry_msgs.msg import PoseArray
         self.waypoints = kwargs.get('waypoints', PoseArray())
-        self.marker_ids = kwargs.get('marker_ids', [])
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -235,8 +231,6 @@ class GetWaypoints_Response(metaclass=Metaclass_GetWaypoints_Response):
             return False
         if self.waypoints != other.waypoints:
             return False
-        if self.marker_ids != other.marker_ids:
-            return False
         return True
 
     @classmethod
@@ -257,29 +251,6 @@ class GetWaypoints_Response(metaclass=Metaclass_GetWaypoints_Response):
                 isinstance(value, PoseArray), \
                 "The 'waypoints' field must be a sub message of type 'PoseArray'"
         self._waypoints = value
-
-    @builtins.property
-    def marker_ids(self):
-        """Message field 'marker_ids'."""
-        return self._marker_ids
-
-    @marker_ids.setter
-    def marker_ids(self, value):
-        if __debug__:
-            from collections.abc import Sequence
-            from collections.abc import Set
-            from collections import UserList
-            from collections import UserString
-            assert \
-                ((isinstance(value, Sequence) or
-                  isinstance(value, Set) or
-                  isinstance(value, UserList)) and
-                 not isinstance(value, str) and
-                 not isinstance(value, UserString) and
-                 all(isinstance(v, str) for v in value) and
-                 True), \
-                "The 'marker_ids' field must be a set or sequence and each value of type 'str'"
-        self._marker_ids = value
 
 
 class Metaclass_GetWaypoints(type):

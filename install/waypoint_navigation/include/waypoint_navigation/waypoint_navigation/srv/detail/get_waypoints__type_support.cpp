@@ -156,52 +156,7 @@ void GetWaypoints_Response_fini_function(void * message_memory)
   typed_message->~GetWaypoints_Response();
 }
 
-size_t size_function__GetWaypoints_Response__marker_ids(const void * untyped_member)
-{
-  const auto * member = reinterpret_cast<const std::vector<std::string> *>(untyped_member);
-  return member->size();
-}
-
-const void * get_const_function__GetWaypoints_Response__marker_ids(const void * untyped_member, size_t index)
-{
-  const auto & member =
-    *reinterpret_cast<const std::vector<std::string> *>(untyped_member);
-  return &member[index];
-}
-
-void * get_function__GetWaypoints_Response__marker_ids(void * untyped_member, size_t index)
-{
-  auto & member =
-    *reinterpret_cast<std::vector<std::string> *>(untyped_member);
-  return &member[index];
-}
-
-void fetch_function__GetWaypoints_Response__marker_ids(
-  const void * untyped_member, size_t index, void * untyped_value)
-{
-  const auto & item = *reinterpret_cast<const std::string *>(
-    get_const_function__GetWaypoints_Response__marker_ids(untyped_member, index));
-  auto & value = *reinterpret_cast<std::string *>(untyped_value);
-  value = item;
-}
-
-void assign_function__GetWaypoints_Response__marker_ids(
-  void * untyped_member, size_t index, const void * untyped_value)
-{
-  auto & item = *reinterpret_cast<std::string *>(
-    get_function__GetWaypoints_Response__marker_ids(untyped_member, index));
-  const auto & value = *reinterpret_cast<const std::string *>(untyped_value);
-  item = value;
-}
-
-void resize_function__GetWaypoints_Response__marker_ids(void * untyped_member, size_t size)
-{
-  auto * member =
-    reinterpret_cast<std::vector<std::string> *>(untyped_member);
-  member->resize(size);
-}
-
-static const ::rosidl_typesupport_introspection_cpp::MessageMember GetWaypoints_Response_message_member_array[2] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember GetWaypoints_Response_message_member_array[1] = {
   {
     "waypoints",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
@@ -218,30 +173,13 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember GetWaypoints_
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
-  },
-  {
-    "marker_ids",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    true,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(waypoint_navigation::srv::GetWaypoints_Response, marker_ids),  // bytes offset in struct
-    nullptr,  // default value
-    size_function__GetWaypoints_Response__marker_ids,  // size() function pointer
-    get_const_function__GetWaypoints_Response__marker_ids,  // get_const(index) function pointer
-    get_function__GetWaypoints_Response__marker_ids,  // get(index) function pointer
-    fetch_function__GetWaypoints_Response__marker_ids,  // fetch(index, &value) function pointer
-    assign_function__GetWaypoints_Response__marker_ids,  // assign(index, value) function pointer
-    resize_function__GetWaypoints_Response__marker_ids  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers GetWaypoints_Response_message_members = {
   "waypoint_navigation::srv",  // message namespace
   "GetWaypoints_Response",  // message name
-  2,  // number of fields
+  1,  // number of fields
   sizeof(waypoint_navigation::srv::GetWaypoints_Response),
   GetWaypoints_Response_message_member_array,  // message members
   GetWaypoints_Response_init_function,  // function to initialize message memory (memory has to be allocated)

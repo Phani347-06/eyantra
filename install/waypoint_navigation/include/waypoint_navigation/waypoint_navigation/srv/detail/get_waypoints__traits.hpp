@@ -125,24 +125,6 @@ inline void to_flow_style_yaml(
   {
     out << "waypoints: ";
     to_flow_style_yaml(msg.waypoints, out);
-    out << ", ";
-  }
-
-  // member: marker_ids
-  {
-    if (msg.marker_ids.size() == 0) {
-      out << "marker_ids: []";
-    } else {
-      out << "marker_ids: [";
-      size_t pending_items = msg.marker_ids.size();
-      for (auto item : msg.marker_ids) {
-        rosidl_generator_traits::value_to_yaml(item, out);
-        if (--pending_items > 0) {
-          out << ", ";
-        }
-      }
-      out << "]";
-    }
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -158,26 +140,6 @@ inline void to_block_style_yaml(
     }
     out << "waypoints:\n";
     to_block_style_yaml(msg.waypoints, out, indentation + 2);
-  }
-
-  // member: marker_ids
-  {
-    if (indentation > 0) {
-      out << std::string(indentation, ' ');
-    }
-    if (msg.marker_ids.size() == 0) {
-      out << "marker_ids: []\n";
-    } else {
-      out << "marker_ids:\n";
-      for (auto item : msg.marker_ids) {
-        if (indentation > 0) {
-          out << std::string(indentation, ' ');
-        }
-        out << "- ";
-        rosidl_generator_traits::value_to_yaml(item, out);
-        out << "\n";
-      }
-    }
   }
 }  // NOLINT(readability/fn_size)
 
@@ -227,11 +189,11 @@ inline const char * name<waypoint_navigation::srv::GetWaypoints_Response>()
 
 template<>
 struct has_fixed_size<waypoint_navigation::srv::GetWaypoints_Response>
-  : std::integral_constant<bool, false> {};
+  : std::integral_constant<bool, has_fixed_size<geometry_msgs::msg::PoseArray>::value> {};
 
 template<>
 struct has_bounded_size<waypoint_navigation::srv::GetWaypoints_Response>
-  : std::integral_constant<bool, false> {};
+  : std::integral_constant<bool, has_bounded_size<geometry_msgs::msg::PoseArray>::value> {};
 
 template<>
 struct is_message<waypoint_navigation::srv::GetWaypoints_Response>

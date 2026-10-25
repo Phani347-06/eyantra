@@ -168,21 +168,12 @@ struct GetWaypoints_Response_
   using _waypoints_type =
     geometry_msgs::msg::PoseArray_<ContainerAllocator>;
   _waypoints_type waypoints;
-  using _marker_ids_type =
-    std::vector<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>>;
-  _marker_ids_type marker_ids;
 
   // setters for named parameter idiom
   Type & set__waypoints(
     const geometry_msgs::msg::PoseArray_<ContainerAllocator> & _arg)
   {
     this->waypoints = _arg;
-    return *this;
-  }
-  Type & set__marker_ids(
-    const std::vector<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>> & _arg)
-  {
-    this->marker_ids = _arg;
     return *this;
   }
 
@@ -229,9 +220,6 @@ struct GetWaypoints_Response_
   bool operator==(const GetWaypoints_Response_ & other) const
   {
     if (this->waypoints != other.waypoints) {
-      return false;
-    }
-    if (this->marker_ids != other.marker_ids) {
       return false;
     }
     return true;

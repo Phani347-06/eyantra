@@ -111,11 +111,6 @@ PyObject * waypoint_navigation__srv__get_waypoints__request__convert_to_py(void 
 // already included above
 // #include "waypoint_navigation/srv/detail/get_waypoints__functions.h"
 
-#include "rosidl_runtime_c/primitives_sequence.h"
-#include "rosidl_runtime_c/primitives_sequence_functions.h"
-#include "rosidl_runtime_c/string.h"
-#include "rosidl_runtime_c/string_functions.h"
-
 ROSIDL_GENERATOR_C_IMPORT
 bool geometry_msgs__msg__pose_array__convert_from_py(PyObject * _pymsg, void * _ros_message);
 ROSIDL_GENERATOR_C_IMPORT
@@ -165,51 +160,6 @@ bool waypoint_navigation__srv__get_waypoints__response__convert_from_py(PyObject
     }
     Py_DECREF(field);
   }
-  {  // marker_ids
-    PyObject * field = PyObject_GetAttrString(_pymsg, "marker_ids");
-    if (!field) {
-      return false;
-    }
-    {
-      PyObject * seq_field = PySequence_Fast(field, "expected a sequence in 'marker_ids'");
-      if (!seq_field) {
-        Py_DECREF(field);
-        return false;
-      }
-      Py_ssize_t size = PySequence_Size(field);
-      if (-1 == size) {
-        Py_DECREF(seq_field);
-        Py_DECREF(field);
-        return false;
-      }
-      if (!rosidl_runtime_c__String__Sequence__init(&(ros_message->marker_ids), size)) {
-        PyErr_SetString(PyExc_RuntimeError, "unable to create String__Sequence ros_message");
-        Py_DECREF(seq_field);
-        Py_DECREF(field);
-        return false;
-      }
-      rosidl_runtime_c__String * dest = ros_message->marker_ids.data;
-      for (Py_ssize_t i = 0; i < size; ++i) {
-        PyObject * item = PySequence_Fast_GET_ITEM(seq_field, i);
-        if (!item) {
-          Py_DECREF(seq_field);
-          Py_DECREF(field);
-          return false;
-        }
-        assert(PyUnicode_Check(item));
-        PyObject * encoded_item = PyUnicode_AsUTF8String(item);
-        if (!encoded_item) {
-          Py_DECREF(seq_field);
-          Py_DECREF(field);
-          return false;
-        }
-        rosidl_runtime_c__String__assign(&dest[i], PyBytes_AS_STRING(encoded_item));
-        Py_DECREF(encoded_item);
-      }
-      Py_DECREF(seq_field);
-    }
-    Py_DECREF(field);
-  }
 
   return true;
 }
@@ -240,32 +190,6 @@ PyObject * waypoint_navigation__srv__get_waypoints__response__convert_to_py(void
     }
     {
       int rc = PyObject_SetAttrString(_pymessage, "waypoints", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // marker_ids
-    PyObject * field = NULL;
-    size_t size = ros_message->marker_ids.size;
-    rosidl_runtime_c__String * src = ros_message->marker_ids.data;
-    field = PyList_New(size);
-    if (!field) {
-      return NULL;
-    }
-    for (size_t i = 0; i < size; ++i) {
-      PyObject * decoded_item = PyUnicode_DecodeUTF8(src[i].data, strlen(src[i].data), "replace");
-      if (!decoded_item) {
-        return NULL;
-      }
-      int rc = PyList_SetItem(field, i, decoded_item);
-      (void)rc;
-      assert(rc == 0);
-    }
-    assert(PySequence_Check(field));
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "marker_ids", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

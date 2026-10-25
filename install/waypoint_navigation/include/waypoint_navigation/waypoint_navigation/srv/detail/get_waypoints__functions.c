@@ -238,8 +238,6 @@ waypoint_navigation__srv__GetWaypoints_Request__Sequence__copy(
 // Include directives for member types
 // Member `waypoints`
 #include "geometry_msgs/msg/detail/pose_array__functions.h"
-// Member `marker_ids`
-#include "rosidl_runtime_c/string_functions.h"
 
 bool
 waypoint_navigation__srv__GetWaypoints_Response__init(waypoint_navigation__srv__GetWaypoints_Response * msg)
@@ -249,11 +247,6 @@ waypoint_navigation__srv__GetWaypoints_Response__init(waypoint_navigation__srv__
   }
   // waypoints
   if (!geometry_msgs__msg__PoseArray__init(&msg->waypoints)) {
-    waypoint_navigation__srv__GetWaypoints_Response__fini(msg);
-    return false;
-  }
-  // marker_ids
-  if (!rosidl_runtime_c__String__Sequence__init(&msg->marker_ids, 0)) {
     waypoint_navigation__srv__GetWaypoints_Response__fini(msg);
     return false;
   }
@@ -268,8 +261,6 @@ waypoint_navigation__srv__GetWaypoints_Response__fini(waypoint_navigation__srv__
   }
   // waypoints
   geometry_msgs__msg__PoseArray__fini(&msg->waypoints);
-  // marker_ids
-  rosidl_runtime_c__String__Sequence__fini(&msg->marker_ids);
 }
 
 bool
@@ -281,12 +272,6 @@ waypoint_navigation__srv__GetWaypoints_Response__are_equal(const waypoint_naviga
   // waypoints
   if (!geometry_msgs__msg__PoseArray__are_equal(
       &(lhs->waypoints), &(rhs->waypoints)))
-  {
-    return false;
-  }
-  // marker_ids
-  if (!rosidl_runtime_c__String__Sequence__are_equal(
-      &(lhs->marker_ids), &(rhs->marker_ids)))
   {
     return false;
   }
@@ -304,12 +289,6 @@ waypoint_navigation__srv__GetWaypoints_Response__copy(
   // waypoints
   if (!geometry_msgs__msg__PoseArray__copy(
       &(input->waypoints), &(output->waypoints)))
-  {
-    return false;
-  }
-  // marker_ids
-  if (!rosidl_runtime_c__String__Sequence__copy(
-      &(input->marker_ids), &(output->marker_ids)))
   {
     return false;
   }

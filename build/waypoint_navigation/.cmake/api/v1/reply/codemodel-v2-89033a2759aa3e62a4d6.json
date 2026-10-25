@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b80e4408d038ce67f4f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						18
+					]
+				},
+				{
+					"build" : "waypoint_navigation__py",
+					"jsonFile" : "directory-waypoint_navigation__py-8fb589ef512d0df58b53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sudhamsh/pico_ws/build/waypoint_navigation/waypoint_navigation__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "waypoint_navigation__rs",
+					"jsonFile" : "directory-waypoint_navigation__rs-e00fa0fb9fa2fa10fa9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sudhamsh/pico_ws/build/waypoint_navigation/waypoint_navigation__rs",
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "waypoint_navigation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_waypoint_navigation_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_waypoint_navigation_egg-21bd6aac984bf54b8e60.json",
+					"name" : "ament_cmake_python_build_waypoint_navigation_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_waypoint_navigation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_waypoint_navigation-b7b93038fba16f3ae658.json",
+					"name" : "ament_cmake_python_copy_waypoint_navigation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5862fc6f3908e887637a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation-9ba3ff71f36b3f22d0f5.json",
+					"name" : "waypoint_navigation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__cpp-61be76b14732860a17a0.json",
+					"name" : "waypoint_navigation__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "waypoint_navigation__py::@761f16ece8cb2251d250",
+					"jsonFile" : "target-waypoint_navigation__py-86258d8e8d12a5cd73b1.json",
+					"name" : "waypoint_navigation__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_generator_c-1556000d1fff24125eb7.json",
+					"name" : "waypoint_navigation__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_generator_py-1062b4d547209df19ab4.json",
+					"name" : "waypoint_navigation__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_c-fa5e14852163a919283d.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_c__pyext-501576802acf2d526c65.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_cpp-f3928a0eaf81b4aa9d95.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_fastrtps_c-04a82a71bc5e3b43101b.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_fastrtps_c__pyext-554db751ff18b42a5ba8.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_fastrtps_cpp-93f7741940bb8e5af761.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_introspection_c-847ed975d29c7e718bc2.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_introspection_c__pyext-db52d3d5fcfcd6ac4fef.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_introspection_cpp-1e7545e9ce589d870350.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "waypoint_navigation__rs::@41607fdca96128463c61",
+					"jsonFile" : "target-waypoint_navigation__rs-939af8bcfd53f90f3f95.json",
+					"name" : "waypoint_navigation__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation_uninstall-9212e5f7b4bc9decbe44.json",
+					"name" : "waypoint_navigation_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sudhamsh/pico_ws/build/waypoint_navigation",
+		"source" : "/home/sudhamsh/pico_ws/src/waypoint_navigation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

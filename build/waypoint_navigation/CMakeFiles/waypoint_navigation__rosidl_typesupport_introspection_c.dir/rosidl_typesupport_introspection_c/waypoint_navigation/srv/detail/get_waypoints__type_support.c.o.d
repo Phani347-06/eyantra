@@ -72,5 +72,4 @@ CMakeFiles/waypoint_navigation__rosidl_typesupport_introspection_c.dir/rosidl_ty
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__type_support.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_introspection_c.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h \
- /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
  /opt/ros/humble/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/service_introspection.h

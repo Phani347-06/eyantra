@@ -1,1 +1,47 @@
-/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/swift_pico/src/waypoint_service.py
+#!/usr/bin/env python3
+
+import rclpy
+from rclpy.node import Node
+from geometry_msgs.msg import Pose
+from waypoint_navigation.srv import GetWaypoints
+
+class WayPoints(Node):
+
+    def __init__(self):
+        super().__init__('waypoints_service')
+        self.srv = self.create_service(GetWaypoints, 'waypoints', self.waypoint_callback)
+        self.waypoints = [
+            [-2.41, -2.41, 13.00],
+            [2.41, 1.20, 13.00],
+            [1.20, -2.41, 13.00],
+            [-1.20, 1.20, 13.00]
+        ]
+
+    def waypoint_callback(self, request, response):
+        if request.get_waypoints == True:
+            response.waypoints.poses = [Pose() for _ in range(len(self.waypoints))]
+            for i in range(len(self.waypoints)):
+                response.waypoints.poses[i].position.x = float(self.waypoints[i][0])
+                response.waypoints.poses[i].position.y = float(self.waypoints[i][1])
+                response.waypoints.poses[i].position.z = float(self.waypoints[i][2])
+            self.get_logger().info("Incoming request for Waypoints")
+            return response
+        else:
+            self.get_logger().info("Request rejected")
+            return response
+
+def main():
+    rclpy.init()
+    waypoints = WayPoints()
+
+    try:
+        rclpy.spin(waypoints)
+    except KeyboardInterrupt:
+        waypoints.get_logger().info('KeyboardInterrupt, shutting down.\n')
+    finally:
+        waypoints.destroy_node()
+        if rclpy.ok():
+            rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

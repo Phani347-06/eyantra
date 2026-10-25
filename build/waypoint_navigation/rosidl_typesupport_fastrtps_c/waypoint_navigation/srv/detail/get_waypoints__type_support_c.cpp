@@ -230,8 +230,6 @@ extern "C"
 #endif
 
 #include "geometry_msgs/msg/detail/pose_array__functions.h"  // waypoints
-#include "rosidl_runtime_c/string.h"  // marker_ids
-#include "rosidl_runtime_c/string_functions.h"  // marker_ids
 
 // forward declare type support functions
 ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_waypoint_navigation
@@ -275,25 +273,6 @@ static bool _GetWaypoints_Response__cdr_serialize(
     }
   }
 
-  // Field name: marker_ids
-  {
-    size_t size = ros_message->marker_ids.size;
-    auto array_ptr = ros_message->marker_ids.data;
-    cdr << static_cast<uint32_t>(size);
-    for (size_t i = 0; i < size; ++i) {
-      const rosidl_runtime_c__String * str = &array_ptr[i];
-      if (str->capacity == 0 || str->capacity <= str->size) {
-        fprintf(stderr, "string capacity not greater than size\n");
-        return false;
-      }
-      if (str->data[str->size] != '\0') {
-        fprintf(stderr, "string not null-terminated\n");
-        return false;
-      }
-      cdr << str->data;
-    }
-  }
-
   return true;
 }
 
@@ -320,46 +299,6 @@ static bool _GetWaypoints_Response__cdr_deserialize(
     }
   }
 
-  // Field name: marker_ids
-  {
-    uint32_t cdrSize;
-    cdr >> cdrSize;
-    size_t size = static_cast<size_t>(cdrSize);
-
-    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
-    auto old_state = cdr.getState();
-    bool correct_size = cdr.jump(size);
-    cdr.setState(old_state);
-    if (!correct_size) {
-      fprintf(stderr, "sequence size exceeds remaining buffer\n");
-      return false;
-    }
-
-    if (ros_message->marker_ids.data) {
-      rosidl_runtime_c__String__Sequence__fini(&ros_message->marker_ids);
-    }
-    if (!rosidl_runtime_c__String__Sequence__init(&ros_message->marker_ids, size)) {
-      fprintf(stderr, "failed to create array for field 'marker_ids'");
-      return false;
-    }
-    auto array_ptr = ros_message->marker_ids.data;
-    for (size_t i = 0; i < size; ++i) {
-      std::string tmp;
-      cdr >> tmp;
-      auto & ros_i = array_ptr[i];
-      if (!ros_i.data) {
-        rosidl_runtime_c__String__init(&ros_i);
-      }
-      bool succeeded = rosidl_runtime_c__String__assign(
-        &ros_i,
-        tmp.c_str());
-      if (!succeeded) {
-        fprintf(stderr, "failed to assign string into field 'marker_ids'\n");
-        return false;
-      }
-    }
-  }
-
   return true;
 }  // NOLINT(readability/fn_size)
 
@@ -381,18 +320,6 @@ size_t get_serialized_size_waypoint_navigation__srv__GetWaypoints_Response(
 
   current_alignment += get_serialized_size_geometry_msgs__msg__PoseArray(
     &(ros_message->waypoints), current_alignment);
-  // field.name marker_ids
-  {
-    size_t array_size = ros_message->marker_ids.size;
-    auto array_ptr = ros_message->marker_ids.data;
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        (array_ptr[index].size + 1);
-    }
-  }
 
   return current_alignment - initial_alignment;
 }
@@ -441,22 +368,6 @@ size_t max_serialized_size_waypoint_navigation__srv__GetWaypoints_Response(
       is_plain &= inner_is_plain;
     }
   }
-  // member: marker_ids
-  {
-    size_t array_size = 0;
-    full_bounded = false;
-    is_plain = false;
-    current_alignment += padding +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
-
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -466,7 +377,7 @@ size_t max_serialized_size_waypoint_navigation__srv__GetWaypoints_Response(
     using DataType = waypoint_navigation__srv__GetWaypoints_Response;
     is_plain =
       (
-      offsetof(DataType, marker_ids) +
+      offsetof(DataType, waypoints) +
       last_member_size
       ) == ret_val;
   }

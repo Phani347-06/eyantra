@@ -63,32 +63,16 @@ namespace srv
 namespace builder
 {
 
-class Init_GetWaypoints_Response_marker_ids
-{
-public:
-  explicit Init_GetWaypoints_Response_marker_ids(::waypoint_navigation::srv::GetWaypoints_Response & msg)
-  : msg_(msg)
-  {}
-  ::waypoint_navigation::srv::GetWaypoints_Response marker_ids(::waypoint_navigation::srv::GetWaypoints_Response::_marker_ids_type arg)
-  {
-    msg_.marker_ids = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::waypoint_navigation::srv::GetWaypoints_Response msg_;
-};
-
 class Init_GetWaypoints_Response_waypoints
 {
 public:
   Init_GetWaypoints_Response_waypoints()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_GetWaypoints_Response_marker_ids waypoints(::waypoint_navigation::srv::GetWaypoints_Response::_waypoints_type arg)
+  ::waypoint_navigation::srv::GetWaypoints_Response waypoints(::waypoint_navigation::srv::GetWaypoints_Response::_waypoints_type arg)
   {
     msg_.waypoints = std::move(arg);
-    return Init_GetWaypoints_Response_marker_ids(msg_);
+    return std::move(msg_);
   }
 
 private:

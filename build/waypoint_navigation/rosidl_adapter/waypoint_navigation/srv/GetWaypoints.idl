@@ -6,13 +6,15 @@
 
 module waypoint_navigation {
   module srv {
+    @verbatim (language="comment", text=
+      "request definition")
     struct GetWaypoints_Request {
       boolean get_waypoints;
     };
+    @verbatim (language="comment", text=
+      "response definition")
     struct GetWaypoints_Response {
       geometry_msgs::msg::PoseArray waypoints;
-
-      sequence<string> marker_ids;
     };
   };
 };

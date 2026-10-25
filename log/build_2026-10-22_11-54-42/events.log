@@ -1,0 +1,215 @@
+[0.000000] (-) TimerEvent: {}
+[0.000372] (-) JobUnselected: {'identifier': 'controller_msg'}
+[0.000445] (-) JobUnselected: {'identifier': 'error_msg'}
+[0.000629] (-) JobUnselected: {'identifier': 'mav_comm'}
+[0.000705] (-) JobUnselected: {'identifier': 'mav_msgs'}
+[0.000783] (-) JobUnselected: {'identifier': 'mav_planning_msgs'}
+[0.000860] (-) JobUnselected: {'identifier': 'mav_state_machine_msgs'}
+[0.000944] (-) JobUnselected: {'identifier': 'mav_system_msgs'}
+[0.001067] (-) JobUnselected: {'identifier': 'pid_tune'}
+[0.001102] (-) JobUnselected: {'identifier': 'rotors_control'}
+[0.001123] (-) JobUnselected: {'identifier': 'rotors_swift_description'}
+[0.001141] (-) JobUnselected: {'identifier': 'rotors_swift_gazebo'}
+[0.001158] (-) JobUnselected: {'identifier': 'rotors_swift_interface'}
+[0.001175] (-) JobUnselected: {'identifier': 'swift_msgs'}
+[0.001193] (-) JobUnselected: {'identifier': 'swift_pico_description'}
+[0.001210] (-) JobUnselected: {'identifier': 'waypoint_navigation'}
+[0.001226] (-) JobUnselected: {'identifier': 'whycode'}
+[0.001243] (-) JobUnselected: {'identifier': 'whycode_interfaces'}
+[0.001263] (swift_pico) JobQueued: {'identifier': 'swift_pico', 'dependencies': OrderedDict([('controller_msg', '/home/sudhamsh/pico_ws/install/controller_msg'), ('error_msg', '/home/sudhamsh/pico_ws/install/error_msg'), ('swift_msgs', '/home/sudhamsh/pico_ws/install/swift_msgs'), ('swift_pico_description', '/home/sudhamsh/pico_ws/install/swift_pico_description'), ('waypoint_navigation', '/home/sudhamsh/pico_ws/install/waypoint_navigation'), ('whycode_interfaces', '/home/sudhamsh/pico_ws/install/whycode_interfaces')])}
+[0.001296] (swift_pico) JobStarted: {'identifier': 'swift_pico'}
+[0.029773] (swift_pico) JobProgress: {'identifier': 'swift_pico', 'progress': 'cmake'}
+[0.030345] (swift_pico) Command: {'cmd': ['/usr/bin/cmake', '/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/swift_pico', '-DCMAKE_INSTALL_PREFIX=/home/sudhamsh/pico_ws/install/swift_pico'], 'cwd': '/home/sudhamsh/pico_ws/build/swift_pico', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sudhamsh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sudhamsh/pico_ws/install/whycode_interfaces/lib:/home/sudhamsh/pico_ws/install/waypoint_navigation/lib:/home/sudhamsh/pico_ws/install/swift_msgs/lib:/home/sudhamsh/pico_ws/install/error_msg/lib:/home/sudhamsh/pico_ws/install/controller_msg/lib:/home/sudhamsh/pico_ws/install/rotors_control/lib:/home/sudhamsh/pico_ws/install/mav_system_msgs/lib:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs/lib:/home/sudhamsh/pico_ws/install/mav_planning_msgs/lib:/home/sudhamsh/pico_ws/install/mav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/sudhamsh/.local/lib/python3.10/site-packages/mujoco'), ('HOME', '/home/sudhamsh'), ('OLDPWD', '/home/sudhamsh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sudhamsh/pico_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sudhamsh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sudhamsh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mAchine06:@/tmp/.ICE-unix/1718,unix/mAchine06:/tmp/.ICE-unix/1718'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d643da6_202d_4605_9068_4e2a99bbdf3e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MSMMX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.183'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/waypoint_navigation:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/rotors_swift_interface:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_comm:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/mav_planning_msgs:/home/sudhamsh/pico_ws/install/mav_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sudhamsh/pico_ws/build/swift_pico'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sudhamsh/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/waypoint_navigation:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/rotors_swift_interface:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_comm:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/mav_planning_msgs:/home/sudhamsh/pico_ws/install/mav_msgs:/opt/ros/humble')]), 'shell': False}
+[0.070842] (swift_pico) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099177] (-) TimerEvent: {}
+[0.109439] (swift_pico) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.114145] (swift_pico) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.169415] (swift_pico) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.175015] (swift_pico) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.175248] (swift_pico) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.175498] (swift_pico) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.177794] (swift_pico) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199282] (-) TimerEvent: {}
+[0.236558] (swift_pico) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.242992] (swift_pico) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.243221] (swift_pico) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.243520] (swift_pico) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.245144] (swift_pico) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299416] (-) TimerEvent: {}
+[0.371045] (swift_pico) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399531] (-) TimerEvent: {}
+[0.439234] (swift_pico) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.467696] (swift_pico) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.471344] (swift_pico) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.477051] (swift_pico) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.484756] (swift_pico) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.494835] (swift_pico) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499608] (-) TimerEvent: {}
+[0.523119] (swift_pico) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.525130] (swift_pico) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.599720] (-) TimerEvent: {}
+[0.615317] (swift_pico) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.636435] (swift_pico) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.664828] (swift_pico) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.670670] (swift_pico) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.699828] (-) TimerEvent: {}
+[0.730755] (swift_pico) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.731317] (swift_pico) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.790543] (swift_pico) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.791918] (swift_pico) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.799902] (-) TimerEvent: {}
+[0.833473] (swift_pico) StdoutLine: {'line': b'-- Found swift_msgs: 0.0.0 (/home/sudhamsh/pico_ws/install/swift_msgs/share/swift_msgs/cmake)\n'}
+[0.844056] (swift_pico) StdoutLine: {'line': b'-- Found controller_msg: 0.0.0 (/home/sudhamsh/pico_ws/install/controller_msg/share/controller_msg/cmake)\n'}
+[0.858634] (swift_pico) StdoutLine: {'line': b'-- Found error_msg: 0.0.0 (/home/sudhamsh/pico_ws/install/error_msg/share/error_msg/cmake)\n'}
+[0.868468] (swift_pico) StdoutLine: {'line': b'-- Found whycode_interfaces: 0.0.1 (/home/sudhamsh/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake)\n'}
+[0.886101] (swift_pico) StdoutLine: {'line': b'-- Found waypoint_navigation: 0.0.0 (/home/sudhamsh/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake)\n'}
+[0.900036] (-) TimerEvent: {}
+[0.956002] (swift_pico) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.962184] (swift_pico) StdoutLine: {'line': b'-- Generating done\n'}
+[0.964583] (swift_pico) StdoutLine: {'line': b'-- Build files have been written to: /home/sudhamsh/pico_ws/build/swift_pico\n'}
+[0.971630] (swift_pico) CommandEnded: {'returncode': 0}
+[0.974381] (swift_pico) JobProgress: {'identifier': 'swift_pico', 'progress': 'build'}
+[0.974648] (swift_pico) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sudhamsh/pico_ws/build/swift_pico', '--', '-j18', '-l18'], 'cwd': '/home/sudhamsh/pico_ws/build/swift_pico', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sudhamsh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sudhamsh/pico_ws/install/whycode_interfaces/lib:/home/sudhamsh/pico_ws/install/waypoint_navigation/lib:/home/sudhamsh/pico_ws/install/swift_msgs/lib:/home/sudhamsh/pico_ws/install/error_msg/lib:/home/sudhamsh/pico_ws/install/controller_msg/lib:/home/sudhamsh/pico_ws/install/rotors_control/lib:/home/sudhamsh/pico_ws/install/mav_system_msgs/lib:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs/lib:/home/sudhamsh/pico_ws/install/mav_planning_msgs/lib:/home/sudhamsh/pico_ws/install/mav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/sudhamsh/.local/lib/python3.10/site-packages/mujoco'), ('HOME', '/home/sudhamsh'), ('OLDPWD', '/home/sudhamsh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sudhamsh/pico_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sudhamsh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sudhamsh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mAchine06:@/tmp/.ICE-unix/1718,unix/mAchine06:/tmp/.ICE-unix/1718'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d643da6_202d_4605_9068_4e2a99bbdf3e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MSMMX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.183'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/waypoint_navigation:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/rotors_swift_interface:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_comm:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/mav_planning_msgs:/home/sudhamsh/pico_ws/install/mav_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sudhamsh/pico_ws/build/swift_pico'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sudhamsh/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/waypoint_navigation:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/rotors_swift_interface:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_comm:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/mav_planning_msgs:/home/sudhamsh/pico_ws/install/mav_msgs:/opt/ros/humble')]), 'shell': False}
+[1.000124] (-) TimerEvent: {}
+[1.016198] (swift_pico) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pico_controller_PID.dir/src/pico_controller_PID.cpp.o\x1b[0m\n'}
+[1.100240] (-) TimerEvent: {}
+[1.200609] (-) TimerEvent: {}
+[1.301032] (-) TimerEvent: {}
+[1.401406] (-) TimerEvent: {}
+[1.501835] (-) TimerEvent: {}
+[1.602190] (-) TimerEvent: {}
+[1.702527] (-) TimerEvent: {}
+[1.802873] (-) TimerEvent: {}
+[1.903248] (-) TimerEvent: {}
+[2.003648] (-) TimerEvent: {}
+[2.104053] (-) TimerEvent: {}
+[2.204476] (-) TimerEvent: {}
+[2.304852] (-) TimerEvent: {}
+[2.405252] (-) TimerEvent: {}
+[2.505658] (-) TimerEvent: {}
+[2.606046] (-) TimerEvent: {}
+[2.706450] (-) TimerEvent: {}
+[2.806830] (-) TimerEvent: {}
+[2.907212] (-) TimerEvent: {}
+[3.007554] (-) TimerEvent: {}
+[3.107904] (-) TimerEvent: {}
+[3.208272] (-) TimerEvent: {}
+[3.308617] (-) TimerEvent: {}
+[3.409022] (-) TimerEvent: {}
+[3.509394] (-) TimerEvent: {}
+[3.609765] (-) TimerEvent: {}
+[3.710205] (-) TimerEvent: {}
+[3.810551] (-) TimerEvent: {}
+[3.910916] (-) TimerEvent: {}
+[4.011283] (-) TimerEvent: {}
+[4.111633] (-) TimerEvent: {}
+[4.211981] (-) TimerEvent: {}
+[4.312286] (-) TimerEvent: {}
+[4.412611] (-) TimerEvent: {}
+[4.512932] (-) TimerEvent: {}
+[4.613275] (-) TimerEvent: {}
+[4.713608] (-) TimerEvent: {}
+[4.813931] (-) TimerEvent: {}
+[4.914258] (-) TimerEvent: {}
+[5.014588] (-) TimerEvent: {}
+[5.114989] (-) TimerEvent: {}
+[5.215404] (-) TimerEvent: {}
+[5.315729] (-) TimerEvent: {}
+[5.416029] (-) TimerEvent: {}
+[5.516336] (-) TimerEvent: {}
+[5.616655] (-) TimerEvent: {}
+[5.716983] (-) TimerEvent: {}
+[5.817322] (-) TimerEvent: {}
+[5.917681] (-) TimerEvent: {}
+[6.018027] (-) TimerEvent: {}
+[6.118362] (-) TimerEvent: {}
+[6.218664] (-) TimerEvent: {}
+[6.319124] (-) TimerEvent: {}
+[6.419468] (-) TimerEvent: {}
+[6.519845] (-) TimerEvent: {}
+[6.620247] (-) TimerEvent: {}
+[6.720621] (-) TimerEvent: {}
+[6.821040] (-) TimerEvent: {}
+[6.921437] (-) TimerEvent: {}
+[7.021747] (-) TimerEvent: {}
+[7.122115] (-) TimerEvent: {}
+[7.222463] (-) TimerEvent: {}
+[7.322810] (-) TimerEvent: {}
+[7.423130] (-) TimerEvent: {}
+[7.523484] (-) TimerEvent: {}
+[7.623819] (-) TimerEvent: {}
+[7.724193] (-) TimerEvent: {}
+[7.824563] (-) TimerEvent: {}
+[7.924890] (-) TimerEvent: {}
+[8.025215] (-) TimerEvent: {}
+[8.125541] (-) TimerEvent: {}
+[8.225864] (-) TimerEvent: {}
+[8.326185] (-) TimerEvent: {}
+[8.426498] (-) TimerEvent: {}
+[8.526844] (-) TimerEvent: {}
+[8.627191] (-) TimerEvent: {}
+[8.727558] (-) TimerEvent: {}
+[8.827977] (-) TimerEvent: {}
+[8.928286] (-) TimerEvent: {}
+[9.028606] (-) TimerEvent: {}
+[9.128937] (-) TimerEvent: {}
+[9.229264] (-) TimerEvent: {}
+[9.329591] (-) TimerEvent: {}
+[9.429902] (-) TimerEvent: {}
+[9.530222] (-) TimerEvent: {}
+[9.630542] (-) TimerEvent: {}
+[9.730869] (-) TimerEvent: {}
+[9.831197] (-) TimerEvent: {}
+[9.931560] (-) TimerEvent: {}
+[10.031970] (-) TimerEvent: {}
+[10.132284] (-) TimerEvent: {}
+[10.232606] (-) TimerEvent: {}
+[10.332994] (-) TimerEvent: {}
+[10.433418] (-) TimerEvent: {}
+[10.533755] (-) TimerEvent: {}
+[10.634106] (-) TimerEvent: {}
+[10.734441] (-) TimerEvent: {}
+[10.834769] (-) TimerEvent: {}
+[10.935110] (-) TimerEvent: {}
+[11.024148] (swift_pico) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pico_controller_PID\x1b[0m\n'}
+[11.035175] (-) TimerEvent: {}
+[11.135450] (-) TimerEvent: {}
+[11.147427] (swift_pico) StdoutLine: {'line': b'[100%] Built target pico_controller_PID\n'}
+[11.159811] (swift_pico) CommandEnded: {'returncode': 0}
+[11.160681] (swift_pico) JobProgress: {'identifier': 'swift_pico', 'progress': 'install'}
+[11.168919] (swift_pico) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sudhamsh/pico_ws/build/swift_pico'], 'cwd': '/home/sudhamsh/pico_ws/build/swift_pico', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sudhamsh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sudhamsh/pico_ws/install/whycode_interfaces/lib:/home/sudhamsh/pico_ws/install/waypoint_navigation/lib:/home/sudhamsh/pico_ws/install/swift_msgs/lib:/home/sudhamsh/pico_ws/install/error_msg/lib:/home/sudhamsh/pico_ws/install/controller_msg/lib:/home/sudhamsh/pico_ws/install/rotors_control/lib:/home/sudhamsh/pico_ws/install/mav_system_msgs/lib:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs/lib:/home/sudhamsh/pico_ws/install/mav_planning_msgs/lib:/home/sudhamsh/pico_ws/install/mav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/sudhamsh/.local/lib/python3.10/site-packages/mujoco'), ('HOME', '/home/sudhamsh'), ('OLDPWD', '/home/sudhamsh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1919'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sudhamsh/pico_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sudhamsh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sudhamsh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mAchine06:@/tmp/.ICE-unix/1718,unix/mAchine06:/tmp/.ICE-unix/1718'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d643da6_202d_4605_9068_4e2a99bbdf3e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MSMMX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.183'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/waypoint_navigation:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/rotors_swift_interface:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_comm:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/mav_planning_msgs:/home/sudhamsh/pico_ws/install/mav_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sudhamsh/pico_ws/build/swift_pico'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sudhamsh/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/sudhamsh/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sudhamsh/pico_ws/install/whycode_interfaces:/home/sudhamsh/pico_ws/install/waypoint_navigation:/home/sudhamsh/pico_ws/install/swift_pico_description:/home/sudhamsh/pico_ws/install/swift_msgs:/home/sudhamsh/pico_ws/install/error_msg:/home/sudhamsh/pico_ws/install/controller_msg:/home/sudhamsh/pico_ws/install/whycode:/home/sudhamsh/pico_ws/install/swift_pico:/home/sudhamsh/pico_ws/install/rotors_swift_interface:/home/sudhamsh/pico_ws/install/rotors_swift_gazebo:/home/sudhamsh/pico_ws/install/rotors_swift_description:/home/sudhamsh/pico_ws/install/rotors_control:/home/sudhamsh/pico_ws/install/pid_tune:/home/sudhamsh/pico_ws/install/mav_comm:/home/sudhamsh/pico_ws/install/mav_system_msgs:/home/sudhamsh/pico_ws/install/mav_state_machine_msgs:/home/sudhamsh/pico_ws/install/mav_planning_msgs:/home/sudhamsh/pico_ws/install/mav_msgs:/opt/ros/humble')]), 'shell': False}
+[11.174651] (swift_pico) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[11.174804] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/lib/swift_pico/mujoco_bridge\n'}
+[11.175113] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/lib/swift_pico/libmujoco.so.3.9.0\n'}
+[11.177851] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/swift_pico/launch\n'}
+[11.177918] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/swift_pico/launch/swift_pico_simulation.launch.py\n'}
+[11.177979] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/swift_pico/config/fastdds_profile.xml\n'}
+[11.178040] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/swift_pico/scripts/grid_whycode_coordinates.json\n'}
+[11.178106] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/lib/swift_pico/pico_controller_PID\n'}
+[11.178496] (swift_pico) StdoutLine: {'line': b'-- Set runtime path of "/home/sudhamsh/pico_ws/install/swift_pico/lib/swift_pico/pico_controller_PID" to ""\n'}
+[11.178575] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/lib/swift_pico/pico_controller_PID.py\n'}
+[11.178627] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/lib/swift_pico/pico_controller_LQR.py\n'}
+[11.178680] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/lib/swift_pico/waypoint_service.py\n'}
+[11.178734] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/lib/swift_pico/pico_server.py\n'}
+[11.178791] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/lib/swift_pico/pico_client.py\n'}
+[11.178838] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/lib/swift_pico/waypoint_service\n'}
+[11.178884] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/lib/swift_pico/pico_server\n'}
+[11.178945] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/lib/swift_pico/pico_client\n'}
+[11.179000] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/ament_index/resource_index/package_run_dependencies/swift_pico\n'}
+[11.179083] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/ament_index/resource_index/parent_prefix_path/swift_pico\n'}
+[11.179152] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/swift_pico/environment/ament_prefix_path.sh\n'}
+[11.179207] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/swift_pico/environment/ament_prefix_path.dsv\n'}
+[11.179260] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/swift_pico/environment/path.sh\n'}
+[11.179313] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/swift_pico/environment/path.dsv\n'}
+[11.179368] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/swift_pico/local_setup.bash\n'}
+[11.179422] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/swift_pico/local_setup.sh\n'}
+[11.179477] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/swift_pico/local_setup.zsh\n'}
+[11.179532] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/swift_pico/local_setup.dsv\n'}
+[11.179586] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/swift_pico/package.dsv\n'}
+[11.179635] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/ament_index/resource_index/packages/swift_pico\n'}
+[11.179687] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/swift_pico/cmake/swift_picoConfig.cmake\n'}
+[11.179742] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/swift_pico/cmake/swift_picoConfig-version.cmake\n'}
+[11.179796] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/sudhamsh/pico_ws/install/swift_pico/share/swift_pico/package.xml\n'}
+[11.181577] (swift_pico) CommandEnded: {'returncode': 0}
+[11.191704] (swift_pico) JobEnded: {'identifier': 'swift_pico', 'rc': 0}
+[11.192074] (-) EventReactorShutdown: {}

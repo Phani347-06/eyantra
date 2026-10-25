@@ -196,7 +196,6 @@ CMakeFiles/waypoint_navigation__rosidl_typesupport_fastrtps_c.dir/rosidl_typesup
  /home/sudhamsh/pico_ws/build/waypoint_navigation/rosidl_generator_c/waypoint_navigation/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__functions.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
  /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/service_type_support.h \
  /opt/ros/humble/include/rmw/rmw/types.h \
  /opt/ros/humble/include/rcutils/rcutils/logging.h \

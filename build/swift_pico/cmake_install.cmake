@@ -43,7 +43,53 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/sudhamsh/pico_ws/build/swift_pico/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/swift_pico" TYPE PROGRAM FILES "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/swift_pico/config/mujoco_bridge")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/swift_pico" TYPE FILE FILES "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/swift_pico/config/libmujoco.so.3.9.0")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swift_pico" TYPE DIRECTORY FILES "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/swift_pico/launch")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swift_pico/config" TYPE FILE FILES "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/swift_pico/config/fastdds_profile.xml")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swift_pico/scripts" TYPE FILE FILES "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/swift_pico/src/grid_whycode_coordinates.json")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/swift_pico/pico_controller_PID" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/swift_pico/pico_controller_PID")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/swift_pico/pico_controller_PID"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/swift_pico" TYPE EXECUTABLE FILES "/home/sudhamsh/pico_ws/build/swift_pico/pico_controller_PID")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/swift_pico/pico_controller_PID" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/swift_pico/pico_controller_PID")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/swift_pico/pico_controller_PID"
+         OLD_RPATH "/opt/ros/humble/lib:/home/sudhamsh/pico_ws/install/swift_msgs/lib:/home/sudhamsh/pico_ws/install/controller_msg/lib:/home/sudhamsh/pico_ws/install/error_msg/lib:/home/sudhamsh/pico_ws/install/whycode_interfaces/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/swift_pico/pico_controller_PID")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/swift_pico" TYPE PROGRAM FILES
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/swift_pico/src/pico_controller_PID.py"
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/swift_pico/src/pico_controller_LQR.py"
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/swift_pico/src/waypoint_service.py"
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/swift_pico/src/pico_server.py"
+    "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/swift_pico/src/pico_client.py"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -56,6 +102,65 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/swift_pico" TYPE PROGRAM RENAME "pico_client" FILES "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/swift_pico/src/pico_client.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/sudhamsh/pico_ws/build/swift_pico/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/swift_pico")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/sudhamsh/pico_ws/build/swift_pico/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/swift_pico")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swift_pico/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swift_pico/environment" TYPE FILE FILES "/home/sudhamsh/pico_ws/build/swift_pico/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swift_pico/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swift_pico/environment" TYPE FILE FILES "/home/sudhamsh/pico_ws/build/swift_pico/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swift_pico" TYPE FILE FILES "/home/sudhamsh/pico_ws/build/swift_pico/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swift_pico" TYPE FILE FILES "/home/sudhamsh/pico_ws/build/swift_pico/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swift_pico" TYPE FILE FILES "/home/sudhamsh/pico_ws/build/swift_pico/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swift_pico" TYPE FILE FILES "/home/sudhamsh/pico_ws/build/swift_pico/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swift_pico" TYPE FILE FILES "/home/sudhamsh/pico_ws/build/swift_pico/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/sudhamsh/pico_ws/build/swift_pico/ament_cmake_index/share/ament_index/resource_index/packages/swift_pico")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swift_pico/cmake" TYPE FILE FILES
+    "/home/sudhamsh/pico_ws/build/swift_pico/ament_cmake_core/swift_picoConfig.cmake"
+    "/home/sudhamsh/pico_ws/build/swift_pico/ament_cmake_core/swift_picoConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/swift_pico" TYPE FILE FILES "/home/sudhamsh/pico_ws/src/eYRC_26-27_Khojo-Drone/swift_pico/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

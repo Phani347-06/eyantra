@@ -64,11 +64,6 @@ pub struct GetWaypoints_Response {
     #[allow(missing_docs)]
     pub waypoints: geometry_msgs::msg::PoseArray,
 
-
-    // This member is not documented.
-    #[allow(missing_docs)]
-    pub marker_ids: Vec<std::string::String>,
-
 }
 
 
@@ -86,17 +81,9 @@ impl rosidl_runtime_rs::Message for GetWaypoints_Response {
     match msg_cow {
       std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
         waypoints: geometry_msgs::msg::PoseArray::into_rmw_message(std::borrow::Cow::Owned(msg.waypoints)).into_owned(),
-        marker_ids: msg.marker_ids
-          .into_iter()
-          .map(|elem| elem.as_str().into())
-          .collect(),
       }),
       std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
         waypoints: geometry_msgs::msg::PoseArray::into_rmw_message(std::borrow::Cow::Borrowed(&msg.waypoints)).into_owned(),
-        marker_ids: msg.marker_ids
-          .iter()
-          .map(|elem| elem.as_str().into())
-          .collect(),
       })
     }
   }
@@ -104,10 +91,6 @@ impl rosidl_runtime_rs::Message for GetWaypoints_Response {
   fn from_rmw_message(msg: Self::RmwMsg) -> Self {
     Self {
       waypoints: geometry_msgs::msg::PoseArray::from_rmw_message(msg.waypoints),
-      marker_ids: msg.marker_ids
-          .into_iter()
-          .map(|elem| elem.to_string())
-          .collect(),
     }
   }
 }

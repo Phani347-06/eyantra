@@ -1,4 +1,5 @@
+#request definition
 bool get_waypoints
 ---
+#response definition
 geometry_msgs/PoseArray waypoints
-string[] marker_ids

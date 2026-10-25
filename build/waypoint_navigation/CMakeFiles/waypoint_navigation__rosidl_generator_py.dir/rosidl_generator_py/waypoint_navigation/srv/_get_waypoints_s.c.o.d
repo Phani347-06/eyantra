@@ -217,6 +217,4 @@ CMakeFiles/waypoint_navigation__rosidl_generator_py.dir/rosidl_generator_py/wayp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h \
  /home/sudhamsh/pico_ws/build/waypoint_navigation/rosidl_generator_c/waypoint_navigation/srv/detail/get_waypoints__functions.h \
- /home/sudhamsh/pico_ws/build/waypoint_navigation/rosidl_generator_c/waypoint_navigation/msg/rosidl_generator_c__visibility_control.h \
- /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h \
- /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
+ /home/sudhamsh/pico_ws/build/waypoint_navigation/rosidl_generator_c/waypoint_navigation/msg/rosidl_generator_c__visibility_control.h
