@@ -1,0 +1,62 @@
+[0.009s] Invoking command in '/home/phani/pico_ws/build/pid_tune': AMENT_PREFIX_PATH=/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/phani/pico_ws/install/error_msg/lib:/home/phani/pico_ws/install/controller_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phani/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/phani/pico_ws/src/controller_tuner/pid_tune -DCMAKE_INSTALL_PREFIX=/home/phani/pico_ws/install/pid_tune
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.136s] -- The CXX compiler identification is GNU 11.4.0
+[0.143s] -- Detecting C compiler ABI info
+[0.277s] -- Detecting C compiler ABI info - done
+[0.304s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.304s] -- Detecting C compile features
+[0.305s] -- Detecting C compile features - done
+[0.326s] -- Detecting CXX compiler ABI info
+[0.567s] -- Detecting CXX compiler ABI info - done
+[0.601s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.602s] -- Detecting CXX compile features
+[0.602s] -- Detecting CXX compile features - done
+[0.619s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.130s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.530s] -- Found rclpy: 3.3.22 (/opt/ros/humble/share/rclpy/cmake)
+[1.535s] -- Found controller_msg: 0.0.0 (/home/phani/pico_ws/install/controller_msg/share/controller_msg/cmake)
+[1.676s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.691s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.730s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.782s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.860s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.073s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.474s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.490s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.491s] -- Added test 'lint_cmake' to check CMake code style
+[2.494s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.500s] -- Added test 'xmllint' to check XML markup files
+[2.512s] -- Configuring done
+[2.536s] -- Generating done
+[2.557s] -- Build files have been written to: /home/phani/pico_ws/build/pid_tune
+[2.604s] Invoked command in '/home/phani/pico_ws/build/pid_tune' returned '0': AMENT_PREFIX_PATH=/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/phani/pico_ws/install/error_msg/lib:/home/phani/pico_ws/install/controller_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phani/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/phani/pico_ws/src/controller_tuner/pid_tune -DCMAKE_INSTALL_PREFIX=/home/phani/pico_ws/install/pid_tune
+[2.614s] Invoking command in '/home/phani/pico_ws/build/pid_tune': AMENT_PREFIX_PATH=/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/phani/pico_ws/install/error_msg/lib:/home/phani/pico_ws/install/controller_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phani/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/phani/pico_ws/build/pid_tune -- -j12 -l12
+[2.795s] Invoked command in '/home/phani/pico_ws/build/pid_tune' returned '0': AMENT_PREFIX_PATH=/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/phani/pico_ws/install/error_msg/lib:/home/phani/pico_ws/install/controller_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phani/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/phani/pico_ws/build/pid_tune -- -j12 -l12
+[2.796s] Invoking command in '/home/phani/pico_ws/build/pid_tune': AMENT_PREFIX_PATH=/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/phani/pico_ws/install/error_msg/lib:/home/phani/pico_ws/install/controller_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phani/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/phani/pico_ws/build/pid_tune
+[2.825s] -- Install configuration: ""
+[2.831s] -- Installing: /home/phani/pico_ws/install/pid_tune/lib/pid_tune/pid_tune_differential.py
+[2.832s] -- Installing: /home/phani/pico_ws/install/pid_tune/lib/pid_tune/pid_tune_drone_button_ui.py
+[2.835s] -- Installing: /home/phani/pico_ws/install/pid_tune/lib/pid_tune/pid_tune_drone_slider_ui.py
+[2.835s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune//resources
+[2.835s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune//resources/e.png
+[2.835s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune//resources/drone.webp
+[2.835s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune//resources/success.webp
+[2.836s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune//launch
+[2.836s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune//launch/pid_tune_drone.launch.py
+[2.836s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune//launch/pid_tune_diff.launch.py
+[2.837s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/ament_index/resource_index/package_run_dependencies/pid_tune
+[2.837s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/ament_index/resource_index/parent_prefix_path/pid_tune
+[2.841s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune/environment/ament_prefix_path.sh
+[2.843s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune/environment/ament_prefix_path.dsv
+[2.843s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune/environment/path.sh
+[2.843s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune/environment/path.dsv
+[2.843s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune/local_setup.bash
+[2.844s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune/local_setup.sh
+[2.844s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune/local_setup.zsh
+[2.844s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune/local_setup.dsv
+[2.844s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune/package.dsv
+[2.844s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/ament_index/resource_index/packages/pid_tune
+[2.844s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune/cmake/pid_tuneConfig.cmake
+[2.847s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune/cmake/pid_tuneConfig-version.cmake
+[2.851s] -- Installing: /home/phani/pico_ws/install/pid_tune/share/pid_tune/package.xml
+[2.855s] Invoked command in '/home/phani/pico_ws/build/pid_tune' returned '0': AMENT_PREFIX_PATH=/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/phani/pico_ws/install/error_msg/lib:/home/phani/pico_ws/install/controller_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/phani/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/phani/pico_ws/build/pid_tune

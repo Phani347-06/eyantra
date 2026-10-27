@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "actuator_msgs__py",
+		"source" : "/home/phani/pico_ws/build/actuator_msgs/actuator_msgs__py"
+	}
+}

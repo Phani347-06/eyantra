@@ -1,0 +1,9 @@
+/home/phani/pico_ws/build/swift_pico_description/CMakeFiles/uninstall.dir
+/home/phani/pico_ws/build/swift_pico_description/CMakeFiles/swift_pico_description_uninstall.dir
+/home/phani/pico_ws/build/swift_pico_description/CMakeFiles/test.dir
+/home/phani/pico_ws/build/swift_pico_description/CMakeFiles/edit_cache.dir
+/home/phani/pico_ws/build/swift_pico_description/CMakeFiles/rebuild_cache.dir
+/home/phani/pico_ws/build/swift_pico_description/CMakeFiles/list_install_components.dir
+/home/phani/pico_ws/build/swift_pico_description/CMakeFiles/install.dir
+/home/phani/pico_ws/build/swift_pico_description/CMakeFiles/install/local.dir
+/home/phani/pico_ws/build/swift_pico_description/CMakeFiles/install/strip.dir

@@ -1,0 +1,924 @@
+[0.000000] (-) TimerEvent: {}
+[0.000172] (-) JobUnselected: {'identifier': 'actuator_msgs'}
+[0.000479] (-) JobUnselected: {'identifier': 'controller_msg'}
+[0.000593] (-) JobUnselected: {'identifier': 'error_msg'}
+[0.000641] (-) JobUnselected: {'identifier': 'mav_comm'}
+[0.000829] (-) JobUnselected: {'identifier': 'mav_msgs'}
+[0.000854] (-) JobUnselected: {'identifier': 'mav_planning_msgs'}
+[0.000876] (-) JobUnselected: {'identifier': 'mav_state_machine_msgs'}
+[0.000899] (-) JobUnselected: {'identifier': 'mav_system_msgs'}
+[0.000927] (-) JobUnselected: {'identifier': 'pid_tune'}
+[0.001049] (-) JobUnselected: {'identifier': 'rotors_control'}
+[0.001071] (-) JobUnselected: {'identifier': 'rotors_swift_description'}
+[0.001094] (-) JobUnselected: {'identifier': 'rotors_swift_gazebo'}
+[0.001116] (-) JobUnselected: {'identifier': 'rotors_swift_interface'}
+[0.001143] (-) JobUnselected: {'identifier': 'swift_msgs'}
+[0.001167] (-) JobUnselected: {'identifier': 'swift_pico_description'}
+[0.001287] (-) JobUnselected: {'identifier': 'whycode'}
+[0.001329] (-) JobUnselected: {'identifier': 'whycode_interfaces'}
+[0.001385] (waypoint_navigation) JobQueued: {'identifier': 'waypoint_navigation', 'dependencies': OrderedDict()}
+[0.001426] (swift_pico) JobQueued: {'identifier': 'swift_pico', 'dependencies': OrderedDict([('actuator_msgs', '/home/phani/pico_ws/install/actuator_msgs'), ('controller_msg', '/home/phani/pico_ws/install/controller_msg'), ('error_msg', '/home/phani/pico_ws/install/error_msg'), ('swift_msgs', '/home/phani/pico_ws/install/swift_msgs'), ('swift_pico_description', '/home/phani/pico_ws/install/swift_pico_description'), ('waypoint_navigation', '/home/phani/pico_ws/install/waypoint_navigation'), ('whycode_interfaces', '/home/phani/pico_ws/install/whycode_interfaces')])}
+[0.001495] (waypoint_navigation) JobStarted: {'identifier': 'waypoint_navigation'}
+[0.010221] (waypoint_navigation) JobProgress: {'identifier': 'waypoint_navigation', 'progress': 'cmake'}
+[0.010891] (waypoint_navigation) Command: {'cmd': ['/usr/bin/cmake', '/home/phani/pico_ws/src/waypoint_navigation', '-DCMAKE_INSTALL_PREFIX=/home/phani/pico_ws/install/waypoint_navigation'], 'cwd': '/home/phani/pico_ws/build/waypoint_navigation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'phani'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/phani/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/phani/pico_ws/install/whycode_interfaces/lib:/home/phani/pico_ws/install/waypoint_navigation/lib:/home/phani/pico_ws/install/swift_msgs/lib:/home/phani/pico_ws/install/rotors_control/lib:/home/phani/pico_ws/install/mav_system_msgs/lib:/home/phani/pico_ws/install/mav_state_machine_msgs/lib:/home/phani/pico_ws/install/mav_planning_msgs/lib:/home/phani/pico_ws/install/mav_msgs/lib:/home/phani/pico_ws/install/error_msg/lib:/home/phani/pico_ws/install/controller_msg/lib:/home/phani/pico_ws/install/actuator_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/phani'), ('CHROME_DESKTOP', 'code_code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.141.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/268/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/phani/.nvm/versions/node/v22.23.4/bin'), ('NVM_INC', '/home/phani/.nvm/versions/node/v22.23.4/include/node'), ('GTK_IM_MODULE_FILE', '/home/phani/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/268/usr/share/code/code'), ('MANAGERPID', '1918'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2113'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4337'), ('NVM_DIR', '/home/phani/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/phani/pico_ws/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('CODEX_TOOL_CALL_ID', 'exec-423c6359-9f1b-4cac-9425-2371eacd44b8'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'phani'), ('JOURNAL_STREAM', '8:12267'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'phani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/phani/.codex/packages/app-server-daemon/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.local/bin:/home/phani/.codex/tmp/arg0-linux/codex-arg0hvHr3u:/home/phani/.codex/packages/app-server-daemon/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.codex/tmp/arg0-linux/codex-arg0V9LTKI:/home/phani/.codex/packages/standalone/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.local/bin:/home/phani/.local/bin:/home/phani/.nvm/versions/node/v22.23.4/bin:/home/phani/.local/bin:/opt/ros/humble/bin:/home/phani/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/phani-ubuntu:@/tmp/.ICE-unix/2084,unix/phani-ubuntu:/tmp/.ICE-unix/2084'), ('CODEX_VERSION', '0.163.0'), ('GTK_EXE_PREFIX', '/snap/code/268/usr'), ('CODEX_SESSION_ID', '01a15f56-844f-7812-b18f-417b590a02ec'), ('INVOCATION_ID', '5d062dfe1e9549b5a2481a7b3ee7568e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/268/usr/lib/locale'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HZLLX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-26250821ce.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/phani/snap/code/268/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/phani/pico_ws/install/whycode:/home/phani/pico_ws/install/swift_pico:/home/phani/pico_ws/install/whycode_interfaces:/home/phani/pico_ws/install/waypoint_navigation:/home/phani/pico_ws/install/swift_pico_description:/home/phani/pico_ws/install/rotors_swift_interface:/home/phani/pico_ws/install/swift_msgs:/home/phani/pico_ws/install/rotors_swift_gazebo:/home/phani/pico_ws/install/rotors_swift_description:/home/phani/pico_ws/install/rotors_control:/home/phani/pico_ws/install/pid_tune:/home/phani/pico_ws/install/mav_comm:/home/phani/pico_ws/install/mav_system_msgs:/home/phani/pico_ws/install/mav_state_machine_msgs:/home/phani/pico_ws/install/mav_planning_msgs:/home/phani/pico_ws/install/mav_msgs:/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/home/phani/pico_ws/install/actuator_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('CODEX_THREAD_ID', '01a15f56-844f-7812-b18f-417b590a02ec'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phani/pico_ws/build/waypoint_navigation'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/phani/snap/code/268/.local/share:/home/phani/snap/code/268:/snap/code/268/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/phani/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/actuator_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MANPATH', '/home/phani/.nvm/versions/node/v22.23.4/share/man:'), ('CMAKE_PREFIX_PATH', '/home/phani/pico_ws/install/whycode:/home/phani/pico_ws/install/swift_pico:/home/phani/pico_ws/install/whycode_interfaces:/home/phani/pico_ws/install/waypoint_navigation:/home/phani/pico_ws/install/swift_pico_description:/home/phani/pico_ws/install/rotors_swift_interface:/home/phani/pico_ws/install/swift_msgs:/home/phani/pico_ws/install/rotors_swift_gazebo:/home/phani/pico_ws/install/rotors_swift_description:/home/phani/pico_ws/install/rotors_control:/home/phani/pico_ws/install/pid_tune:/home/phani/pico_ws/install/mav_comm:/home/phani/pico_ws/install/mav_system_msgs:/home/phani/pico_ws/install/mav_state_machine_msgs:/home/phani/pico_ws/install/mav_planning_msgs:/home/phani/pico_ws/install/mav_msgs:/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/home/phani/pico_ws/install/actuator_msgs:/opt/ros/humble')]), 'shell': False}
+[0.026520] (waypoint_navigation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099679] (-) TimerEvent: {}
+[0.166145] (waypoint_navigation) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.172294] (waypoint_navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.176980] (waypoint_navigation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.199778] (-) TimerEvent: {}
+[0.204646] (waypoint_navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.232179] (waypoint_navigation) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.266267] (waypoint_navigation) StdoutLine: {'line': b'-- Found action_msgs: 1.2.3 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[0.299892] (-) TimerEvent: {}
+[0.400115] (-) TimerEvent: {}
+[0.500316] (-) TimerEvent: {}
+[0.600617] (-) TimerEvent: {}
+[0.642095] (waypoint_navigation) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.700720] (-) TimerEvent: {}
+[0.801027] (-) TimerEvent: {}
+[0.901338] (waypoint_navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901536] (-) TimerEvent: {}
+[1.001679] (-) TimerEvent: {}
+[1.102037] (-) TimerEvent: {}
+[1.204228] (-) TimerEvent: {}
+[1.245793] (waypoint_navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.278804] (waypoint_navigation) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.302440] (waypoint_navigation) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.302631] (waypoint_navigation) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.302685] (waypoint_navigation) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.304401] (-) TimerEvent: {}
+[1.404620] (-) TimerEvent: {}
+[1.460514] (waypoint_navigation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.469697] (waypoint_navigation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.470453] (waypoint_navigation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.472130] (waypoint_navigation) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.504724] (-) TimerEvent: {}
+[1.507506] (waypoint_navigation) StdoutLine: {'line': b'-- Generating done\n'}
+[1.520103] (waypoint_navigation) StdoutLine: {'line': b'-- Build files have been written to: /home/phani/pico_ws/build/waypoint_navigation\n'}
+[1.525987] (waypoint_navigation) CommandEnded: {'returncode': 0}
+[1.527272] (waypoint_navigation) JobProgress: {'identifier': 'waypoint_navigation', 'progress': 'build'}
+[1.529599] (waypoint_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/phani/pico_ws/build/waypoint_navigation', '--', '-j12', '-l12'], 'cwd': '/home/phani/pico_ws/build/waypoint_navigation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'phani'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/phani/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/phani/pico_ws/install/whycode_interfaces/lib:/home/phani/pico_ws/install/waypoint_navigation/lib:/home/phani/pico_ws/install/swift_msgs/lib:/home/phani/pico_ws/install/rotors_control/lib:/home/phani/pico_ws/install/mav_system_msgs/lib:/home/phani/pico_ws/install/mav_state_machine_msgs/lib:/home/phani/pico_ws/install/mav_planning_msgs/lib:/home/phani/pico_ws/install/mav_msgs/lib:/home/phani/pico_ws/install/error_msg/lib:/home/phani/pico_ws/install/controller_msg/lib:/home/phani/pico_ws/install/actuator_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/phani'), ('CHROME_DESKTOP', 'code_code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.141.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/268/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/phani/.nvm/versions/node/v22.23.4/bin'), ('NVM_INC', '/home/phani/.nvm/versions/node/v22.23.4/include/node'), ('GTK_IM_MODULE_FILE', '/home/phani/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/268/usr/share/code/code'), ('MANAGERPID', '1918'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2113'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4337'), ('NVM_DIR', '/home/phani/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/phani/pico_ws/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('CODEX_TOOL_CALL_ID', 'exec-423c6359-9f1b-4cac-9425-2371eacd44b8'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'phani'), ('JOURNAL_STREAM', '8:12267'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'phani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/phani/.codex/packages/app-server-daemon/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.local/bin:/home/phani/.codex/tmp/arg0-linux/codex-arg0hvHr3u:/home/phani/.codex/packages/app-server-daemon/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.codex/tmp/arg0-linux/codex-arg0V9LTKI:/home/phani/.codex/packages/standalone/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.local/bin:/home/phani/.local/bin:/home/phani/.nvm/versions/node/v22.23.4/bin:/home/phani/.local/bin:/opt/ros/humble/bin:/home/phani/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/phani-ubuntu:@/tmp/.ICE-unix/2084,unix/phani-ubuntu:/tmp/.ICE-unix/2084'), ('CODEX_VERSION', '0.163.0'), ('GTK_EXE_PREFIX', '/snap/code/268/usr'), ('CODEX_SESSION_ID', '01a15f56-844f-7812-b18f-417b590a02ec'), ('INVOCATION_ID', '5d062dfe1e9549b5a2481a7b3ee7568e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/268/usr/lib/locale'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HZLLX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-26250821ce.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/phani/snap/code/268/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/phani/pico_ws/install/whycode:/home/phani/pico_ws/install/swift_pico:/home/phani/pico_ws/install/whycode_interfaces:/home/phani/pico_ws/install/waypoint_navigation:/home/phani/pico_ws/install/swift_pico_description:/home/phani/pico_ws/install/rotors_swift_interface:/home/phani/pico_ws/install/swift_msgs:/home/phani/pico_ws/install/rotors_swift_gazebo:/home/phani/pico_ws/install/rotors_swift_description:/home/phani/pico_ws/install/rotors_control:/home/phani/pico_ws/install/pid_tune:/home/phani/pico_ws/install/mav_comm:/home/phani/pico_ws/install/mav_system_msgs:/home/phani/pico_ws/install/mav_state_machine_msgs:/home/phani/pico_ws/install/mav_planning_msgs:/home/phani/pico_ws/install/mav_msgs:/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/home/phani/pico_ws/install/actuator_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('CODEX_THREAD_ID', '01a15f56-844f-7812-b18f-417b590a02ec'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phani/pico_ws/build/waypoint_navigation'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/phani/snap/code/268/.local/share:/home/phani/snap/code/268:/snap/code/268/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/phani/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/actuator_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MANPATH', '/home/phani/.nvm/versions/node/v22.23.4/share/man:'), ('CMAKE_PREFIX_PATH', '/home/phani/pico_ws/install/whycode:/home/phani/pico_ws/install/swift_pico:/home/phani/pico_ws/install/whycode_interfaces:/home/phani/pico_ws/install/waypoint_navigation:/home/phani/pico_ws/install/swift_pico_description:/home/phani/pico_ws/install/rotors_swift_interface:/home/phani/pico_ws/install/swift_msgs:/home/phani/pico_ws/install/rotors_swift_gazebo:/home/phani/pico_ws/install/rotors_swift_description:/home/phani/pico_ws/install/rotors_control:/home/phani/pico_ws/install/pid_tune:/home/phani/pico_ws/install/mav_comm:/home/phani/pico_ws/install/mav_system_msgs:/home/phani/pico_ws/install/mav_state_machine_msgs:/home/phani/pico_ws/install/mav_planning_msgs:/home/phani/pico_ws/install/mav_msgs:/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/home/phani/pico_ws/install/actuator_msgs:/opt/ros/humble')]), 'shell': False}
+[1.584066] (waypoint_navigation) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_generator_c\n'}
+[1.604288] (waypoint_navigation) StdoutLine: {'line': b'[ 10%] Built target waypoint_navigation__rosidl_generator_c\n'}
+[1.604783] (-) TimerEvent: {}
+[1.607214] (waypoint_navigation) StdoutLine: {'line': b'[ 15%] Built target waypoint_navigation__rs\n'}
+[1.607512] (waypoint_navigation) StdoutLine: {'line': b'[ 15%] Built target waypoint_navigation__cpp\n'}
+[1.619956] (waypoint_navigation) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_c\n'}
+[1.620703] (waypoint_navigation) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_waypoint_navigation\n'}
+[1.624712] (waypoint_navigation) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_fastrtps_c\n'}
+[1.628653] (waypoint_navigation) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_introspection_c\n'}
+[1.633803] (waypoint_navigation) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_introspection_cpp\n'}
+[1.634318] (waypoint_navigation) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_cpp\n'}
+[1.635201] (waypoint_navigation) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_fastrtps_cpp\n'}
+[1.635598] (waypoint_navigation) StdoutLine: {'line': b'[ 25%] Built target waypoint_navigation__rosidl_typesupport_c\n'}
+[1.643628] (waypoint_navigation) StdoutLine: {'line': b'[ 35%] Built target waypoint_navigation__rosidl_typesupport_fastrtps_c\n'}
+[1.651977] (waypoint_navigation) StdoutLine: {'line': b'[ 45%] Built target waypoint_navigation__rosidl_typesupport_introspection_c\n'}
+[1.654377] (waypoint_navigation) StdoutLine: {'line': b'[ 55%] Built target waypoint_navigation__rosidl_typesupport_cpp\n'}
+[1.656316] (waypoint_navigation) StdoutLine: {'line': b'[ 65%] Built target waypoint_navigation__rosidl_typesupport_introspection_cpp\n'}
+[1.657876] (waypoint_navigation) StdoutLine: {'line': b'[ 75%] Built target waypoint_navigation__rosidl_typesupport_fastrtps_cpp\n'}
+[1.684664] (waypoint_navigation) StdoutLine: {'line': b'[ 75%] Built target waypoint_navigation\n'}
+[1.704906] (-) TimerEvent: {}
+[1.717557] (waypoint_navigation) StdoutLine: {'line': b'[ 77%] Built target waypoint_navigation__py\n'}
+[1.738068] (waypoint_navigation) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_generator_py\n'}
+[1.754039] (waypoint_navigation) StdoutLine: {'line': b'[ 85%] Built target waypoint_navigation__rosidl_generator_py\n'}
+[1.771916] (waypoint_navigation) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_c__pyext\n'}
+[1.777602] (waypoint_navigation) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_introspection_c__pyext\n'}
+[1.777853] (waypoint_navigation) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.792352] (waypoint_navigation) StdoutLine: {'line': b'[ 90%] Built target waypoint_navigation__rosidl_typesupport_c__pyext\n'}
+[1.797874] (waypoint_navigation) StdoutLine: {'line': b'[100%] Built target waypoint_navigation__rosidl_typesupport_introspection_c__pyext\n'}
+[1.798143] (waypoint_navigation) StdoutLine: {'line': b'[100%] Built target waypoint_navigation__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.805007] (-) TimerEvent: {}
+[1.864267] (waypoint_navigation) StdoutLine: {'line': b'running egg_info\n'}
+[1.865134] (waypoint_navigation) StdoutLine: {'line': b'writing waypoint_navigation.egg-info/PKG-INFO\n'}
+[1.865488] (waypoint_navigation) StdoutLine: {'line': b'writing dependency_links to waypoint_navigation.egg-info/dependency_links.txt\n'}
+[1.865741] (waypoint_navigation) StdoutLine: {'line': b'writing top-level names to waypoint_navigation.egg-info/top_level.txt\n'}
+[1.868249] (waypoint_navigation) StdoutLine: {'line': b"reading manifest file 'waypoint_navigation.egg-info/SOURCES.txt'\n"}
+[1.869702] (waypoint_navigation) StdoutLine: {'line': b"writing manifest file 'waypoint_navigation.egg-info/SOURCES.txt'\n"}
+[1.898648] (waypoint_navigation) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_waypoint_navigation_egg\n'}
+[1.905138] (-) TimerEvent: {}
+[2.005536] (-) TimerEvent: {}
+[2.105824] (-) TimerEvent: {}
+[2.206164] (-) TimerEvent: {}
+[2.306548] (-) TimerEvent: {}
+[2.406843] (-) TimerEvent: {}
+[2.507112] (-) TimerEvent: {}
+[2.607445] (-) TimerEvent: {}
+[2.707781] (-) TimerEvent: {}
+[2.808097] (-) TimerEvent: {}
+[2.908430] (-) TimerEvent: {}
+[3.008710] (-) TimerEvent: {}
+[3.108981] (-) TimerEvent: {}
+[3.209258] (-) TimerEvent: {}
+[3.309674] (-) TimerEvent: {}
+[3.410090] (-) TimerEvent: {}
+[3.510520] (-) TimerEvent: {}
+[3.610951] (-) TimerEvent: {}
+[3.711222] (-) TimerEvent: {}
+[3.811501] (-) TimerEvent: {}
+[3.911860] (-) TimerEvent: {}
+[4.012248] (-) TimerEvent: {}
+[4.112648] (-) TimerEvent: {}
+[4.212948] (-) TimerEvent: {}
+[4.313267] (-) TimerEvent: {}
+[4.413643] (-) TimerEvent: {}
+[4.513956] (-) TimerEvent: {}
+[4.614204] (-) TimerEvent: {}
+[4.714545] (-) TimerEvent: {}
+[4.815048] (-) TimerEvent: {}
+[4.915519] (-) TimerEvent: {}
+[5.015888] (-) TimerEvent: {}
+[5.116205] (-) TimerEvent: {}
+[5.216499] (-) TimerEvent: {}
+[5.316866] (-) TimerEvent: {}
+[5.417302] (-) TimerEvent: {}
+[5.517816] (-) TimerEvent: {}
+[5.618291] (-) TimerEvent: {}
+[5.718640] (-) TimerEvent: {}
+[5.818908] (-) TimerEvent: {}
+[5.919451] (-) TimerEvent: {}
+[6.019844] (-) TimerEvent: {}
+[6.120177] (-) TimerEvent: {}
+[6.220397] (-) TimerEvent: {}
+[6.320721] (-) TimerEvent: {}
+[6.420929] (-) TimerEvent: {}
+[6.521202] (-) TimerEvent: {}
+[6.621590] (-) TimerEvent: {}
+[6.721994] (-) TimerEvent: {}
+[6.822521] (-) TimerEvent: {}
+[6.922881] (-) TimerEvent: {}
+[7.023190] (-) TimerEvent: {}
+[7.123607] (-) TimerEvent: {}
+[7.224000] (-) TimerEvent: {}
+[7.324387] (-) TimerEvent: {}
+[7.425651] (-) TimerEvent: {}
+[7.525997] (-) TimerEvent: {}
+[7.626317] (-) TimerEvent: {}
+[7.726599] (-) TimerEvent: {}
+[7.826853] (-) TimerEvent: {}
+[7.927097] (-) TimerEvent: {}
+[8.027329] (-) TimerEvent: {}
+[8.127561] (-) TimerEvent: {}
+[8.227813] (-) TimerEvent: {}
+[8.328058] (-) TimerEvent: {}
+[8.428328] (-) TimerEvent: {}
+[8.528608] (-) TimerEvent: {}
+[8.628834] (-) TimerEvent: {}
+[8.729159] (-) TimerEvent: {}
+[8.829672] (-) TimerEvent: {}
+[8.929996] (-) TimerEvent: {}
+[9.030277] (-) TimerEvent: {}
+[9.130531] (-) TimerEvent: {}
+[9.230828] (-) TimerEvent: {}
+[9.331140] (-) TimerEvent: {}
+[9.431577] (-) TimerEvent: {}
+[9.531919] (-) TimerEvent: {}
+[9.632174] (-) TimerEvent: {}
+[9.732580] (-) TimerEvent: {}
+[9.832885] (-) TimerEvent: {}
+[9.933158] (-) TimerEvent: {}
+[10.033473] (-) TimerEvent: {}
+[10.133756] (-) TimerEvent: {}
+[10.234150] (-) TimerEvent: {}
+[10.334386] (-) TimerEvent: {}
+[10.434645] (-) TimerEvent: {}
+[10.534942] (-) TimerEvent: {}
+[10.635288] (-) TimerEvent: {}
+[10.735677] (-) TimerEvent: {}
+[10.836095] (-) TimerEvent: {}
+[10.936785] (-) TimerEvent: {}
+[11.037143] (-) TimerEvent: {}
+[11.137564] (-) TimerEvent: {}
+[11.237937] (-) TimerEvent: {}
+[11.338285] (-) TimerEvent: {}
+[11.438679] (-) TimerEvent: {}
+[11.538929] (-) TimerEvent: {}
+[11.639205] (-) TimerEvent: {}
+[11.739441] (-) TimerEvent: {}
+[11.839633] (-) TimerEvent: {}
+[11.939891] (-) TimerEvent: {}
+[12.040146] (-) TimerEvent: {}
+[12.140331] (-) TimerEvent: {}
+[12.240612] (-) TimerEvent: {}
+[12.340813] (-) TimerEvent: {}
+[12.441044] (-) TimerEvent: {}
+[12.541429] (-) TimerEvent: {}
+[12.641626] (-) TimerEvent: {}
+[12.741830] (-) TimerEvent: {}
+[12.842085] (-) TimerEvent: {}
+[12.942313] (-) TimerEvent: {}
+[13.042546] (-) TimerEvent: {}
+[13.142757] (-) TimerEvent: {}
+[13.243008] (-) TimerEvent: {}
+[13.343257] (-) TimerEvent: {}
+[13.443494] (-) TimerEvent: {}
+[13.543737] (-) TimerEvent: {}
+[13.644148] (-) TimerEvent: {}
+[13.744361] (-) TimerEvent: {}
+[13.844628] (-) TimerEvent: {}
+[13.944917] (-) TimerEvent: {}
+[14.045217] (-) TimerEvent: {}
+[14.145572] (-) TimerEvent: {}
+[14.245954] (-) TimerEvent: {}
+[14.346455] (-) TimerEvent: {}
+[14.446766] (-) TimerEvent: {}
+[14.547225] (-) TimerEvent: {}
+[14.647465] (-) TimerEvent: {}
+[14.747735] (-) TimerEvent: {}
+[14.848201] (-) TimerEvent: {}
+[14.948527] (-) TimerEvent: {}
+[15.048803] (-) TimerEvent: {}
+[15.149045] (-) TimerEvent: {}
+[15.249288] (-) TimerEvent: {}
+[15.349752] (-) TimerEvent: {}
+[15.450005] (-) TimerEvent: {}
+[15.550252] (-) TimerEvent: {}
+[15.650507] (-) TimerEvent: {}
+[15.750864] (-) TimerEvent: {}
+[15.851099] (-) TimerEvent: {}
+[15.951381] (-) TimerEvent: {}
+[16.052020] (-) TimerEvent: {}
+[16.152633] (-) TimerEvent: {}
+[16.252938] (-) TimerEvent: {}
+[16.353226] (-) TimerEvent: {}
+[16.453602] (-) TimerEvent: {}
+[16.554148] (-) TimerEvent: {}
+[16.654657] (-) TimerEvent: {}
+[16.755073] (-) TimerEvent: {}
+[16.855310] (-) TimerEvent: {}
+[16.955502] (-) TimerEvent: {}
+[17.055797] (-) TimerEvent: {}
+[17.156143] (-) TimerEvent: {}
+[17.256459] (-) TimerEvent: {}
+[17.356809] (-) TimerEvent: {}
+[17.457372] (-) TimerEvent: {}
+[17.557770] (-) TimerEvent: {}
+[17.658136] (-) TimerEvent: {}
+[17.758372] (-) TimerEvent: {}
+[17.858586] (-) TimerEvent: {}
+[17.958810] (-) TimerEvent: {}
+[18.059092] (-) TimerEvent: {}
+[18.184814] (-) TimerEvent: {}
+[18.285041] (-) TimerEvent: {}
+[18.385492] (-) TimerEvent: {}
+[18.485858] (-) TimerEvent: {}
+[18.586077] (-) TimerEvent: {}
+[18.686338] (-) TimerEvent: {}
+[18.786653] (-) TimerEvent: {}
+[18.886944] (-) TimerEvent: {}
+[18.987233] (-) TimerEvent: {}
+[19.087495] (-) TimerEvent: {}
+[19.187726] (-) TimerEvent: {}
+[19.287947] (-) TimerEvent: {}
+[19.388245] (-) TimerEvent: {}
+[19.488708] (-) TimerEvent: {}
+[19.588983] (-) TimerEvent: {}
+[19.689294] (-) TimerEvent: {}
+[19.789714] (-) TimerEvent: {}
+[19.889926] (-) TimerEvent: {}
+[19.990165] (-) TimerEvent: {}
+[20.090402] (-) TimerEvent: {}
+[20.190738] (-) TimerEvent: {}
+[20.290938] (-) TimerEvent: {}
+[20.391231] (-) TimerEvent: {}
+[20.491511] (-) TimerEvent: {}
+[20.591757] (-) TimerEvent: {}
+[20.692002] (-) TimerEvent: {}
+[20.792269] (-) TimerEvent: {}
+[20.892482] (-) TimerEvent: {}
+[20.992828] (-) TimerEvent: {}
+[21.093200] (-) TimerEvent: {}
+[21.193537] (-) TimerEvent: {}
+[21.293789] (-) TimerEvent: {}
+[21.394039] (-) TimerEvent: {}
+[21.494283] (-) TimerEvent: {}
+[21.594492] (-) TimerEvent: {}
+[21.694707] (-) TimerEvent: {}
+[21.794921] (-) TimerEvent: {}
+[21.895167] (-) TimerEvent: {}
+[21.996254] (-) TimerEvent: {}
+[22.096591] (-) TimerEvent: {}
+[22.196862] (-) TimerEvent: {}
+[22.297168] (-) TimerEvent: {}
+[22.397476] (-) TimerEvent: {}
+[22.497775] (-) TimerEvent: {}
+[22.598041] (-) TimerEvent: {}
+[22.698299] (-) TimerEvent: {}
+[22.798548] (-) TimerEvent: {}
+[22.898807] (-) TimerEvent: {}
+[22.999020] (-) TimerEvent: {}
+[23.099229] (-) TimerEvent: {}
+[23.199470] (-) TimerEvent: {}
+[23.299847] (-) TimerEvent: {}
+[23.400041] (-) TimerEvent: {}
+[23.500275] (-) TimerEvent: {}
+[23.600473] (-) TimerEvent: {}
+[23.700769] (-) TimerEvent: {}
+[23.800965] (-) TimerEvent: {}
+[23.901272] (-) TimerEvent: {}
+[24.001608] (-) TimerEvent: {}
+[24.101852] (-) TimerEvent: {}
+[24.202072] (-) TimerEvent: {}
+[24.302477] (-) TimerEvent: {}
+[24.402754] (-) TimerEvent: {}
+[24.502947] (-) TimerEvent: {}
+[24.603212] (-) TimerEvent: {}
+[24.703585] (-) TimerEvent: {}
+[24.804067] (-) TimerEvent: {}
+[24.904340] (-) TimerEvent: {}
+[25.004622] (-) TimerEvent: {}
+[25.104870] (-) TimerEvent: {}
+[25.205159] (-) TimerEvent: {}
+[25.305450] (-) TimerEvent: {}
+[25.405667] (-) TimerEvent: {}
+[25.505931] (-) TimerEvent: {}
+[25.606180] (-) TimerEvent: {}
+[25.706460] (-) TimerEvent: {}
+[25.806759] (-) TimerEvent: {}
+[25.906976] (-) TimerEvent: {}
+[26.007886] (-) TimerEvent: {}
+[26.108088] (-) TimerEvent: {}
+[26.208356] (-) TimerEvent: {}
+[26.308552] (-) TimerEvent: {}
+[26.408740] (-) TimerEvent: {}
+[26.508933] (-) TimerEvent: {}
+[26.609183] (-) TimerEvent: {}
+[26.709446] (-) TimerEvent: {}
+[26.809676] (-) TimerEvent: {}
+[26.909918] (-) TimerEvent: {}
+[27.010262] (-) TimerEvent: {}
+[27.110622] (-) TimerEvent: {}
+[27.210980] (-) TimerEvent: {}
+[27.311396] (-) TimerEvent: {}
+[27.411776] (-) TimerEvent: {}
+[27.512130] (-) TimerEvent: {}
+[27.612356] (-) TimerEvent: {}
+[27.712581] (-) TimerEvent: {}
+[27.812867] (-) TimerEvent: {}
+[27.913144] (-) TimerEvent: {}
+[28.013402] (-) TimerEvent: {}
+[28.113737] (-) TimerEvent: {}
+[28.213968] (-) TimerEvent: {}
+[28.314308] (-) TimerEvent: {}
+[28.414684] (-) TimerEvent: {}
+[28.514872] (-) TimerEvent: {}
+[28.615122] (-) TimerEvent: {}
+[28.715437] (-) TimerEvent: {}
+[28.815773] (-) TimerEvent: {}
+[28.916006] (-) TimerEvent: {}
+[29.016297] (-) TimerEvent: {}
+[29.116551] (-) TimerEvent: {}
+[29.216850] (-) TimerEvent: {}
+[29.317183] (-) TimerEvent: {}
+[29.417533] (-) TimerEvent: {}
+[29.517882] (-) TimerEvent: {}
+[29.618259] (-) TimerEvent: {}
+[29.718607] (-) TimerEvent: {}
+[29.818972] (-) TimerEvent: {}
+[29.919438] (-) TimerEvent: {}
+[30.019892] (-) TimerEvent: {}
+[30.030488] (waypoint_navigation) CommandEnded: {'returncode': 0}
+[30.031895] (waypoint_navigation) JobProgress: {'identifier': 'waypoint_navigation', 'progress': 'install'}
+[30.043158] (waypoint_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/phani/pico_ws/build/waypoint_navigation'], 'cwd': '/home/phani/pico_ws/build/waypoint_navigation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'phani'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/phani/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/phani/pico_ws/install/whycode_interfaces/lib:/home/phani/pico_ws/install/waypoint_navigation/lib:/home/phani/pico_ws/install/swift_msgs/lib:/home/phani/pico_ws/install/rotors_control/lib:/home/phani/pico_ws/install/mav_system_msgs/lib:/home/phani/pico_ws/install/mav_state_machine_msgs/lib:/home/phani/pico_ws/install/mav_planning_msgs/lib:/home/phani/pico_ws/install/mav_msgs/lib:/home/phani/pico_ws/install/error_msg/lib:/home/phani/pico_ws/install/controller_msg/lib:/home/phani/pico_ws/install/actuator_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/phani'), ('CHROME_DESKTOP', 'code_code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.141.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/268/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/phani/.nvm/versions/node/v22.23.4/bin'), ('NVM_INC', '/home/phani/.nvm/versions/node/v22.23.4/include/node'), ('GTK_IM_MODULE_FILE', '/home/phani/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/268/usr/share/code/code'), ('MANAGERPID', '1918'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2113'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4337'), ('NVM_DIR', '/home/phani/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/phani/pico_ws/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('CODEX_TOOL_CALL_ID', 'exec-423c6359-9f1b-4cac-9425-2371eacd44b8'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'phani'), ('JOURNAL_STREAM', '8:12267'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'phani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/phani/.codex/packages/app-server-daemon/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.local/bin:/home/phani/.codex/tmp/arg0-linux/codex-arg0hvHr3u:/home/phani/.codex/packages/app-server-daemon/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.codex/tmp/arg0-linux/codex-arg0V9LTKI:/home/phani/.codex/packages/standalone/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.local/bin:/home/phani/.local/bin:/home/phani/.nvm/versions/node/v22.23.4/bin:/home/phani/.local/bin:/opt/ros/humble/bin:/home/phani/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/phani-ubuntu:@/tmp/.ICE-unix/2084,unix/phani-ubuntu:/tmp/.ICE-unix/2084'), ('CODEX_VERSION', '0.163.0'), ('GTK_EXE_PREFIX', '/snap/code/268/usr'), ('CODEX_SESSION_ID', '01a15f56-844f-7812-b18f-417b590a02ec'), ('INVOCATION_ID', '5d062dfe1e9549b5a2481a7b3ee7568e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/268/usr/lib/locale'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HZLLX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-26250821ce.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/phani/snap/code/268/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/phani/pico_ws/install/whycode:/home/phani/pico_ws/install/swift_pico:/home/phani/pico_ws/install/whycode_interfaces:/home/phani/pico_ws/install/waypoint_navigation:/home/phani/pico_ws/install/swift_pico_description:/home/phani/pico_ws/install/rotors_swift_interface:/home/phani/pico_ws/install/swift_msgs:/home/phani/pico_ws/install/rotors_swift_gazebo:/home/phani/pico_ws/install/rotors_swift_description:/home/phani/pico_ws/install/rotors_control:/home/phani/pico_ws/install/pid_tune:/home/phani/pico_ws/install/mav_comm:/home/phani/pico_ws/install/mav_system_msgs:/home/phani/pico_ws/install/mav_state_machine_msgs:/home/phani/pico_ws/install/mav_planning_msgs:/home/phani/pico_ws/install/mav_msgs:/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/home/phani/pico_ws/install/actuator_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('CODEX_THREAD_ID', '01a15f56-844f-7812-b18f-417b590a02ec'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phani/pico_ws/build/waypoint_navigation'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/phani/snap/code/268/.local/share:/home/phani/snap/code/268:/snap/code/268/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/phani/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/actuator_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MANPATH', '/home/phani/.nvm/versions/node/v22.23.4/share/man:'), ('CMAKE_PREFIX_PATH', '/home/phani/pico_ws/install/whycode:/home/phani/pico_ws/install/swift_pico:/home/phani/pico_ws/install/whycode_interfaces:/home/phani/pico_ws/install/waypoint_navigation:/home/phani/pico_ws/install/swift_pico_description:/home/phani/pico_ws/install/rotors_swift_interface:/home/phani/pico_ws/install/swift_msgs:/home/phani/pico_ws/install/rotors_swift_gazebo:/home/phani/pico_ws/install/rotors_swift_description:/home/phani/pico_ws/install/rotors_control:/home/phani/pico_ws/install/pid_tune:/home/phani/pico_ws/install/mav_comm:/home/phani/pico_ws/install/mav_system_msgs:/home/phani/pico_ws/install/mav_state_machine_msgs:/home/phani/pico_ws/install/mav_planning_msgs:/home/phani/pico_ws/install/mav_msgs:/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/home/phani/pico_ws/install/actuator_msgs:/opt/ros/humble')]), 'shell': False}
+[30.051955] (waypoint_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.052534] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/ament_index/resource_index/rosidl_interfaces/waypoint_navigation\n'}
+[30.054787] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation\n'}
+[30.055400] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action\n'}
+[30.055636] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/nav_to_waypoint.h\n'}
+[30.055992] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail\n'}
+[30.056603] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__functions.h\n'}
+[30.057302] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__struct.h\n'}
+[30.057435] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__functions.c\n'}
+[30.057562] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__type_support.h\n'}
+[30.057672] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv\n'}
+[30.057780] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail\n'}
+[30.057883] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__functions.c\n'}
+[30.057974] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__type_support.h\n'}
+[30.058060] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__struct.h\n'}
+[30.058145] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__functions.h\n'}
+[30.058229] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/get_waypoints.h\n'}
+[30.058317] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg\n'}
+[30.058432] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg/rosidl_generator_c__visibility_control.h\n'}
+[30.058549] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/environment/library_path.sh\n'}
+[30.058646] (waypoint_navigation) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/environment/library_path.dsv\n'}
+[30.058744] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_generator_c.so\n'}
+[30.058832] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation\n'}
+[30.058933] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action\n'}
+[30.059029] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail\n'}
+[30.059129] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__rosidl_typesupport_fastrtps_c.h\n'}
+[30.059223] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv\n'}
+[30.059318] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail\n'}
+[30.059418] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__rosidl_typesupport_fastrtps_c.h\n'}
+[30.059540] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg\n'}
+[30.059660] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[30.059769] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_fastrtps_c.so\n'}
+[30.059877] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation\n'}
+[30.059972] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action\n'}
+[30.060069] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail\n'}
+[30.060168] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__rosidl_typesupport_introspection_c.h\n'}
+[30.060263] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__type_support.c\n'}
+[30.060472] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv\n'}
+[30.060617] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail\n'}
+[30.060736] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__rosidl_typesupport_introspection_c.h\n'}
+[30.060840] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__type_support.c\n'}
+[30.060942] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg\n'}
+[30.061043] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[30.061158] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_introspection_c.so\n'}
+[30.061262] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_c.so\n'}
+[30.061364] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation\n'}
+[30.061495] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action\n'}
+[30.061614] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail\n'}
+[30.061718] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__type_support.hpp\n'}
+[30.061819] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__builder.hpp\n'}
+[30.061914] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__struct.hpp\n'}
+[30.062009] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__traits.hpp\n'}
+[30.062106] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/nav_to_waypoint.hpp\n'}
+[30.062207] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv\n'}
+[30.062307] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail\n'}
+[30.062406] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__builder.hpp\n'}
+[30.062526] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__struct.hpp\n'}
+[30.062632] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__traits.hpp\n'}
+[30.062744] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__type_support.hpp\n'}
+[30.062878] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/get_waypoints.hpp\n'}
+[30.063037] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg\n'}
+[30.063308] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[30.063548] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation\n'}
+[30.063707] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action\n'}
+[30.063819] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail\n'}
+[30.063938] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.064060] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/dds_fastrtps\n'}
+[30.064169] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv\n'}
+[30.064277] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail\n'}
+[30.064380] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/dds_fastrtps\n'}
+[30.064500] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.064606] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg\n'}
+[30.064710] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[30.064810] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_fastrtps_cpp.so\n'}
+[30.064922] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation\n'}
+[30.065032] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action\n'}
+[30.065140] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail\n'}
+[30.065249] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.065366] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__type_support.cpp\n'}
+[30.065499] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv\n'}
+[30.065632] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail\n'}
+[30.065749] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__type_support.cpp\n'}
+[30.065856] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.065962] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_introspection_cpp.so\n'}
+[30.066080] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_cpp.so\n'}
+[30.066199] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/environment/pythonpath.sh\n'}
+[30.066316] (waypoint_navigation) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/environment/pythonpath.dsv\n'}
+[30.066514] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation-0.0.0-py3.10.egg-info\n'}
+[30.066699] (waypoint_navigation) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[30.066866] (waypoint_navigation) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[30.067041] (waypoint_navigation) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[30.067247] (waypoint_navigation) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[30.067478] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation\n'}
+[30.067691] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/_waypoint_navigation_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[30.067864] (waypoint_navigation) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/__init__.py\n'}
+[30.067964] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/_waypoint_navigation_s.ep.rosidl_typesupport_c.c\n'}
+[30.068062] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[30.068163] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[30.068264] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/_waypoint_navigation_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[30.068363] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action\n'}
+[30.068481] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action/__init__.py\n'}
+[30.068604] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action/_nav_to_waypoint_s.c\n'}
+[30.068718] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action/_nav_to_waypoint.py\n'}
+[30.068834] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv\n'}
+[30.068949] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv/__init__.py\n'}
+[30.069073] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv/_get_waypoints.py\n'}
+[30.069207] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv/_get_waypoints_s.c\n'}
+[30.069339] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[30.069498] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/libwaypoint_navigation__rosidl_generator_py.so\n'}
+[30.095173] (waypoint_navigation) StdoutLine: {'line': b"Listing '/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation'...\n"}
+[30.095378] (waypoint_navigation) StdoutLine: {'line': b"Compiling '/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/__init__.py'...\n"}
+[30.095514] (waypoint_navigation) StdoutLine: {'line': b"Listing '/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action'...\n"}
+[30.095619] (waypoint_navigation) StdoutLine: {'line': b"Listing '/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv'...\n"}
+[30.101214] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[30.101750] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[30.102159] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[30.102664] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_generator_py.so\n'}
+[30.103470] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust\n'}
+[30.104528] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/build.rs\n'}
+[30.104696] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/src\n'}
+[30.105355] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/src/lib.rs\n'}
+[30.105534] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/src/srv.rs\n'}
+[30.105690] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/src/action\n'}
+[30.105894] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/src/action/rmw.rs\n'}
+[30.106060] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/src/srv\n'}
+[30.106275] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/src/srv/rmw.rs\n'}
+[30.106461] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/src/action.rs\n'}
+[30.106716] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/Cargo.toml\n'}
+[30.106955] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/action/NavToWaypoint.idl\n'}
+[30.107181] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/srv/GetWaypoints.idl\n'}
+[30.107478] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/action/NavToWaypoint.action\n'}
+[30.107719] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/srv/GetWaypoints.srv\n'}
+[30.108313] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/srv/GetWaypoints_Request.msg\n'}
+[30.108651] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/srv/GetWaypoints_Response.msg\n'}
+[30.108754] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/ament_index/resource_index/package_run_dependencies/waypoint_navigation\n'}
+[30.108847] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/ament_index/resource_index/parent_prefix_path/waypoint_navigation\n'}
+[30.108937] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/environment/ament_prefix_path.sh\n'}
+[30.109026] (waypoint_navigation) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/environment/ament_prefix_path.dsv\n'}
+[30.109111] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/environment/path.sh\n'}
+[30.109196] (waypoint_navigation) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/environment/path.dsv\n'}
+[30.109281] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/local_setup.bash\n'}
+[30.109366] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/local_setup.sh\n'}
+[30.109463] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/local_setup.zsh\n'}
+[30.109559] (waypoint_navigation) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/local_setup.dsv\n'}
+[30.109653] (waypoint_navigation) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/package.dsv\n'}
+[30.109747] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/ament_index/resource_index/packages/waypoint_navigation\n'}
+[30.109837] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_generator_cExport.cmake\n'}
+[30.109923] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_generator_cExport-noconfig.cmake\n'}
+[30.110010] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[30.110096] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[30.110186] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_introspection_cExport.cmake\n'}
+[30.110270] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[30.110355] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_cExport.cmake\n'}
+[30.110571] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[30.111365] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_generator_cppExport.cmake\n'}
+[30.111528] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[30.111600] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[30.111647] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[30.111716] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[30.111762] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_cppExport.cmake\n'}
+[30.111801] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[30.111838] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_generator_pyExport.cmake\n'}
+[30.111876] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_generator_pyExport-noconfig.cmake\n'}
+[30.111913] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/rosidl_cmake-extras.cmake\n'}
+[30.111951] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.111988] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.112024] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.112061] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.112097] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[30.112136] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[30.112172] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[30.112207] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigationConfig.cmake\n'}
+[30.112244] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigationConfig-version.cmake\n'}
+[30.112280] (waypoint_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/package.xml\n'}
+[30.112317] (waypoint_navigation) CommandEnded: {'returncode': 0}
+[30.120384] (-) TimerEvent: {}
+[30.139350] (waypoint_navigation) JobEnded: {'identifier': 'waypoint_navigation', 'rc': 0}
+[30.140485] (swift_pico) JobStarted: {'identifier': 'swift_pico'}
+[30.220492] (-) TimerEvent: {}
+[30.320698] (-) TimerEvent: {}
+[30.420950] (-) TimerEvent: {}
+[30.521149] (-) TimerEvent: {}
+[30.621402] (-) TimerEvent: {}
+[30.721766] (-) TimerEvent: {}
+[30.822036] (-) TimerEvent: {}
+[30.922356] (-) TimerEvent: {}
+[31.022702] (-) TimerEvent: {}
+[31.122939] (-) TimerEvent: {}
+[31.223164] (-) TimerEvent: {}
+[31.323441] (-) TimerEvent: {}
+[31.423635] (-) TimerEvent: {}
+[31.523822] (-) TimerEvent: {}
+[31.624028] (-) TimerEvent: {}
+[31.724250] (-) TimerEvent: {}
+[31.824627] (-) TimerEvent: {}
+[31.924882] (-) TimerEvent: {}
+[32.025218] (-) TimerEvent: {}
+[32.125452] (-) TimerEvent: {}
+[32.225665] (-) TimerEvent: {}
+[32.325919] (-) TimerEvent: {}
+[32.426167] (-) TimerEvent: {}
+[32.526327] (-) TimerEvent: {}
+[32.626472] (-) TimerEvent: {}
+[32.726753] (-) TimerEvent: {}
+[32.827005] (-) TimerEvent: {}
+[32.927382] (-) TimerEvent: {}
+[33.027605] (-) TimerEvent: {}
+[33.127815] (-) TimerEvent: {}
+[33.228120] (-) TimerEvent: {}
+[33.328438] (-) TimerEvent: {}
+[33.428812] (-) TimerEvent: {}
+[33.529064] (-) TimerEvent: {}
+[33.629295] (-) TimerEvent: {}
+[33.729581] (-) TimerEvent: {}
+[33.829932] (-) TimerEvent: {}
+[33.930293] (-) TimerEvent: {}
+[34.030636] (-) TimerEvent: {}
+[34.131132] (-) TimerEvent: {}
+[34.231575] (-) TimerEvent: {}
+[34.332014] (-) TimerEvent: {}
+[34.432317] (-) TimerEvent: {}
+[34.532569] (-) TimerEvent: {}
+[34.632890] (-) TimerEvent: {}
+[34.733188] (-) TimerEvent: {}
+[34.833580] (-) TimerEvent: {}
+[34.933800] (-) TimerEvent: {}
+[35.034244] (-) TimerEvent: {}
+[35.134667] (-) TimerEvent: {}
+[35.234954] (-) TimerEvent: {}
+[35.335231] (-) TimerEvent: {}
+[35.435473] (-) TimerEvent: {}
+[35.535727] (-) TimerEvent: {}
+[35.636117] (-) TimerEvent: {}
+[35.736670] (-) TimerEvent: {}
+[35.837004] (-) TimerEvent: {}
+[35.937382] (-) TimerEvent: {}
+[36.037830] (-) TimerEvent: {}
+[36.138045] (-) TimerEvent: {}
+[36.238231] (-) TimerEvent: {}
+[36.338542] (-) TimerEvent: {}
+[36.438744] (-) TimerEvent: {}
+[36.538954] (-) TimerEvent: {}
+[36.639272] (-) TimerEvent: {}
+[36.739466] (-) TimerEvent: {}
+[36.839741] (-) TimerEvent: {}
+[36.940078] (-) TimerEvent: {}
+[37.040469] (-) TimerEvent: {}
+[37.140807] (-) TimerEvent: {}
+[37.241147] (-) TimerEvent: {}
+[37.341558] (-) TimerEvent: {}
+[37.441829] (-) TimerEvent: {}
+[37.542157] (-) TimerEvent: {}
+[37.642435] (-) TimerEvent: {}
+[37.742639] (-) TimerEvent: {}
+[37.842878] (-) TimerEvent: {}
+[37.943174] (-) TimerEvent: {}
+[38.043566] (-) TimerEvent: {}
+[38.143767] (-) TimerEvent: {}
+[38.244004] (-) TimerEvent: {}
+[38.344204] (-) TimerEvent: {}
+[38.444553] (-) TimerEvent: {}
+[38.544750] (-) TimerEvent: {}
+[38.645074] (-) TimerEvent: {}
+[38.745530] (-) TimerEvent: {}
+[38.845720] (-) TimerEvent: {}
+[38.946053] (-) TimerEvent: {}
+[39.046389] (-) TimerEvent: {}
+[39.146586] (-) TimerEvent: {}
+[39.246858] (-) TimerEvent: {}
+[39.347091] (-) TimerEvent: {}
+[39.447462] (-) TimerEvent: {}
+[39.547639] (-) TimerEvent: {}
+[39.647816] (-) TimerEvent: {}
+[39.748027] (-) TimerEvent: {}
+[39.848366] (-) TimerEvent: {}
+[39.948627] (-) TimerEvent: {}
+[40.048930] (-) TimerEvent: {}
+[40.149314] (-) TimerEvent: {}
+[40.249684] (-) TimerEvent: {}
+[40.350107] (-) TimerEvent: {}
+[40.450436] (-) TimerEvent: {}
+[40.550709] (-) TimerEvent: {}
+[40.651087] (-) TimerEvent: {}
+[40.751398] (-) TimerEvent: {}
+[40.851698] (-) TimerEvent: {}
+[40.951969] (-) TimerEvent: {}
+[41.052281] (-) TimerEvent: {}
+[41.152645] (-) TimerEvent: {}
+[41.253133] (-) TimerEvent: {}
+[41.353445] (-) TimerEvent: {}
+[41.453748] (-) TimerEvent: {}
+[41.554228] (-) TimerEvent: {}
+[41.654537] (-) TimerEvent: {}
+[41.754875] (-) TimerEvent: {}
+[41.855139] (-) TimerEvent: {}
+[41.955493] (-) TimerEvent: {}
+[42.055685] (-) TimerEvent: {}
+[42.155960] (-) TimerEvent: {}
+[42.256453] (-) TimerEvent: {}
+[42.356946] (-) TimerEvent: {}
+[42.457362] (-) TimerEvent: {}
+[42.557744] (-) TimerEvent: {}
+[42.658086] (-) TimerEvent: {}
+[42.758266] (-) TimerEvent: {}
+[42.858597] (-) TimerEvent: {}
+[42.958953] (-) TimerEvent: {}
+[43.059484] (-) TimerEvent: {}
+[43.159813] (-) TimerEvent: {}
+[43.260170] (-) TimerEvent: {}
+[43.360554] (-) TimerEvent: {}
+[43.460849] (-) TimerEvent: {}
+[43.561044] (-) TimerEvent: {}
+[43.661257] (-) TimerEvent: {}
+[43.761573] (-) TimerEvent: {}
+[43.861887] (-) TimerEvent: {}
+[43.962286] (-) TimerEvent: {}
+[44.062699] (-) TimerEvent: {}
+[44.163169] (-) TimerEvent: {}
+[44.263644] (-) TimerEvent: {}
+[44.364012] (-) TimerEvent: {}
+[44.464380] (-) TimerEvent: {}
+[44.564834] (-) TimerEvent: {}
+[44.665192] (-) TimerEvent: {}
+[44.765632] (-) TimerEvent: {}
+[44.866083] (-) TimerEvent: {}
+[44.966708] (-) TimerEvent: {}
+[45.067237] (-) TimerEvent: {}
+[45.167896] (-) TimerEvent: {}
+[45.268298] (-) TimerEvent: {}
+[45.368841] (-) TimerEvent: {}
+[45.469156] (-) TimerEvent: {}
+[45.569648] (-) TimerEvent: {}
+[45.669924] (-) TimerEvent: {}
+[45.770118] (-) TimerEvent: {}
+[45.870365] (-) TimerEvent: {}
+[45.970733] (-) TimerEvent: {}
+[46.071062] (-) TimerEvent: {}
+[46.171306] (-) TimerEvent: {}
+[46.271593] (-) TimerEvent: {}
+[46.371885] (-) TimerEvent: {}
+[46.472101] (-) TimerEvent: {}
+[46.572564] (-) TimerEvent: {}
+[46.672927] (-) TimerEvent: {}
+[46.773209] (-) TimerEvent: {}
+[46.873616] (-) TimerEvent: {}
+[46.973975] (-) TimerEvent: {}
+[47.074330] (-) TimerEvent: {}
+[47.174769] (-) TimerEvent: {}
+[47.275086] (-) TimerEvent: {}
+[47.375644] (-) TimerEvent: {}
+[47.476227] (-) TimerEvent: {}
+[47.576747] (-) TimerEvent: {}
+[47.676993] (-) TimerEvent: {}
+[47.777316] (-) TimerEvent: {}
+[47.877675] (-) TimerEvent: {}
+[47.978006] (-) TimerEvent: {}
+[48.078259] (-) TimerEvent: {}
+[48.178633] (-) TimerEvent: {}
+[48.278964] (-) TimerEvent: {}
+[48.379347] (-) TimerEvent: {}
+[48.479730] (-) TimerEvent: {}
+[48.580115] (-) TimerEvent: {}
+[48.680390] (-) TimerEvent: {}
+[48.780806] (-) TimerEvent: {}
+[48.881295] (-) TimerEvent: {}
+[48.981893] (-) TimerEvent: {}
+[49.082438] (-) TimerEvent: {}
+[49.182877] (-) TimerEvent: {}
+[49.283236] (-) TimerEvent: {}
+[49.383793] (-) TimerEvent: {}
+[49.484305] (-) TimerEvent: {}
+[49.584813] (-) TimerEvent: {}
+[49.685147] (-) TimerEvent: {}
+[49.785477] (-) TimerEvent: {}
+[49.885972] (-) TimerEvent: {}
+[49.986398] (-) TimerEvent: {}
+[50.086850] (-) TimerEvent: {}
+[50.187227] (-) TimerEvent: {}
+[50.287606] (-) TimerEvent: {}
+[50.387999] (-) TimerEvent: {}
+[50.488367] (-) TimerEvent: {}
+[50.588723] (-) TimerEvent: {}
+[50.689106] (-) TimerEvent: {}
+[50.789360] (-) TimerEvent: {}
+[50.889621] (-) TimerEvent: {}
+[50.990018] (-) TimerEvent: {}
+[51.090571] (-) TimerEvent: {}
+[51.191111] (-) TimerEvent: {}
+[51.291574] (-) TimerEvent: {}
+[51.391872] (-) TimerEvent: {}
+[51.492091] (-) TimerEvent: {}
+[51.592338] (-) TimerEvent: {}
+[51.692682] (-) TimerEvent: {}
+[51.792991] (-) TimerEvent: {}
+[51.893270] (-) TimerEvent: {}
+[51.993595] (-) TimerEvent: {}
+[52.093825] (-) TimerEvent: {}
+[52.194068] (-) TimerEvent: {}
+[52.294427] (-) TimerEvent: {}
+[52.394739] (-) TimerEvent: {}
+[52.495092] (-) TimerEvent: {}
+[52.595520] (-) TimerEvent: {}
+[52.695898] (-) TimerEvent: {}
+[52.796231] (-) TimerEvent: {}
+[52.896738] (-) TimerEvent: {}
+[52.997216] (-) TimerEvent: {}
+[53.097627] (-) TimerEvent: {}
+[53.198037] (-) TimerEvent: {}
+[53.298440] (-) TimerEvent: {}
+[53.398858] (-) TimerEvent: {}
+[53.499186] (-) TimerEvent: {}
+[53.599580] (-) TimerEvent: {}
+[53.699812] (-) TimerEvent: {}
+[53.800064] (-) TimerEvent: {}
+[53.900304] (-) TimerEvent: {}
+[54.000510] (-) TimerEvent: {}
+[54.100737] (-) TimerEvent: {}
+[54.200966] (-) TimerEvent: {}
+[54.301321] (-) TimerEvent: {}
+[54.401734] (-) TimerEvent: {}
+[54.502286] (-) TimerEvent: {}
+[54.602768] (-) TimerEvent: {}
+[54.703124] (-) TimerEvent: {}
+[54.803664] (-) TimerEvent: {}
+[54.903982] (-) TimerEvent: {}
+[55.004269] (-) TimerEvent: {}
+[55.104652] (-) TimerEvent: {}
+[55.205098] (-) TimerEvent: {}
+[55.305491] (-) TimerEvent: {}
+[55.405812] (-) TimerEvent: {}
+[55.506074] (-) TimerEvent: {}
+[55.606436] (-) TimerEvent: {}
+[55.706623] (-) TimerEvent: {}
+[55.806936] (-) TimerEvent: {}
+[55.907179] (-) TimerEvent: {}
+[56.007582] (-) TimerEvent: {}
+[56.107974] (-) TimerEvent: {}
+[56.208286] (-) TimerEvent: {}
+[56.308568] (-) TimerEvent: {}
+[56.408806] (-) TimerEvent: {}
+[56.509094] (-) TimerEvent: {}
+[56.609429] (-) TimerEvent: {}
+[56.709776] (-) TimerEvent: {}
+[56.810011] (-) TimerEvent: {}
+[56.910342] (-) TimerEvent: {}
+[57.010652] (-) TimerEvent: {}
+[57.111091] (-) TimerEvent: {}
+[57.211524] (-) TimerEvent: {}
+[57.311884] (-) TimerEvent: {}
+[57.412301] (-) TimerEvent: {}
+[57.512687] (-) TimerEvent: {}
+[57.612978] (-) TimerEvent: {}
+[57.713317] (-) TimerEvent: {}
+[57.813759] (-) TimerEvent: {}
+[57.913955] (-) TimerEvent: {}
+[58.014196] (-) TimerEvent: {}
+[58.114487] (-) TimerEvent: {}
+[58.214791] (-) TimerEvent: {}
+[58.315184] (-) TimerEvent: {}
+[58.415683] (-) TimerEvent: {}
+[58.516210] (-) TimerEvent: {}
+[58.616568] (-) TimerEvent: {}
+[58.717089] (-) TimerEvent: {}
+[58.817531] (-) TimerEvent: {}
+[58.917739] (-) TimerEvent: {}
+[59.018054] (-) TimerEvent: {}
+[59.118385] (-) TimerEvent: {}
+[59.218681] (-) TimerEvent: {}
+[59.318916] (-) TimerEvent: {}
+[59.419145] (-) TimerEvent: {}
+[59.519481] (-) TimerEvent: {}
+[59.619684] (-) TimerEvent: {}
+[59.720063] (-) TimerEvent: {}
+[59.820373] (-) TimerEvent: {}
+[59.920570] (-) TimerEvent: {}
+[60.020750] (-) TimerEvent: {}
+[60.121107] (-) TimerEvent: {}
+[60.166104] (swift_pico) JobProgress: {'identifier': 'swift_pico', 'progress': 'cmake'}
+[60.166872] (swift_pico) Command: {'cmd': ['/usr/bin/cmake', '/home/phani/pico_ws/src/swift_pico', '-DCMAKE_INSTALL_PREFIX=/home/phani/pico_ws/install/swift_pico'], 'cwd': '/home/phani/pico_ws/build/swift_pico', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'phani'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/phani/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/phani/pico_ws/install/whycode_interfaces/lib:/home/phani/pico_ws/install/waypoint_navigation/lib:/home/phani/pico_ws/install/swift_msgs/lib:/home/phani/pico_ws/install/error_msg/lib:/home/phani/pico_ws/install/controller_msg/lib:/home/phani/pico_ws/install/actuator_msgs/lib:/home/phani/pico_ws/install/rotors_control/lib:/home/phani/pico_ws/install/mav_system_msgs/lib:/home/phani/pico_ws/install/mav_state_machine_msgs/lib:/home/phani/pico_ws/install/mav_planning_msgs/lib:/home/phani/pico_ws/install/mav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/phani'), ('CHROME_DESKTOP', 'code_code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.141.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/268/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/phani/.nvm/versions/node/v22.23.4/bin'), ('NVM_INC', '/home/phani/.nvm/versions/node/v22.23.4/include/node'), ('GTK_IM_MODULE_FILE', '/home/phani/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/268/usr/share/code/code'), ('MANAGERPID', '1918'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2113'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4337'), ('NVM_DIR', '/home/phani/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/phani/pico_ws/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('CODEX_TOOL_CALL_ID', 'exec-423c6359-9f1b-4cac-9425-2371eacd44b8'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'phani'), ('JOURNAL_STREAM', '8:12267'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'phani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/phani/.codex/packages/app-server-daemon/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.local/bin:/home/phani/.codex/tmp/arg0-linux/codex-arg0hvHr3u:/home/phani/.codex/packages/app-server-daemon/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.codex/tmp/arg0-linux/codex-arg0V9LTKI:/home/phani/.codex/packages/standalone/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.local/bin:/home/phani/.local/bin:/home/phani/.nvm/versions/node/v22.23.4/bin:/home/phani/.local/bin:/opt/ros/humble/bin:/home/phani/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/phani-ubuntu:@/tmp/.ICE-unix/2084,unix/phani-ubuntu:/tmp/.ICE-unix/2084'), ('CODEX_VERSION', '0.163.0'), ('GTK_EXE_PREFIX', '/snap/code/268/usr'), ('CODEX_SESSION_ID', '01a15f56-844f-7812-b18f-417b590a02ec'), ('INVOCATION_ID', '5d062dfe1e9549b5a2481a7b3ee7568e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/268/usr/lib/locale'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HZLLX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-26250821ce.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/phani/snap/code/268/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/phani/pico_ws/install/whycode:/home/phani/pico_ws/install/swift_pico:/home/phani/pico_ws/install/whycode_interfaces:/home/phani/pico_ws/install/waypoint_navigation:/home/phani/pico_ws/install/swift_pico_description:/home/phani/pico_ws/install/rotors_swift_interface:/home/phani/pico_ws/install/swift_msgs:/home/phani/pico_ws/install/rotors_swift_gazebo:/home/phani/pico_ws/install/rotors_swift_description:/home/phani/pico_ws/install/rotors_control:/home/phani/pico_ws/install/pid_tune:/home/phani/pico_ws/install/mav_comm:/home/phani/pico_ws/install/mav_system_msgs:/home/phani/pico_ws/install/mav_state_machine_msgs:/home/phani/pico_ws/install/mav_planning_msgs:/home/phani/pico_ws/install/mav_msgs:/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/home/phani/pico_ws/install/actuator_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('CODEX_THREAD_ID', '01a15f56-844f-7812-b18f-417b590a02ec'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phani/pico_ws/build/swift_pico'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/phani/snap/code/268/.local/share:/home/phani/snap/code/268:/snap/code/268/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/phani/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/actuator_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MANPATH', '/home/phani/.nvm/versions/node/v22.23.4/share/man:'), ('CMAKE_PREFIX_PATH', '/home/phani/pico_ws/install/whycode_interfaces:/home/phani/pico_ws/install/waypoint_navigation:/home/phani/pico_ws/install/swift_pico_description:/home/phani/pico_ws/install/swift_msgs:/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/home/phani/pico_ws/install/actuator_msgs:/home/phani/pico_ws/install/whycode:/home/phani/pico_ws/install/swift_pico:/home/phani/pico_ws/install/rotors_swift_interface:/home/phani/pico_ws/install/rotors_swift_gazebo:/home/phani/pico_ws/install/rotors_swift_description:/home/phani/pico_ws/install/rotors_control:/home/phani/pico_ws/install/pid_tune:/home/phani/pico_ws/install/mav_comm:/home/phani/pico_ws/install/mav_system_msgs:/home/phani/pico_ws/install/mav_state_machine_msgs:/home/phani/pico_ws/install/mav_planning_msgs:/home/phani/pico_ws/install/mav_msgs:/opt/ros/humble')]), 'shell': False}
+[60.183841] (swift_pico) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[60.221190] (-) TimerEvent: {}
+[60.302957] (swift_pico) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[60.321310] (-) TimerEvent: {}
+[60.333453] (swift_pico) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[60.335167] (swift_pico) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[60.340650] (swift_pico) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[60.348805] (swift_pico) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[60.364214] (swift_pico) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[60.384805] (swift_pico) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[60.385999] (swift_pico) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[60.421495] (-) TimerEvent: {}
+[60.513949] (swift_pico) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[60.521581] (-) TimerEvent: {}
+[60.571167] (swift_pico) StdoutLine: {'line': b'-- Found swift_msgs: 0.0.0 (/home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake)\n'}
+[60.578942] (swift_pico) StdoutLine: {'line': b'-- Found controller_msg: 0.0.0 (/home/phani/pico_ws/install/controller_msg/share/controller_msg/cmake)\n'}
+[60.588629] (swift_pico) StdoutLine: {'line': b'-- Found error_msg: 0.0.0 (/home/phani/pico_ws/install/error_msg/share/error_msg/cmake)\n'}
+[60.604158] (swift_pico) StdoutLine: {'line': b'-- Found whycode_interfaces: 0.0.1 (/home/phani/pico_ws/install/whycode_interfaces/share/whycode_interfaces/cmake)\n'}
+[60.621772] (-) TimerEvent: {}
+[60.629143] (swift_pico) StdoutLine: {'line': b'-- Found waypoint_navigation: 0.0.0 (/home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake)\n'}
+[60.720639] (swift_pico) StdoutLine: {'line': b'-- Configuring done\n'}
+[60.721839] (-) TimerEvent: {}
+[60.734004] (swift_pico) StdoutLine: {'line': b'-- Generating done\n'}
+[60.741457] (swift_pico) StdoutLine: {'line': b'-- Build files have been written to: /home/phani/pico_ws/build/swift_pico\n'}
+[60.746540] (swift_pico) CommandEnded: {'returncode': 0}
+[60.747212] (swift_pico) JobProgress: {'identifier': 'swift_pico', 'progress': 'build'}
+[60.747571] (swift_pico) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/phani/pico_ws/build/swift_pico', '--', '-j12', '-l12'], 'cwd': '/home/phani/pico_ws/build/swift_pico', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'phani'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/phani/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/phani/pico_ws/install/whycode_interfaces/lib:/home/phani/pico_ws/install/waypoint_navigation/lib:/home/phani/pico_ws/install/swift_msgs/lib:/home/phani/pico_ws/install/error_msg/lib:/home/phani/pico_ws/install/controller_msg/lib:/home/phani/pico_ws/install/actuator_msgs/lib:/home/phani/pico_ws/install/rotors_control/lib:/home/phani/pico_ws/install/mav_system_msgs/lib:/home/phani/pico_ws/install/mav_state_machine_msgs/lib:/home/phani/pico_ws/install/mav_planning_msgs/lib:/home/phani/pico_ws/install/mav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/phani'), ('CHROME_DESKTOP', 'code_code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.141.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/268/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/phani/.nvm/versions/node/v22.23.4/bin'), ('NVM_INC', '/home/phani/.nvm/versions/node/v22.23.4/include/node'), ('GTK_IM_MODULE_FILE', '/home/phani/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/268/usr/share/code/code'), ('MANAGERPID', '1918'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2113'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4337'), ('NVM_DIR', '/home/phani/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/phani/pico_ws/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('CODEX_TOOL_CALL_ID', 'exec-423c6359-9f1b-4cac-9425-2371eacd44b8'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'phani'), ('JOURNAL_STREAM', '8:12267'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'phani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/phani/.codex/packages/app-server-daemon/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.local/bin:/home/phani/.codex/tmp/arg0-linux/codex-arg0hvHr3u:/home/phani/.codex/packages/app-server-daemon/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.codex/tmp/arg0-linux/codex-arg0V9LTKI:/home/phani/.codex/packages/standalone/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.local/bin:/home/phani/.local/bin:/home/phani/.nvm/versions/node/v22.23.4/bin:/home/phani/.local/bin:/opt/ros/humble/bin:/home/phani/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/phani-ubuntu:@/tmp/.ICE-unix/2084,unix/phani-ubuntu:/tmp/.ICE-unix/2084'), ('CODEX_VERSION', '0.163.0'), ('GTK_EXE_PREFIX', '/snap/code/268/usr'), ('CODEX_SESSION_ID', '01a15f56-844f-7812-b18f-417b590a02ec'), ('INVOCATION_ID', '5d062dfe1e9549b5a2481a7b3ee7568e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/268/usr/lib/locale'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HZLLX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-26250821ce.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/phani/snap/code/268/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/phani/pico_ws/install/whycode:/home/phani/pico_ws/install/swift_pico:/home/phani/pico_ws/install/whycode_interfaces:/home/phani/pico_ws/install/waypoint_navigation:/home/phani/pico_ws/install/swift_pico_description:/home/phani/pico_ws/install/rotors_swift_interface:/home/phani/pico_ws/install/swift_msgs:/home/phani/pico_ws/install/rotors_swift_gazebo:/home/phani/pico_ws/install/rotors_swift_description:/home/phani/pico_ws/install/rotors_control:/home/phani/pico_ws/install/pid_tune:/home/phani/pico_ws/install/mav_comm:/home/phani/pico_ws/install/mav_system_msgs:/home/phani/pico_ws/install/mav_state_machine_msgs:/home/phani/pico_ws/install/mav_planning_msgs:/home/phani/pico_ws/install/mav_msgs:/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/home/phani/pico_ws/install/actuator_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('CODEX_THREAD_ID', '01a15f56-844f-7812-b18f-417b590a02ec'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phani/pico_ws/build/swift_pico'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/phani/snap/code/268/.local/share:/home/phani/snap/code/268:/snap/code/268/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/phani/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/actuator_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MANPATH', '/home/phani/.nvm/versions/node/v22.23.4/share/man:'), ('CMAKE_PREFIX_PATH', '/home/phani/pico_ws/install/whycode_interfaces:/home/phani/pico_ws/install/waypoint_navigation:/home/phani/pico_ws/install/swift_pico_description:/home/phani/pico_ws/install/swift_msgs:/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/home/phani/pico_ws/install/actuator_msgs:/home/phani/pico_ws/install/whycode:/home/phani/pico_ws/install/swift_pico:/home/phani/pico_ws/install/rotors_swift_interface:/home/phani/pico_ws/install/rotors_swift_gazebo:/home/phani/pico_ws/install/rotors_swift_description:/home/phani/pico_ws/install/rotors_control:/home/phani/pico_ws/install/pid_tune:/home/phani/pico_ws/install/mav_comm:/home/phani/pico_ws/install/mav_system_msgs:/home/phani/pico_ws/install/mav_state_machine_msgs:/home/phani/pico_ws/install/mav_planning_msgs:/home/phani/pico_ws/install/mav_msgs:/opt/ros/humble')]), 'shell': False}
+[60.796837] (swift_pico) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target pico_controller_PID\n'}
+[60.812219] (swift_pico) StdoutLine: {'line': b'[100%] Built target pico_controller_PID\n'}
+[60.820657] (swift_pico) CommandEnded: {'returncode': 0}
+[60.821383] (swift_pico) JobProgress: {'identifier': 'swift_pico', 'progress': 'install'}
+[60.821637] (swift_pico) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/phani/pico_ws/build/swift_pico'], 'cwd': '/home/phani/pico_ws/build/swift_pico', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'phani'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/phani/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/phani/pico_ws/install/whycode_interfaces/lib:/home/phani/pico_ws/install/waypoint_navigation/lib:/home/phani/pico_ws/install/swift_msgs/lib:/home/phani/pico_ws/install/error_msg/lib:/home/phani/pico_ws/install/controller_msg/lib:/home/phani/pico_ws/install/actuator_msgs/lib:/home/phani/pico_ws/install/rotors_control/lib:/home/phani/pico_ws/install/mav_system_msgs/lib:/home/phani/pico_ws/install/mav_state_machine_msgs/lib:/home/phani/pico_ws/install/mav_planning_msgs/lib:/home/phani/pico_ws/install/mav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/phani'), ('CHROME_DESKTOP', 'code_code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.141.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/268/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/phani/.nvm/versions/node/v22.23.4/bin'), ('NVM_INC', '/home/phani/.nvm/versions/node/v22.23.4/include/node'), ('GTK_IM_MODULE_FILE', '/home/phani/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/268/usr/share/code/code'), ('MANAGERPID', '1918'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2113'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4337'), ('NVM_DIR', '/home/phani/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/phani/pico_ws/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('CODEX_TOOL_CALL_ID', 'exec-423c6359-9f1b-4cac-9425-2371eacd44b8'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'phani'), ('JOURNAL_STREAM', '8:12267'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'phani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/phani/.codex/packages/app-server-daemon/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.local/bin:/home/phani/.codex/tmp/arg0-linux/codex-arg0hvHr3u:/home/phani/.codex/packages/app-server-daemon/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.codex/tmp/arg0-linux/codex-arg0V9LTKI:/home/phani/.codex/packages/standalone/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.local/bin:/home/phani/.local/bin:/home/phani/.nvm/versions/node/v22.23.4/bin:/home/phani/.local/bin:/opt/ros/humble/bin:/home/phani/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/phani-ubuntu:@/tmp/.ICE-unix/2084,unix/phani-ubuntu:/tmp/.ICE-unix/2084'), ('CODEX_VERSION', '0.163.0'), ('GTK_EXE_PREFIX', '/snap/code/268/usr'), ('CODEX_SESSION_ID', '01a15f56-844f-7812-b18f-417b590a02ec'), ('INVOCATION_ID', '5d062dfe1e9549b5a2481a7b3ee7568e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/268/usr/lib/locale'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HZLLX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-26250821ce.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/phani/snap/code/268/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/phani/pico_ws/install/whycode:/home/phani/pico_ws/install/swift_pico:/home/phani/pico_ws/install/whycode_interfaces:/home/phani/pico_ws/install/waypoint_navigation:/home/phani/pico_ws/install/swift_pico_description:/home/phani/pico_ws/install/rotors_swift_interface:/home/phani/pico_ws/install/swift_msgs:/home/phani/pico_ws/install/rotors_swift_gazebo:/home/phani/pico_ws/install/rotors_swift_description:/home/phani/pico_ws/install/rotors_control:/home/phani/pico_ws/install/pid_tune:/home/phani/pico_ws/install/mav_comm:/home/phani/pico_ws/install/mav_system_msgs:/home/phani/pico_ws/install/mav_state_machine_msgs:/home/phani/pico_ws/install/mav_planning_msgs:/home/phani/pico_ws/install/mav_msgs:/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/home/phani/pico_ws/install/actuator_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('CODEX_THREAD_ID', '01a15f56-844f-7812-b18f-417b590a02ec'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phani/pico_ws/build/swift_pico'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/phani/snap/code/268/.local/share:/home/phani/snap/code/268:/snap/code/268/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/phani/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/actuator_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MANPATH', '/home/phani/.nvm/versions/node/v22.23.4/share/man:'), ('CMAKE_PREFIX_PATH', '/home/phani/pico_ws/install/whycode_interfaces:/home/phani/pico_ws/install/waypoint_navigation:/home/phani/pico_ws/install/swift_pico_description:/home/phani/pico_ws/install/swift_msgs:/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/home/phani/pico_ws/install/actuator_msgs:/home/phani/pico_ws/install/whycode:/home/phani/pico_ws/install/swift_pico:/home/phani/pico_ws/install/rotors_swift_interface:/home/phani/pico_ws/install/rotors_swift_gazebo:/home/phani/pico_ws/install/rotors_swift_description:/home/phani/pico_ws/install/rotors_control:/home/phani/pico_ws/install/pid_tune:/home/phani/pico_ws/install/mav_comm:/home/phani/pico_ws/install/mav_system_msgs:/home/phani/pico_ws/install/mav_state_machine_msgs:/home/phani/pico_ws/install/mav_planning_msgs:/home/phani/pico_ws/install/mav_msgs:/opt/ros/humble')]), 'shell': False}
+[60.822969] (-) TimerEvent: {}
+[60.832116] (swift_pico) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[60.832344] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/mujoco_bridge\n'}
+[60.832770] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/libmujoco.so.3.9.0\n'}
+[60.832923] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/launch\n'}
+[60.833037] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/launch/swift_pico_simulation.launch.py\n'}
+[60.833276] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/config/fastdds_profile.xml\n'}
+[60.833603] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/scripts/grid_whycode_coordinates.json\n'}
+[60.833708] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/pico_controller_PID\n'}
+[60.833875] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/pico_controller_PID.py\n'}
+[60.833965] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/waypoint_service\n'}
+[60.834056] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/pico_client\n'}
+[60.834354] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/pico_server\n'}
+[60.834493] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/swift_pico/share/ament_index/resource_index/package_run_dependencies/swift_pico\n'}
+[60.834600] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/ament_index/resource_index/parent_prefix_path/swift_pico\n'}
+[60.835117] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/environment/ament_prefix_path.sh\n'}
+[60.835272] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/environment/ament_prefix_path.dsv\n'}
+[60.835560] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/environment/path.sh\n'}
+[60.835708] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/environment/path.dsv\n'}
+[60.836025] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/local_setup.bash\n'}
+[60.836113] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/local_setup.sh\n'}
+[60.836200] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/local_setup.zsh\n'}
+[60.836291] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/local_setup.dsv\n'}
+[60.836391] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/package.dsv\n'}
+[60.836518] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/ament_index/resource_index/packages/swift_pico\n'}
+[60.836613] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/cmake/swift_picoConfig.cmake\n'}
+[60.836714] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/cmake/swift_picoConfig-version.cmake\n'}
+[60.836819] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/package.xml\n'}
+[60.838031] (swift_pico) CommandEnded: {'returncode': 0}
+[60.849780] (swift_pico) JobEnded: {'identifier': 'swift_pico', 'rc': 0}
+[60.850394] (-) EventReactorShutdown: {}

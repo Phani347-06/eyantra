@@ -1,0 +1,8 @@
+/home/phani/pico_ws/build/whycode_interfaces/rosidl_adapter/whycode_interfaces:msg/Marker.idl
+/home/phani/pico_ws/build/whycode_interfaces/rosidl_adapter/whycode_interfaces:msg/MarkerArray.idl
+/home/phani/pico_ws/build/whycode_interfaces/rosidl_adapter/whycode_interfaces:srv/SelectMarker.idl
+/home/phani/pico_ws/build/whycode_interfaces/rosidl_adapter/whycode_interfaces:srv/SetCalibMethod.idl
+/home/phani/pico_ws/build/whycode_interfaces/rosidl_adapter/whycode_interfaces:srv/SetCalibPath.idl
+/home/phani/pico_ws/build/whycode_interfaces/rosidl_adapter/whycode_interfaces:srv/SetCoords.idl
+/home/phani/pico_ws/build/whycode_interfaces/rosidl_adapter/whycode_interfaces:srv/SetDrawing.idl
+/home/phani/pico_ws/build/whycode_interfaces/rosidl_adapter/whycode_interfaces:srv/GetGuiSettings.idl

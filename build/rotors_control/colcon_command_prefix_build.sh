@@ -1,0 +1,3 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/phani/pico_ws/install/actuator_msgs/share/actuator_msgs/package.sh"
+. "/home/phani/pico_ws/install/mav_msgs/share/mav_msgs/package.sh"

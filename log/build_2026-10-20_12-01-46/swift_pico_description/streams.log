@@ -1,0 +1,33 @@
+[0.096s] Invoking command in '/home/phani/pico_ws/build/swift_pico_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/phani/pico_ws/build/swift_pico_description -- -j12 -l12
+[1.032s] Invoked command in '/home/phani/pico_ws/build/swift_pico_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/phani/pico_ws/build/swift_pico_description -- -j12 -l12
+[1.062s] Invoking command in '/home/phani/pico_ws/build/swift_pico_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/phani/pico_ws/build/swift_pico_description
+[1.111s] -- Install configuration: ""
+[1.111s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/models
+[1.111s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico
+[1.112s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/arena.xml
+[1.112s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/drone.xml
+[1.112s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes
+[1.112s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/base_link.obj
+[1.112s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/textures
+[1.112s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/textures/Khojo_Arena.png
+[1.112s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/textures/whycode_marker_1.png
+[1.112s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/m4_link.obj
+[1.112s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/m1_link.obj
+[1.113s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/whycon_marker.obj
+[1.113s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/triangle_marker.obj
+[1.113s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/ament_index/resource_index/package_run_dependencies/swift_pico_description
+[1.113s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/ament_index/resource_index/parent_prefix_path/swift_pico_description
+[1.113s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/environment/ament_prefix_path.sh
+[1.113s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/environment/ament_prefix_path.dsv
+[1.113s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/environment/path.sh
+[1.113s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/environment/path.dsv
+[1.113s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/local_setup.bash
+[1.113s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/local_setup.sh
+[1.113s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/local_setup.zsh
+[1.113s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/local_setup.dsv
+[1.113s] -- Installing: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/package.dsv
+[1.113s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/ament_index/resource_index/packages/swift_pico_description
+[1.114s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/cmake/swift_pico_descriptionConfig.cmake
+[1.114s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/cmake/swift_pico_descriptionConfig-version.cmake
+[1.114s] -- Up-to-date: /home/phani/pico_ws/install/swift_pico_description/share/swift_pico_description/package.xml
+[1.133s] Invoked command in '/home/phani/pico_ws/build/swift_pico_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/phani/pico_ws/build/swift_pico_description

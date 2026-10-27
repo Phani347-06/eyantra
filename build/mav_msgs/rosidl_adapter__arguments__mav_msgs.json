@@ -1,0 +1,13 @@
+{
+  "package_name": "mav_msgs",
+  "non_idl_tuples": [
+    "/home/phani/pico_ws/src/mav_comm/mav_msgs:msg/Actuators.msg",
+    "/home/phani/pico_ws/src/mav_comm/mav_msgs:msg/AttitudeThrust.msg",
+    "/home/phani/pico_ws/src/mav_comm/mav_msgs:msg/FilteredSensorData.msg",
+    "/home/phani/pico_ws/src/mav_comm/mav_msgs:msg/GpsWaypoint.msg",
+    "/home/phani/pico_ws/src/mav_comm/mav_msgs:msg/RateThrust.msg",
+    "/home/phani/pico_ws/src/mav_comm/mav_msgs:msg/RollPitchYawrateThrust.msg",
+    "/home/phani/pico_ws/src/mav_comm/mav_msgs:msg/Status.msg",
+    "/home/phani/pico_ws/src/mav_comm/mav_msgs:msg/TorqueThrust.msg"
+  ]
+}

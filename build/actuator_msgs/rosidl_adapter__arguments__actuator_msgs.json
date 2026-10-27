@@ -1,0 +1,13 @@
+{
+  "package_name": "actuator_msgs",
+  "non_idl_tuples": [
+    "/home/phani/pico_ws/src/actuator_msgs:msg/Actuators.msg",
+    "/home/phani/pico_ws/src/actuator_msgs:msg/ActuatorsAngularPosition.msg",
+    "/home/phani/pico_ws/src/actuator_msgs:msg/ActuatorsAngularVelocity.msg",
+    "/home/phani/pico_ws/src/actuator_msgs:msg/ActuatorsLinearPosition.msg",
+    "/home/phani/pico_ws/src/actuator_msgs:msg/ActuatorsLinearVelocity.msg",
+    "/home/phani/pico_ws/src/actuator_msgs:msg/ActuatorsNormalized.msg",
+    "/home/phani/pico_ws/src/actuator_msgs:msg/ActuatorsPosition.msg",
+    "/home/phani/pico_ws/src/actuator_msgs:msg/ActuatorsVelocity.msg"
+  ]
+}

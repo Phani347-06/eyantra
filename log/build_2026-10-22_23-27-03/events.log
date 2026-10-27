@@ -1,0 +1,357 @@
+[0.000000] (-) TimerEvent: {}
+[0.000207] (-) JobUnselected: {'identifier': 'actuator_msgs'}
+[0.000439] (-) JobUnselected: {'identifier': 'controller_msg'}
+[0.000613] (-) JobUnselected: {'identifier': 'error_msg'}
+[0.000716] (-) JobUnselected: {'identifier': 'mav_comm'}
+[0.000742] (-) JobUnselected: {'identifier': 'mav_msgs'}
+[0.000768] (-) JobUnselected: {'identifier': 'mav_planning_msgs'}
+[0.000803] (-) JobUnselected: {'identifier': 'mav_state_machine_msgs'}
+[0.000828] (-) JobUnselected: {'identifier': 'mav_system_msgs'}
+[0.001037] (-) JobUnselected: {'identifier': 'pid_tune'}
+[0.001062] (-) JobUnselected: {'identifier': 'rotors_control'}
+[0.001086] (-) JobUnselected: {'identifier': 'rotors_swift_description'}
+[0.001119] (-) JobUnselected: {'identifier': 'rotors_swift_gazebo'}
+[0.001145] (-) JobUnselected: {'identifier': 'rotors_swift_interface'}
+[0.001279] (-) JobUnselected: {'identifier': 'swift_msgs'}
+[0.001303] (-) JobUnselected: {'identifier': 'swift_pico_description'}
+[0.001342] (-) JobUnselected: {'identifier': 'waypoint_navigation'}
+[0.001507] (-) JobUnselected: {'identifier': 'whycode'}
+[0.001556] (-) JobUnselected: {'identifier': 'whycode_interfaces'}
+[0.001619] (swift_pico) JobQueued: {'identifier': 'swift_pico', 'dependencies': OrderedDict([('actuator_msgs', '/home/phani/pico_ws/install/actuator_msgs'), ('controller_msg', '/home/phani/pico_ws/install/controller_msg'), ('error_msg', '/home/phani/pico_ws/install/error_msg'), ('swift_msgs', '/home/phani/pico_ws/install/swift_msgs'), ('swift_pico_description', '/home/phani/pico_ws/install/swift_pico_description'), ('waypoint_navigation', '/home/phani/pico_ws/install/waypoint_navigation'), ('whycode_interfaces', '/home/phani/pico_ws/install/whycode_interfaces')])}
+[0.001693] (swift_pico) JobStarted: {'identifier': 'swift_pico'}
+[0.041789] (swift_pico) JobProgress: {'identifier': 'swift_pico', 'progress': 'cmake'}
+[0.043127] (swift_pico) JobProgress: {'identifier': 'swift_pico', 'progress': 'build'}
+[0.044800] (swift_pico) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/phani/pico_ws/build/swift_pico', '--', '-j12', '-l12'], 'cwd': '/home/phani/pico_ws/build/swift_pico', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'phani'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/phani/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/phani/pico_ws/install/whycode_interfaces/lib:/home/phani/pico_ws/install/waypoint_navigation/lib:/home/phani/pico_ws/install/swift_msgs/lib:/home/phani/pico_ws/install/error_msg/lib:/home/phani/pico_ws/install/controller_msg/lib:/home/phani/pico_ws/install/actuator_msgs/lib:/home/phani/pico_ws/install/rotors_control/lib:/home/phani/pico_ws/install/mav_system_msgs/lib:/home/phani/pico_ws/install/mav_state_machine_msgs/lib:/home/phani/pico_ws/install/mav_planning_msgs/lib:/home/phani/pico_ws/install/mav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/phani'), ('CHROME_DESKTOP', 'code_code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.141.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/268/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/phani/.nvm/versions/node/v22.23.4/bin'), ('NVM_INC', '/home/phani/.nvm/versions/node/v22.23.4/include/node'), ('GTK_IM_MODULE_FILE', '/home/phani/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/268/usr/share/code/code'), ('MANAGERPID', '1918'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2113'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4337'), ('NVM_DIR', '/home/phani/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/phani/pico_ws/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('CODEX_TOOL_CALL_ID', 'exec-1e6935e7-616a-4ebd-828a-927d1fdfdb89'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'phani'), ('JOURNAL_STREAM', '8:12267'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'phani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/phani/.codex/packages/app-server-daemon/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.local/bin:/home/phani/.codex/tmp/arg0-linux/codex-arg0hvHr3u:/home/phani/.codex/packages/app-server-daemon/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.codex/tmp/arg0-linux/codex-arg0V9LTKI:/home/phani/.codex/packages/standalone/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.local/bin:/home/phani/.local/bin:/home/phani/.nvm/versions/node/v22.23.4/bin:/home/phani/.local/bin:/opt/ros/humble/bin:/home/phani/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/phani-ubuntu:@/tmp/.ICE-unix/2084,unix/phani-ubuntu:/tmp/.ICE-unix/2084'), ('CODEX_VERSION', '0.163.0'), ('GTK_EXE_PREFIX', '/snap/code/268/usr'), ('CODEX_SESSION_ID', '01a15f56-844f-7812-b18f-417b590a02ec'), ('INVOCATION_ID', '5d062dfe1e9549b5a2481a7b3ee7568e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/268/usr/lib/locale'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HZLLX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-26250821ce.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/phani/snap/code/268/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/phani/pico_ws/install/whycode:/home/phani/pico_ws/install/swift_pico:/home/phani/pico_ws/install/whycode_interfaces:/home/phani/pico_ws/install/waypoint_navigation:/home/phani/pico_ws/install/swift_pico_description:/home/phani/pico_ws/install/rotors_swift_interface:/home/phani/pico_ws/install/swift_msgs:/home/phani/pico_ws/install/rotors_swift_gazebo:/home/phani/pico_ws/install/rotors_swift_description:/home/phani/pico_ws/install/rotors_control:/home/phani/pico_ws/install/pid_tune:/home/phani/pico_ws/install/mav_comm:/home/phani/pico_ws/install/mav_system_msgs:/home/phani/pico_ws/install/mav_state_machine_msgs:/home/phani/pico_ws/install/mav_planning_msgs:/home/phani/pico_ws/install/mav_msgs:/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/home/phani/pico_ws/install/actuator_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('CODEX_THREAD_ID', '01a15f56-844f-7812-b18f-417b590a02ec'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phani/pico_ws/build/swift_pico'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/phani/snap/code/268/.local/share:/home/phani/snap/code/268:/snap/code/268/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/phani/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/actuator_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MANPATH', '/home/phani/.nvm/versions/node/v22.23.4/share/man:'), ('CMAKE_PREFIX_PATH', '/home/phani/pico_ws/install/whycode_interfaces:/home/phani/pico_ws/install/waypoint_navigation:/home/phani/pico_ws/install/swift_pico_description:/home/phani/pico_ws/install/swift_msgs:/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/home/phani/pico_ws/install/actuator_msgs:/home/phani/pico_ws/install/whycode:/home/phani/pico_ws/install/swift_pico:/home/phani/pico_ws/install/rotors_swift_interface:/home/phani/pico_ws/install/rotors_swift_gazebo:/home/phani/pico_ws/install/rotors_swift_description:/home/phani/pico_ws/install/rotors_control:/home/phani/pico_ws/install/pid_tune:/home/phani/pico_ws/install/mav_comm:/home/phani/pico_ws/install/mav_system_msgs:/home/phani/pico_ws/install/mav_state_machine_msgs:/home/phani/pico_ws/install/mav_planning_msgs:/home/phani/pico_ws/install/mav_msgs:/opt/ros/humble')]), 'shell': False}
+[0.099841] (-) TimerEvent: {}
+[0.156119] (swift_pico) StdoutLine: {'line': b'[100%] Built target pico_controller_PID\n'}
+[0.172096] (swift_pico) CommandEnded: {'returncode': 0}
+[0.172719] (swift_pico) JobProgress: {'identifier': 'swift_pico', 'progress': 'install'}
+[0.188243] (swift_pico) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/phani/pico_ws/build/swift_pico'], 'cwd': '/home/phani/pico_ws/build/swift_pico', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_IN:en'), ('USER', 'phani'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/phani/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/phani/pico_ws/install/whycode_interfaces/lib:/home/phani/pico_ws/install/waypoint_navigation/lib:/home/phani/pico_ws/install/swift_msgs/lib:/home/phani/pico_ws/install/error_msg/lib:/home/phani/pico_ws/install/controller_msg/lib:/home/phani/pico_ws/install/actuator_msgs/lib:/home/phani/pico_ws/install/rotors_control/lib:/home/phani/pico_ws/install/mav_system_msgs/lib:/home/phani/pico_ws/install/mav_state_machine_msgs/lib:/home/phani/pico_ws/install/mav_planning_msgs/lib:/home/phani/pico_ws/install/mav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/phani'), ('CHROME_DESKTOP', 'code_code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.141.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/268/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/phani/.nvm/versions/node/v22.23.4/bin'), ('NVM_INC', '/home/phani/.nvm/versions/node/v22.23.4/include/node'), ('GTK_IM_MODULE_FILE', '/home/phani/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/268/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/268/usr/share/code/code'), ('MANAGERPID', '1918'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2113'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4337'), ('NVM_DIR', '/home/phani/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/phani/pico_ws/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('CODEX_TOOL_CALL_ID', 'exec-1e6935e7-616a-4ebd-828a-927d1fdfdb89'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'phani'), ('JOURNAL_STREAM', '8:12267'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'phani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/phani/.codex/packages/app-server-daemon/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.local/bin:/home/phani/.codex/tmp/arg0-linux/codex-arg0hvHr3u:/home/phani/.codex/packages/app-server-daemon/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.codex/tmp/arg0-linux/codex-arg0V9LTKI:/home/phani/.codex/packages/standalone/releases/0.163.0-x86_64-unknown-linux-musl/codex-path:/home/phani/.local/bin:/home/phani/.local/bin:/home/phani/.nvm/versions/node/v22.23.4/bin:/home/phani/.local/bin:/opt/ros/humble/bin:/home/phani/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/phani-ubuntu:@/tmp/.ICE-unix/2084,unix/phani-ubuntu:/tmp/.ICE-unix/2084'), ('CODEX_VERSION', '0.163.0'), ('GTK_EXE_PREFIX', '/snap/code/268/usr'), ('CODEX_SESSION_ID', '01a15f56-844f-7812-b18f-417b590a02ec'), ('INVOCATION_ID', '5d062dfe1e9549b5a2481a7b3ee7568e'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/268/usr/lib/locale'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HZLLX3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-26250821ce.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/phani/snap/code/268/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/phani/pico_ws/install/whycode:/home/phani/pico_ws/install/swift_pico:/home/phani/pico_ws/install/whycode_interfaces:/home/phani/pico_ws/install/waypoint_navigation:/home/phani/pico_ws/install/swift_pico_description:/home/phani/pico_ws/install/rotors_swift_interface:/home/phani/pico_ws/install/swift_msgs:/home/phani/pico_ws/install/rotors_swift_gazebo:/home/phani/pico_ws/install/rotors_swift_description:/home/phani/pico_ws/install/rotors_control:/home/phani/pico_ws/install/pid_tune:/home/phani/pico_ws/install/mav_comm:/home/phani/pico_ws/install/mav_system_msgs:/home/phani/pico_ws/install/mav_state_machine_msgs:/home/phani/pico_ws/install/mav_planning_msgs:/home/phani/pico_ws/install/mav_msgs:/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/home/phani/pico_ws/install/actuator_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('CODEX_THREAD_ID', '01a15f56-844f-7812-b18f-417b590a02ec'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/phani/pico_ws/build/swift_pico'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/phani/snap/code/268/.local/share:/home/phani/snap/code/268:/snap/code/268/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/phani/pico_ws/install/whycode_interfaces/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/error_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/controller_msg/local/lib/python3.10/dist-packages:/home/phani/pico_ws/install/actuator_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MANPATH', '/home/phani/.nvm/versions/node/v22.23.4/share/man:'), ('CMAKE_PREFIX_PATH', '/home/phani/pico_ws/install/whycode_interfaces:/home/phani/pico_ws/install/waypoint_navigation:/home/phani/pico_ws/install/swift_pico_description:/home/phani/pico_ws/install/swift_msgs:/home/phani/pico_ws/install/error_msg:/home/phani/pico_ws/install/controller_msg:/home/phani/pico_ws/install/actuator_msgs:/home/phani/pico_ws/install/whycode:/home/phani/pico_ws/install/swift_pico:/home/phani/pico_ws/install/rotors_swift_interface:/home/phani/pico_ws/install/rotors_swift_gazebo:/home/phani/pico_ws/install/rotors_swift_description:/home/phani/pico_ws/install/rotors_control:/home/phani/pico_ws/install/pid_tune:/home/phani/pico_ws/install/mav_comm:/home/phani/pico_ws/install/mav_system_msgs:/home/phani/pico_ws/install/mav_state_machine_msgs:/home/phani/pico_ws/install/mav_planning_msgs:/home/phani/pico_ws/install/mav_msgs:/opt/ros/humble')]), 'shell': False}
+[0.199997] (-) TimerEvent: {}
+[0.203478] (swift_pico) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.203716] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/mujoco_bridge\n'}
+[0.203774] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/libmujoco.so.3.9.0\n'}
+[0.203822] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/launch\n'}
+[0.203866] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/launch/swift_pico_simulation.launch.py\n'}
+[0.203963] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/config/fastdds_profile.xml\n'}
+[0.204013] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/scripts/grid_whycode_coordinates.json\n'}
+[0.204054] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/pico_controller_PID\n'}
+[0.204217] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/pico_controller_PID.py\n'}
+[0.204263] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/waypoint_service\n'}
+[0.204509] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/pico_client\n'}
+[0.204560] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/pico_server\n'}
+[0.204604] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/ament_index/resource_index/package_run_dependencies/swift_pico\n'}
+[0.204650] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/ament_index/resource_index/parent_prefix_path/swift_pico\n'}
+[0.204686] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/environment/ament_prefix_path.sh\n'}
+[0.204722] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/environment/ament_prefix_path.dsv\n'}
+[0.204756] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/environment/path.sh\n'}
+[0.204915] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/environment/path.dsv\n'}
+[0.204961] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/local_setup.bash\n'}
+[0.204994] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/local_setup.sh\n'}
+[0.205026] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/local_setup.zsh\n'}
+[0.205248] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/local_setup.dsv\n'}
+[0.205281] (swift_pico) StdoutLine: {'line': b'-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/package.dsv\n'}
+[0.205315] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/ament_index/resource_index/packages/swift_pico\n'}
+[0.205348] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/cmake/swift_picoConfig.cmake\n'}
+[0.205388] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/cmake/swift_picoConfig-version.cmake\n'}
+[0.205432] (swift_pico) StdoutLine: {'line': b'-- Up-to-date: /home/phani/pico_ws/install/swift_pico/share/swift_pico/package.xml\n'}
+[0.300115] (-) TimerEvent: {}
+[0.400423] (-) TimerEvent: {}
+[0.500634] (-) TimerEvent: {}
+[0.600896] (-) TimerEvent: {}
+[0.701140] (-) TimerEvent: {}
+[0.801539] (-) TimerEvent: {}
+[0.901729] (-) TimerEvent: {}
+[1.001939] (-) TimerEvent: {}
+[1.102216] (-) TimerEvent: {}
+[1.202435] (-) TimerEvent: {}
+[1.304399] (-) TimerEvent: {}
+[1.404582] (-) TimerEvent: {}
+[1.504856] (-) TimerEvent: {}
+[1.605089] (-) TimerEvent: {}
+[1.705300] (-) TimerEvent: {}
+[1.805672] (-) TimerEvent: {}
+[1.906036] (-) TimerEvent: {}
+[2.006298] (-) TimerEvent: {}
+[2.106538] (-) TimerEvent: {}
+[2.206862] (-) TimerEvent: {}
+[2.307055] (-) TimerEvent: {}
+[2.407321] (-) TimerEvent: {}
+[2.507644] (-) TimerEvent: {}
+[2.607938] (-) TimerEvent: {}
+[2.708159] (-) TimerEvent: {}
+[2.808383] (-) TimerEvent: {}
+[2.910503] (-) TimerEvent: {}
+[3.010905] (-) TimerEvent: {}
+[3.111195] (-) TimerEvent: {}
+[3.211498] (-) TimerEvent: {}
+[3.311712] (-) TimerEvent: {}
+[3.411915] (-) TimerEvent: {}
+[3.512164] (-) TimerEvent: {}
+[3.612383] (-) TimerEvent: {}
+[3.712628] (-) TimerEvent: {}
+[3.812914] (-) TimerEvent: {}
+[3.913151] (-) TimerEvent: {}
+[4.013478] (-) TimerEvent: {}
+[4.113734] (-) TimerEvent: {}
+[4.213930] (-) TimerEvent: {}
+[4.314183] (-) TimerEvent: {}
+[4.414572] (-) TimerEvent: {}
+[4.514804] (-) TimerEvent: {}
+[4.615130] (-) TimerEvent: {}
+[4.715380] (-) TimerEvent: {}
+[4.815683] (-) TimerEvent: {}
+[4.916021] (-) TimerEvent: {}
+[5.016319] (-) TimerEvent: {}
+[5.116540] (-) TimerEvent: {}
+[5.216799] (-) TimerEvent: {}
+[5.317099] (-) TimerEvent: {}
+[5.417384] (-) TimerEvent: {}
+[5.517704] (-) TimerEvent: {}
+[5.618036] (-) TimerEvent: {}
+[5.718395] (-) TimerEvent: {}
+[5.818711] (-) TimerEvent: {}
+[5.918980] (-) TimerEvent: {}
+[6.019181] (-) TimerEvent: {}
+[6.119418] (-) TimerEvent: {}
+[6.219666] (-) TimerEvent: {}
+[6.319938] (-) TimerEvent: {}
+[6.420465] (-) TimerEvent: {}
+[6.520933] (-) TimerEvent: {}
+[6.621159] (-) TimerEvent: {}
+[6.721429] (-) TimerEvent: {}
+[6.821670] (-) TimerEvent: {}
+[6.921912] (-) TimerEvent: {}
+[7.022148] (-) TimerEvent: {}
+[7.122395] (-) TimerEvent: {}
+[7.222629] (-) TimerEvent: {}
+[7.322844] (-) TimerEvent: {}
+[7.423099] (-) TimerEvent: {}
+[7.523425] (-) TimerEvent: {}
+[7.623760] (-) TimerEvent: {}
+[7.724007] (-) TimerEvent: {}
+[7.824304] (-) TimerEvent: {}
+[7.924579] (-) TimerEvent: {}
+[8.024827] (-) TimerEvent: {}
+[8.125176] (-) TimerEvent: {}
+[8.225367] (-) TimerEvent: {}
+[8.325659] (-) TimerEvent: {}
+[8.425932] (-) TimerEvent: {}
+[8.526193] (-) TimerEvent: {}
+[8.626524] (-) TimerEvent: {}
+[8.726764] (-) TimerEvent: {}
+[8.826943] (-) TimerEvent: {}
+[8.927209] (-) TimerEvent: {}
+[9.027438] (-) TimerEvent: {}
+[9.127647] (-) TimerEvent: {}
+[9.227878] (-) TimerEvent: {}
+[9.328197] (-) TimerEvent: {}
+[9.428529] (-) TimerEvent: {}
+[9.528786] (-) TimerEvent: {}
+[9.629042] (-) TimerEvent: {}
+[9.729305] (-) TimerEvent: {}
+[9.829722] (-) TimerEvent: {}
+[9.929982] (-) TimerEvent: {}
+[10.030276] (-) TimerEvent: {}
+[10.130578] (-) TimerEvent: {}
+[10.230829] (-) TimerEvent: {}
+[10.331006] (-) TimerEvent: {}
+[10.431280] (-) TimerEvent: {}
+[10.531649] (-) TimerEvent: {}
+[10.631942] (-) TimerEvent: {}
+[10.732258] (-) TimerEvent: {}
+[10.832663] (-) TimerEvent: {}
+[10.932909] (-) TimerEvent: {}
+[11.033190] (-) TimerEvent: {}
+[11.133467] (-) TimerEvent: {}
+[11.233653] (-) TimerEvent: {}
+[11.333838] (-) TimerEvent: {}
+[11.434037] (-) TimerEvent: {}
+[11.534250] (-) TimerEvent: {}
+[11.634564] (-) TimerEvent: {}
+[11.734820] (-) TimerEvent: {}
+[11.835170] (-) TimerEvent: {}
+[11.935524] (-) TimerEvent: {}
+[12.035767] (-) TimerEvent: {}
+[12.136017] (-) TimerEvent: {}
+[12.236213] (-) TimerEvent: {}
+[12.336600] (-) TimerEvent: {}
+[12.436920] (-) TimerEvent: {}
+[12.537143] (-) TimerEvent: {}
+[12.637575] (-) TimerEvent: {}
+[12.737875] (-) TimerEvent: {}
+[12.838099] (-) TimerEvent: {}
+[12.938386] (-) TimerEvent: {}
+[13.038823] (-) TimerEvent: {}
+[13.139138] (-) TimerEvent: {}
+[13.239350] (-) TimerEvent: {}
+[13.339668] (-) TimerEvent: {}
+[13.439922] (-) TimerEvent: {}
+[13.540196] (-) TimerEvent: {}
+[13.640460] (-) TimerEvent: {}
+[13.740756] (-) TimerEvent: {}
+[13.841100] (-) TimerEvent: {}
+[13.941403] (-) TimerEvent: {}
+[14.041879] (-) TimerEvent: {}
+[14.142148] (-) TimerEvent: {}
+[14.242389] (-) TimerEvent: {}
+[14.342735] (-) TimerEvent: {}
+[14.443021] (-) TimerEvent: {}
+[14.543249] (-) TimerEvent: {}
+[14.643646] (-) TimerEvent: {}
+[14.743881] (-) TimerEvent: {}
+[14.844140] (-) TimerEvent: {}
+[14.944400] (-) TimerEvent: {}
+[15.044718] (-) TimerEvent: {}
+[15.145093] (-) TimerEvent: {}
+[15.245395] (-) TimerEvent: {}
+[15.345636] (-) TimerEvent: {}
+[15.445860] (-) TimerEvent: {}
+[15.546167] (-) TimerEvent: {}
+[15.646456] (-) TimerEvent: {}
+[15.746754] (-) TimerEvent: {}
+[15.847038] (-) TimerEvent: {}
+[15.947401] (-) TimerEvent: {}
+[16.047959] (-) TimerEvent: {}
+[16.148203] (-) TimerEvent: {}
+[16.248481] (-) TimerEvent: {}
+[16.348850] (-) TimerEvent: {}
+[16.449174] (-) TimerEvent: {}
+[16.549463] (-) TimerEvent: {}
+[16.649740] (-) TimerEvent: {}
+[16.750053] (-) TimerEvent: {}
+[16.850303] (-) TimerEvent: {}
+[16.950624] (-) TimerEvent: {}
+[17.050846] (-) TimerEvent: {}
+[17.151070] (-) TimerEvent: {}
+[17.251454] (-) TimerEvent: {}
+[17.351701] (-) TimerEvent: {}
+[17.451940] (-) TimerEvent: {}
+[17.552235] (-) TimerEvent: {}
+[17.652508] (-) TimerEvent: {}
+[17.752786] (-) TimerEvent: {}
+[17.853062] (-) TimerEvent: {}
+[17.953406] (-) TimerEvent: {}
+[18.053730] (-) TimerEvent: {}
+[18.154016] (-) TimerEvent: {}
+[18.254293] (-) TimerEvent: {}
+[18.354542] (-) TimerEvent: {}
+[18.454801] (-) TimerEvent: {}
+[18.555074] (-) TimerEvent: {}
+[18.655347] (-) TimerEvent: {}
+[18.755665] (-) TimerEvent: {}
+[18.856119] (-) TimerEvent: {}
+[18.956529] (-) TimerEvent: {}
+[19.056946] (-) TimerEvent: {}
+[19.157160] (-) TimerEvent: {}
+[19.257460] (-) TimerEvent: {}
+[19.357808] (-) TimerEvent: {}
+[19.458060] (-) TimerEvent: {}
+[19.558420] (-) TimerEvent: {}
+[19.658629] (-) TimerEvent: {}
+[19.758978] (-) TimerEvent: {}
+[19.859243] (-) TimerEvent: {}
+[19.959511] (-) TimerEvent: {}
+[20.059885] (-) TimerEvent: {}
+[20.160187] (-) TimerEvent: {}
+[20.260492] (-) TimerEvent: {}
+[20.360757] (-) TimerEvent: {}
+[20.461067] (-) TimerEvent: {}
+[20.561374] (-) TimerEvent: {}
+[20.661677] (-) TimerEvent: {}
+[20.761934] (-) TimerEvent: {}
+[20.862249] (-) TimerEvent: {}
+[20.962689] (-) TimerEvent: {}
+[21.063000] (-) TimerEvent: {}
+[21.163342] (-) TimerEvent: {}
+[21.263633] (-) TimerEvent: {}
+[21.363943] (-) TimerEvent: {}
+[21.464183] (-) TimerEvent: {}
+[21.564457] (-) TimerEvent: {}
+[21.664753] (-) TimerEvent: {}
+[21.765065] (-) TimerEvent: {}
+[21.865407] (-) TimerEvent: {}
+[21.965712] (-) TimerEvent: {}
+[22.066060] (-) TimerEvent: {}
+[22.166498] (-) TimerEvent: {}
+[22.266840] (-) TimerEvent: {}
+[22.367239] (-) TimerEvent: {}
+[22.467624] (-) TimerEvent: {}
+[22.567986] (-) TimerEvent: {}
+[22.668413] (-) TimerEvent: {}
+[22.768674] (-) TimerEvent: {}
+[22.868899] (-) TimerEvent: {}
+[22.969198] (-) TimerEvent: {}
+[23.069483] (-) TimerEvent: {}
+[23.169869] (-) TimerEvent: {}
+[23.270149] (-) TimerEvent: {}
+[23.370494] (-) TimerEvent: {}
+[23.470909] (-) TimerEvent: {}
+[23.571265] (-) TimerEvent: {}
+[23.671537] (-) TimerEvent: {}
+[23.771893] (-) TimerEvent: {}
+[23.872196] (-) TimerEvent: {}
+[23.972547] (-) TimerEvent: {}
+[24.072848] (-) TimerEvent: {}
+[24.173165] (-) TimerEvent: {}
+[24.273537] (-) TimerEvent: {}
+[24.373875] (-) TimerEvent: {}
+[24.474217] (-) TimerEvent: {}
+[24.574588] (-) TimerEvent: {}
+[24.674945] (-) TimerEvent: {}
+[24.775238] (-) TimerEvent: {}
+[24.875510] (-) TimerEvent: {}
+[24.975811] (-) TimerEvent: {}
+[25.076153] (-) TimerEvent: {}
+[25.176554] (-) TimerEvent: {}
+[25.276881] (-) TimerEvent: {}
+[25.377322] (-) TimerEvent: {}
+[25.477689] (-) TimerEvent: {}
+[25.578268] (-) TimerEvent: {}
+[25.678585] (-) TimerEvent: {}
+[25.778894] (-) TimerEvent: {}
+[25.879155] (-) TimerEvent: {}
+[25.979686] (-) TimerEvent: {}
+[26.080117] (-) TimerEvent: {}
+[26.180439] (-) TimerEvent: {}
+[26.280650] (-) TimerEvent: {}
+[26.380961] (-) TimerEvent: {}
+[26.481345] (-) TimerEvent: {}
+[26.581742] (-) TimerEvent: {}
+[26.682133] (-) TimerEvent: {}
+[26.782454] (-) TimerEvent: {}
+[26.882706] (-) TimerEvent: {}
+[26.982982] (-) TimerEvent: {}
+[27.083274] (-) TimerEvent: {}
+[27.183606] (-) TimerEvent: {}
+[27.283922] (-) TimerEvent: {}
+[27.384178] (-) TimerEvent: {}
+[27.484587] (-) TimerEvent: {}
+[27.584990] (-) TimerEvent: {}
+[27.685401] (-) TimerEvent: {}
+[27.785670] (-) TimerEvent: {}
+[27.885989] (-) TimerEvent: {}
+[27.986437] (-) TimerEvent: {}
+[28.086743] (-) TimerEvent: {}
+[28.187026] (-) TimerEvent: {}
+[28.287422] (-) TimerEvent: {}
+[28.387817] (-) TimerEvent: {}
+[28.488148] (-) TimerEvent: {}
+[28.588447] (-) TimerEvent: {}
+[28.688761] (-) TimerEvent: {}
+[28.789154] (-) TimerEvent: {}
+[28.889488] (-) TimerEvent: {}
+[28.989867] (-) TimerEvent: {}
+[29.090111] (-) TimerEvent: {}
+[29.190356] (-) TimerEvent: {}
+[29.290576] (-) TimerEvent: {}
+[29.390888] (-) TimerEvent: {}
+[29.491101] (-) TimerEvent: {}
+[29.591335] (-) TimerEvent: {}
+[29.691632] (-) TimerEvent: {}
+[29.791918] (-) TimerEvent: {}
+[29.892176] (-) TimerEvent: {}
+[29.992463] (-) TimerEvent: {}
+[30.031222] (swift_pico) CommandEnded: {'returncode': 0}
+[30.057414] (swift_pico) JobEnded: {'identifier': 'swift_pico', 'rc': 0}
+[30.058100] (-) EventReactorShutdown: {}

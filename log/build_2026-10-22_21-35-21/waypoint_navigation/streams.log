@@ -1,0 +1,289 @@
+[0.020s] Invoking command in '/home/phani/pico_ws/build/waypoint_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/phani/pico_ws/src/waypoint_navigation -DCMAKE_INSTALL_PREFIX=/home/phani/pico_ws/install/waypoint_navigation
+[0.038s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.202s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.209s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.213s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.273s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.309s] -- Found action_msgs: 1.2.3 (/opt/ros/humble/share/action_msgs/cmake)
+[0.784s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.506s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.536s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.536s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.536s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.655s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.669s] -- Added test 'lint_cmake' to check CMake code style
+[1.671s] -- Added test 'xmllint' to check XML markup files
+[1.674s] -- Configuring done
+[1.723s] -- Generating done
+[1.739s] -- Build files have been written to: /home/phani/pico_ws/build/waypoint_navigation
+[30.029s] Invoked command in '/home/phani/pico_ws/build/waypoint_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/phani/pico_ws/src/waypoint_navigation -DCMAKE_INSTALL_PREFIX=/home/phani/pico_ws/install/waypoint_navigation
+[30.032s] Invoking command in '/home/phani/pico_ws/build/waypoint_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/phani/pico_ws/build/waypoint_navigation -- -j12 -l12
+[30.101s] [  2%] Generating C code for ROS interfaces
+[30.115s] [  5%] Generating Rust code for ROS interfaces
+[30.121s] [  7%] Generating C++ code for ROS interfaces
+[30.123s] [  7%] Built target ament_cmake_python_copy_waypoint_navigation
+[30.442s] [  7%] Built target waypoint_navigation__rs
+[30.500s] running egg_info
+[30.501s] writing waypoint_navigation.egg-info/PKG-INFO
+[30.501s] writing dependency_links to waypoint_navigation.egg-info/dependency_links.txt
+[30.502s] writing top-level names to waypoint_navigation.egg-info/top_level.txt
+[30.504s] reading manifest file 'waypoint_navigation.egg-info/SOURCES.txt'
+[30.506s] writing manifest file 'waypoint_navigation.egg-info/SOURCES.txt'
+[30.537s] [  7%] Built target ament_cmake_python_build_waypoint_navigation_egg
+[30.627s] [  7%] Built target waypoint_navigation__cpp
+[30.645s] [ 10%] Generating C++ type support for eProsima Fast-RTPS
+[30.646s] [ 15%] Generating C++ introspection for ROS interfaces
+[30.646s] [ 15%] Generating C++ type support dispatch for ROS interfaces
+[30.798s] Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_generator_c
+[30.816s] [ 17%] Building C object CMakeFiles/waypoint_navigation__rosidl_generator_c.dir/rosidl_generator_c/waypoint_navigation/srv/detail/get_waypoints__functions.c.o
+[30.818s] [ 20%] Building C object CMakeFiles/waypoint_navigation__rosidl_generator_c.dir/rosidl_generator_c/waypoint_navigation/action/detail/nav_to_waypoint__functions.c.o
+[31.069s] [ 22%] Linking C shared library libwaypoint_navigation__rosidl_generator_c.so
+[31.137s] [ 22%] Built target waypoint_navigation__rosidl_generator_c
+[31.158s] [ 25%] Generating C introspection for ROS interfaces
+[31.159s] [ 27%] Generating C type support dispatch for ROS interfaces
+[31.159s] [ 30%] Generating C type support for eProsima Fast-RTPS
+[31.183s] Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_introspection_cpp
+[31.205s] Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_cpp
+[31.207s] [ 32%] Building CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/waypoint_navigation/action/detail/nav_to_waypoint__type_support.cpp.o
+[31.208s] [ 35%] Building CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/waypoint_navigation/srv/detail/get_waypoints__type_support.cpp.o
+[31.232s] [ 37%] Building CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/waypoint_navigation/srv/get_waypoints__type_support.cpp.o
+[31.232s] [ 40%] Building CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/waypoint_navigation/action/nav_to_waypoint__type_support.cpp.o
+[31.316s] Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_fastrtps_cpp
+[31.345s] [ 42%] Building CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/waypoint_navigation/action/detail/dds_fastrtps/nav_to_waypoint__type_support.cpp.o
+[31.349s] [ 45%] Building CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/waypoint_navigation/srv/detail/dds_fastrtps/get_waypoints__type_support.cpp.o
+[31.809s] Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_c
+[31.846s] [ 47%] Building CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_c.dir/rosidl_typesupport_c/waypoint_navigation/action/nav_to_waypoint__type_support.cpp.o
+[31.855s] [ 50%] Building CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_c.dir/rosidl_typesupport_c/waypoint_navigation/srv/get_waypoints__type_support.cpp.o
+[31.916s] Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_introspection_c
+[31.934s] [ 52%] Building C object CMakeFiles/waypoint_navigation__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/waypoint_navigation/action/detail/nav_to_waypoint__type_support.c.o
+[31.934s] [ 55%] Building C object CMakeFiles/waypoint_navigation__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/waypoint_navigation/srv/detail/get_waypoints__type_support.c.o
+[31.949s] [ 57%] Linking CXX shared library libwaypoint_navigation__rosidl_typesupport_c.so
+[32.011s] [ 60%] Linking C shared library libwaypoint_navigation__rosidl_typesupport_introspection_c.so
+[32.020s] [ 60%] Built target waypoint_navigation__rosidl_typesupport_c
+[32.064s] [ 60%] Built target waypoint_navigation__rosidl_typesupport_introspection_c
+[32.082s] Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_fastrtps_c
+[32.099s] [ 62%] Building CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/waypoint_navigation/action/detail/nav_to_waypoint__type_support_c.cpp.o
+[32.105s] [ 65%] Building CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/waypoint_navigation/srv/detail/get_waypoints__type_support_c.cpp.o
+[32.194s] [ 67%] Linking CXX shared library libwaypoint_navigation__rosidl_typesupport_cpp.so
+[32.253s] [ 67%] Built target waypoint_navigation__rosidl_typesupport_cpp
+[32.319s] [ 70%] Linking CXX shared library libwaypoint_navigation__rosidl_typesupport_introspection_cpp.so
+[32.431s] [ 70%] Built target waypoint_navigation__rosidl_typesupport_introspection_cpp
+[32.498s] [ 72%] Linking CXX shared library libwaypoint_navigation__rosidl_typesupport_fastrtps_cpp.so
+[32.593s] [ 72%] Built target waypoint_navigation__rosidl_typesupport_fastrtps_cpp
+[32.702s] [ 75%] Linking CXX shared library libwaypoint_navigation__rosidl_typesupport_fastrtps_c.so
+[32.801s] [ 75%] Built target waypoint_navigation__rosidl_typesupport_fastrtps_c
+[32.838s] [ 75%] Built target waypoint_navigation
+[32.878s] [ 77%] Generating Python code for ROS interfaces
+[33.715s] [ 77%] Built target waypoint_navigation__py
+[33.731s] Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_generator_py
+[33.751s] [ 82%] Building C object CMakeFiles/waypoint_navigation__rosidl_generator_py.dir/rosidl_generator_py/waypoint_navigation/action/_nav_to_waypoint_s.c.o
+[33.751s] [ 82%] Building C object CMakeFiles/waypoint_navigation__rosidl_generator_py.dir/rosidl_generator_py/waypoint_navigation/srv/_get_waypoints_s.c.o
+[33.891s] [ 85%] Linking C shared library rosidl_generator_py/waypoint_navigation/libwaypoint_navigation__rosidl_generator_py.so
+[33.942s] [ 85%] Built target waypoint_navigation__rosidl_generator_py
+[33.960s] Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_introspection_c__pyext
+[33.962s] Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_fastrtps_c__pyext
+[33.963s] Consolidate compiler generated dependencies of target waypoint_navigation__rosidl_typesupport_c__pyext
+[33.976s] [ 87%] Building C object CMakeFiles/waypoint_navigation__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/waypoint_navigation/_waypoint_navigation_s.ep.rosidl_typesupport_introspection_c.c.o
+[33.977s] [ 90%] Building C object CMakeFiles/waypoint_navigation__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/waypoint_navigation/_waypoint_navigation_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[33.981s] [ 92%] Building C object CMakeFiles/waypoint_navigation__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/waypoint_navigation/_waypoint_navigation_s.ep.rosidl_typesupport_c.c.o
+[34.108s] [ 95%] Linking C shared library rosidl_generator_py/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[34.127s] [ 97%] Linking C shared library rosidl_generator_py/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[34.157s] [100%] Linking C shared library rosidl_generator_py/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[34.167s] [100%] Built target waypoint_navigation__rosidl_typesupport_introspection_c__pyext
+[34.186s] [100%] Built target waypoint_navigation__rosidl_typesupport_fastrtps_c__pyext
+[34.214s] [100%] Built target waypoint_navigation__rosidl_typesupport_c__pyext
+[34.228s] Invoked command in '/home/phani/pico_ws/build/waypoint_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/phani/pico_ws/build/waypoint_navigation -- -j12 -l12
+[34.239s] Invoking command in '/home/phani/pico_ws/build/waypoint_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/phani/pico_ws/build/waypoint_navigation
+[34.248s] -- Install configuration: ""
+[34.248s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/ament_index/resource_index/rosidl_interfaces/waypoint_navigation
+[34.249s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation
+[34.249s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action
+[34.249s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/nav_to_waypoint.h
+[34.250s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail
+[34.250s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__functions.h
+[34.251s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__struct.h
+[34.251s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__functions.c
+[34.251s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__type_support.h
+[34.251s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv
+[34.251s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail
+[34.251s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__functions.c
+[34.251s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__type_support.h
+[34.252s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__struct.h
+[34.252s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__functions.h
+[34.252s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/get_waypoints.h
+[34.252s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg
+[34.252s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg/rosidl_generator_c__visibility_control.h
+[34.252s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/environment/library_path.sh
+[34.252s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/environment/library_path.dsv
+[34.252s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_generator_c.so
+[34.253s] -- Set runtime path of "/home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_generator_c.so" to ""
+[34.253s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation
+[34.253s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action
+[34.254s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail
+[34.255s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__rosidl_typesupport_fastrtps_c.h
+[34.255s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv
+[34.255s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail
+[34.255s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__rosidl_typesupport_fastrtps_c.h
+[34.256s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg
+[34.256s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[34.256s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_fastrtps_c.so
+[34.256s] -- Set runtime path of "/home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_fastrtps_c.so" to ""
+[34.256s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation
+[34.256s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action
+[34.257s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail
+[34.257s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__rosidl_typesupport_introspection_c.h
+[34.257s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__type_support.c
+[34.257s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv
+[34.258s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail
+[34.258s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__rosidl_typesupport_introspection_c.h
+[34.258s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__type_support.c
+[34.258s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg
+[34.259s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[34.259s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_introspection_c.so
+[34.259s] -- Set runtime path of "/home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_introspection_c.so" to ""
+[34.260s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_c.so
+[34.260s] -- Set runtime path of "/home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_c.so" to ""
+[34.260s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation
+[34.260s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action
+[34.260s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail
+[34.260s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__type_support.hpp
+[34.261s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__builder.hpp
+[34.261s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__struct.hpp
+[34.261s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__traits.hpp
+[34.261s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/nav_to_waypoint.hpp
+[34.261s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv
+[34.261s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail
+[34.261s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__builder.hpp
+[34.262s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__struct.hpp
+[34.262s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__traits.hpp
+[34.262s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__type_support.hpp
+[34.262s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/get_waypoints.hpp
+[34.262s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg
+[34.262s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg/rosidl_generator_cpp__visibility_control.hpp
+[34.262s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation
+[34.262s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action
+[34.262s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail
+[34.263s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[34.263s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/dds_fastrtps
+[34.263s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv
+[34.263s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail
+[34.263s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/dds_fastrtps
+[34.263s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__rosidl_typesupport_fastrtps_cpp.hpp
+[34.263s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg
+[34.263s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[34.263s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_fastrtps_cpp.so
+[34.264s] -- Set runtime path of "/home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_fastrtps_cpp.so" to ""
+[34.264s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation
+[34.264s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action
+[34.264s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail
+[34.264s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__rosidl_typesupport_introspection_cpp.hpp
+[34.264s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__type_support.cpp
+[34.264s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv
+[34.264s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail
+[34.264s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__type_support.cpp
+[34.265s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__rosidl_typesupport_introspection_cpp.hpp
+[34.265s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_introspection_cpp.so
+[34.265s] -- Set runtime path of "/home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_introspection_cpp.so" to ""
+[34.265s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_cpp.so
+[34.265s] -- Set runtime path of "/home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_cpp.so" to ""
+[34.265s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/environment/pythonpath.sh
+[34.265s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/environment/pythonpath.dsv
+[34.265s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation-0.0.0-py3.10.egg-info
+[34.265s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation-0.0.0-py3.10.egg-info/SOURCES.txt
+[34.265s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation-0.0.0-py3.10.egg-info/top_level.txt
+[34.266s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation-0.0.0-py3.10.egg-info/dependency_links.txt
+[34.266s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation-0.0.0-py3.10.egg-info/PKG-INFO
+[34.266s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation
+[34.266s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/_waypoint_navigation_s.ep.rosidl_typesupport_introspection_c.c
+[34.266s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/__init__.py
+[34.266s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/_waypoint_navigation_s.ep.rosidl_typesupport_c.c
+[34.266s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[34.266s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[34.266s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/_waypoint_navigation_s.ep.rosidl_typesupport_fastrtps_c.c
+[34.266s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action
+[34.267s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action/__init__.py
+[34.267s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action/_nav_to_waypoint_s.c
+[34.267s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action/_nav_to_waypoint.py
+[34.267s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv
+[34.267s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv/__init__.py
+[34.267s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv/_get_waypoints.py
+[34.267s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv/_get_waypoints_s.c
+[34.267s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[34.267s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/libwaypoint_navigation__rosidl_generator_py.so
+[34.302s] Listing '/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation'...
+[34.302s] Compiling '/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/__init__.py'...
+[34.302s] Listing '/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action'...
+[34.302s] Compiling '/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action/__init__.py'...
+[34.302s] Compiling '/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action/_nav_to_waypoint.py'...
+[34.302s] Listing '/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv'...
+[34.302s] Compiling '/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv/__init__.py'...
+[34.302s] Compiling '/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv/_get_waypoints.py'...
+[34.306s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[34.307s] -- Set runtime path of "/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[34.307s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[34.307s] -- Set runtime path of "/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[34.308s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[34.308s] -- Set runtime path of "/home/phani/pico_ws/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[34.308s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_generator_py.so
+[34.309s] -- Set runtime path of "/home/phani/pico_ws/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_generator_py.so" to ""
+[34.309s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust
+[34.310s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/build.rs
+[34.310s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/src
+[34.310s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/src/lib.rs
+[34.310s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/src/srv.rs
+[34.310s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/src/action
+[34.310s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/src/action/rmw.rs
+[34.311s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/src/srv
+[34.311s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/src/srv/rmw.rs
+[34.312s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/src/action.rs
+[34.312s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/rust/Cargo.toml
+[34.312s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/action/NavToWaypoint.idl
+[34.312s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/srv/GetWaypoints.idl
+[34.312s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/action/NavToWaypoint.action
+[34.312s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/srv/GetWaypoints.srv
+[34.313s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/srv/GetWaypoints_Request.msg
+[34.313s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/srv/GetWaypoints_Response.msg
+[34.313s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/ament_index/resource_index/package_run_dependencies/waypoint_navigation
+[34.313s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/ament_index/resource_index/parent_prefix_path/waypoint_navigation
+[34.314s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/environment/ament_prefix_path.sh
+[34.314s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/environment/ament_prefix_path.dsv
+[34.314s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/environment/path.sh
+[34.314s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/environment/path.dsv
+[34.314s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/local_setup.bash
+[34.314s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/local_setup.sh
+[34.315s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/local_setup.zsh
+[34.315s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/local_setup.dsv
+[34.315s] -- Installing: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/package.dsv
+[34.316s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/ament_index/resource_index/packages/waypoint_navigation
+[34.316s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_generator_cExport.cmake
+[34.316s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_generator_cExport-noconfig.cmake
+[34.317s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_typesupport_fastrtps_cExport.cmake
+[34.317s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[34.317s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_introspection_cExport.cmake
+[34.317s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[34.318s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_cExport.cmake
+[34.318s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_cExport-noconfig.cmake
+[34.318s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_generator_cppExport.cmake
+[34.318s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_typesupport_fastrtps_cppExport.cmake
+[34.318s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[34.318s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_introspection_cppExport.cmake
+[34.318s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[34.318s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_cppExport.cmake
+[34.318s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_cppExport-noconfig.cmake
+[34.319s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_generator_pyExport.cmake
+[34.319s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_generator_pyExport-noconfig.cmake
+[34.319s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/rosidl_cmake-extras.cmake
+[34.320s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.320s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.320s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/ament_cmake_export_libraries-extras.cmake
+[34.320s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/ament_cmake_export_targets-extras.cmake
+[34.320s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[34.320s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[34.320s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[34.321s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigationConfig.cmake
+[34.321s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigationConfig-version.cmake
+[34.321s] -- Up-to-date: /home/phani/pico_ws/install/waypoint_navigation/share/waypoint_navigation/package.xml
+[34.322s] Invoked command in '/home/phani/pico_ws/build/waypoint_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/phani/pico_ws/build/waypoint_navigation

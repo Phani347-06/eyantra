@@ -1,0 +1,154 @@
+[0.046s] Invoking command in '/home/phani/pico_ws/build/swift_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/phani/pico_ws/build/swift_msgs -- -j12 -l12
+[0.314s] [  3%] Built target swift_msgs__cpp
+[0.314s] [  6%] Built target swift_msgs__rs
+[0.321s] [ 15%] Built target swift_msgs__rosidl_generator_c
+[0.482s] [ 25%] Built target swift_msgs__rosidl_typesupport_fastrtps_c
+[0.496s] [ 34%] Built target swift_msgs__rosidl_typesupport_fastrtps_cpp
+[0.513s] [ 43%] Built target swift_msgs__rosidl_typesupport_cpp
+[0.555s] [ 53%] Built target swift_msgs__rosidl_typesupport_introspection_c
+[0.611s] [ 62%] Built target swift_msgs__rosidl_typesupport_introspection_cpp
+[0.640s] [ 71%] Built target swift_msgs__rosidl_typesupport_c
+[0.749s] [ 71%] Built target ament_cmake_python_copy_swift_msgs
+[0.794s] [ 71%] Built target swift_msgs
+[0.880s] [ 75%] Built target swift_msgs__py
+[1.047s] [ 81%] Built target swift_msgs__rosidl_generator_py
+[1.074s] running egg_info
+[1.074s] writing swift_msgs.egg-info/PKG-INFO
+[1.075s] writing dependency_links to swift_msgs.egg-info/dependency_links.txt
+[1.075s] writing top-level names to swift_msgs.egg-info/top_level.txt
+[1.076s] reading manifest file 'swift_msgs.egg-info/SOURCES.txt'
+[1.085s] writing manifest file 'swift_msgs.egg-info/SOURCES.txt'
+[1.113s] [ 81%] Built target ament_cmake_python_build_swift_msgs_egg
+[1.128s] [ 87%] Built target swift_msgs__rosidl_typesupport_c__pyext
+[1.128s] [ 93%] Built target swift_msgs__rosidl_typesupport_introspection_c__pyext
+[1.151s] [100%] Built target swift_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.222s] Invoked command in '/home/phani/pico_ws/build/swift_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/phani/pico_ws/build/swift_msgs -- -j12 -l12
+[1.235s] Invoking command in '/home/phani/pico_ws/build/swift_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/phani/pico_ws/build/swift_msgs
+[1.269s] -- Install configuration: ""
+[1.269s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/ament_index/resource_index/rosidl_interfaces/swift_msgs
+[1.269s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs
+[1.269s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg
+[1.269s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/swift_msgs.h
+[1.269s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail
+[1.269s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail/swift_msgs__functions.h
+[1.269s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail/swift_msgs__struct.h
+[1.269s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail/swift_msgs__type_support.h
+[1.269s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail/swift_msgs__functions.c
+[1.269s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.269s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/environment/library_path.sh
+[1.269s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/environment/library_path.dsv
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/lib/libswift_msgs__rosidl_generator_c.so
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail/swift_msgs__rosidl_typesupport_fastrtps_c.h
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/lib/libswift_msgs__rosidl_typesupport_fastrtps_c.so
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail/swift_msgs__rosidl_typesupport_introspection_c.h
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail/swift_msgs__type_support.c
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/lib/libswift_msgs__rosidl_typesupport_introspection_c.so
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/lib/libswift_msgs__rosidl_typesupport_c.so
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs
+[1.270s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg
+[1.271s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail
+[1.271s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail/swift_msgs__struct.hpp
+[1.271s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail/swift_msgs__traits.hpp
+[1.271s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail/swift_msgs__builder.hpp
+[1.271s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail/swift_msgs__type_support.hpp
+[1.271s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.271s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/swift_msgs.hpp
+[1.271s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs
+[1.271s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg
+[1.271s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail
+[1.271s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail/dds_fastrtps
+[1.271s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail/swift_msgs__rosidl_typesupport_fastrtps_cpp.hpp
+[1.271s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.273s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/lib/libswift_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.273s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs
+[1.273s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg
+[1.273s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail
+[1.273s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail/swift_msgs__rosidl_typesupport_introspection_cpp.hpp
+[1.274s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/include/swift_msgs/swift_msgs/msg/detail/swift_msgs__type_support.cpp
+[1.277s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/lib/libswift_msgs__rosidl_typesupport_introspection_cpp.so
+[1.284s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/lib/libswift_msgs__rosidl_typesupport_cpp.so
+[1.284s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/environment/pythonpath.sh
+[1.284s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/environment/pythonpath.dsv
+[1.284s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs-0.0.0-py3.10.egg-info
+[1.285s] -- Installing: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.285s] -- Installing: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.285s] -- Installing: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.285s] -- Installing: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.285s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs
+[1.285s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs/__init__.py
+[1.285s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs/_swift_msgs_s.ep.rosidl_typesupport_c.c
+[1.285s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs/_swift_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.286s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs/swift_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.286s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs/swift_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.286s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs/libswift_msgs__rosidl_generator_py.so
+[1.286s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs/msg
+[1.287s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs/msg/_swift_msgs.py
+[1.287s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs/msg/_swift_msgs_s.c
+[1.288s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs/msg/__init__.py
+[1.288s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs/swift_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.288s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs/_swift_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.350s] Listing '/home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs'...
+[1.350s] Listing '/home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs/msg'...
+[1.357s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs/swift_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.363s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs/swift_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.367s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages/swift_msgs/swift_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.371s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/lib/libswift_msgs__rosidl_generator_py.so
+[1.371s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/rust
+[1.372s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/rust/build.rs
+[1.372s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/rust/src
+[1.373s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/rust/src/lib.rs
+[1.373s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/rust/src/msg.rs
+[1.373s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/rust/src/msg
+[1.375s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/rust/src/msg/rmw.rs
+[1.375s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/rust/Cargo.toml
+[1.376s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/msg/SwiftMsgs.idl
+[1.376s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/msg/SwiftMsgs.msg
+[1.376s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/ament_index/resource_index/package_run_dependencies/swift_msgs
+[1.377s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/ament_index/resource_index/parent_prefix_path/swift_msgs
+[1.377s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/environment/ament_prefix_path.sh
+[1.377s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/environment/ament_prefix_path.dsv
+[1.379s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/environment/path.sh
+[1.379s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/environment/path.dsv
+[1.379s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/local_setup.bash
+[1.379s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/local_setup.sh
+[1.379s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/local_setup.zsh
+[1.379s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/local_setup.dsv
+[1.379s] -- Installing: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/package.dsv
+[1.381s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/ament_index/resource_index/packages/swift_msgs
+[1.391s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/export_swift_msgs__rosidl_generator_cExport.cmake
+[1.391s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/export_swift_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.393s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/export_swift_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.393s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/export_swift_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.396s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/swift_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.396s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/swift_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.399s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/swift_msgs__rosidl_typesupport_cExport.cmake
+[1.399s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/swift_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.401s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/export_swift_msgs__rosidl_generator_cppExport.cmake
+[1.405s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/export_swift_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.405s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/export_swift_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.408s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/swift_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.408s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/swift_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.413s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/swift_msgs__rosidl_typesupport_cppExport.cmake
+[1.414s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/swift_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.417s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/export_swift_msgs__rosidl_generator_pyExport.cmake
+[1.419s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/export_swift_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.419s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/rosidl_cmake-extras.cmake
+[1.421s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.421s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.422s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.422s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.422s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.423s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.423s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[1.423s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/swift_msgsConfig.cmake
+[1.423s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/cmake/swift_msgsConfig-version.cmake
+[1.424s] -- Up-to-date: /home/phani/pico_ws/install/swift_msgs/share/swift_msgs/package.xml
+[1.451s] Invoked command in '/home/phani/pico_ws/build/swift_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/phani/pico_ws/build/swift_msgs

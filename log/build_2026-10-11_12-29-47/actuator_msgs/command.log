@@ -1,0 +1,6 @@
+Invoking command in '/home/phani/pico_ws/build/actuator_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/phani/pico_ws/src/actuator_msgs -DCMAKE_INSTALL_PREFIX=/home/phani/pico_ws/install/actuator_msgs
+Invoked command in '/home/phani/pico_ws/build/actuator_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/phani/pico_ws/src/actuator_msgs -DCMAKE_INSTALL_PREFIX=/home/phani/pico_ws/install/actuator_msgs
+Invoking command in '/home/phani/pico_ws/build/actuator_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/phani/pico_ws/build/actuator_msgs -- -j12 -l12
+Invoked command in '/home/phani/pico_ws/build/actuator_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/phani/pico_ws/build/actuator_msgs -- -j12 -l12
+Invoking command in '/home/phani/pico_ws/build/actuator_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/phani/pico_ws/build/actuator_msgs
+Invoked command in '/home/phani/pico_ws/build/actuator_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/phani/pico_ws/build/actuator_msgs

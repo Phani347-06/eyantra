@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target pico_controller_PID[0m
+[100%] Built target pico_controller_PID
+-- Install configuration: "Release"
+-- Installing: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/mujoco_bridge
+-- Installing: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/libmujoco.so.3.9.0
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/launch
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/launch/swift_pico_simulation.launch.py
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/config/fastdds_profile.xml
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/scripts/grid_whycode_coordinates.json
+-- Installing: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/pico_controller_PID
+-- Set runtime path of "/home/phani/pico_ws/install/swift_pico/lib/swift_pico/pico_controller_PID" to ""
+-- Installing: /home/phani/pico_ws/install/swift_pico/lib/swift_pico/pico_controller_PID.py
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/ament_index/resource_index/package_run_dependencies/swift_pico
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/ament_index/resource_index/parent_prefix_path/swift_pico
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/environment/ament_prefix_path.sh
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/environment/ament_prefix_path.dsv
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/environment/path.sh
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/environment/path.dsv
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/local_setup.bash
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/local_setup.sh
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/local_setup.zsh
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/local_setup.dsv
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/package.dsv
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/ament_index/resource_index/packages/swift_pico
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/cmake/swift_picoConfig.cmake
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/cmake/swift_picoConfig-version.cmake
+-- Installing: /home/phani/pico_ws/install/swift_pico/share/swift_pico/package.xml
